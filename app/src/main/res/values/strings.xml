@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TUBES</string>
+    <string name="app_name">VALOPEDIA</string>
     <string name="app_logo">+@string/app_logo</string>
     <string name="desc_valopedia">Valopedia was released\non February 10th 2022</string>
 </resources>
