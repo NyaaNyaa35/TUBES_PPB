@@ -69,18 +69,19 @@
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="1"
                     android:background="@color/white"
                     android:hint="Username"
+                    android:gravity="center"
                     android:inputType="textPersonName"
                     android:maxWidth="200dp"
                     android:maxLength="12"
                     android:padding="15dp"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textColorHint="#C4C4C4"
+                    android:textColorHint="#DDAAAAAA"
                     android:textSize="20sp" />
 
                 <TextView
@@ -101,12 +102,13 @@
                     android:layout_marginBottom="10dp"
                     android:background="@color/white"
                     android:hint="XXX"
+                    android:gravity="center"
                     android:inputType="textPersonName"
                     android:maxLength="3"
                     android:padding="15dp"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textColorHint="#C4C4C4"
+                    android:textColorHint="#DDAAAAAA"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -125,7 +127,7 @@
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textColorHint="#C4C4C4"
+                android:textColorHint="#DDAAAAAA"
                 android:textSize="20sp" />
 
             <EditText
@@ -142,7 +144,7 @@
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textColorHint="#C4C4C4"
+                android:textColorHint="#DDAAAAAA"
                 android:textSize="20sp" />
 
             <EditText
@@ -159,7 +161,7 @@
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textColorHint="#C4C4C4"
+                android:textColorHint="#DDAAAAAA"
                 android:textSize="20sp" />
 
             <androidx.appcompat.widget.AppCompatButton
