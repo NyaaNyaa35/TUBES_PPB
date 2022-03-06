@@ -15,4 +15,16 @@
     <string name="Thread">Thread</string>
     <string name="Weapon">Weapon</string>
     <string name="My_profile">My Profile</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="GET_STARTED">Get Started</string>
+    <string name="Register_Acc">Register Your Account</string>
+    <string name="Username">Username</string>
+    <string name="tag">#</string>
+    <string name="tag_value">XXX</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Cpassword">Confirm Password</string>
+    <string name="Register">Register</string>
+    <string name="Login_txt">Login To Your Account</string>
+    <string name="Login">Login</string>
 </resources>

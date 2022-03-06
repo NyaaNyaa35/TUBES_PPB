@@ -28,7 +28,7 @@
             android:src="@drawable/valopedia" />
 
         <ImageView
-            android:layout_width="285dp"
+            android:layout_width="wrap_content"
             android:layout_height="285dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
@@ -44,34 +44,34 @@
             android:gravity="center"
             android:text="@string/desc_valopedia"
             android:textColor="@color/white"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_register_main"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_gravity="center"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="50dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:background="@color/white"
             android:maxWidth="200dp"
-            android:text="GET STARTED"
+            android:text="@string/GET_STARTED"
             android:padding="10dp"
-            android:textSize="26dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/button_login_main"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="25dp"
             android:background="@android:color/transparent"
-            android:text="LOGIN"
+            android:text="@string/LOGIN"
             android:textColor="@color/white"
-            android:textSize="26dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

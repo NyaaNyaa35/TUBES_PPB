@@ -35,8 +35,6 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/valopedia" />
 
-        /** untuk bagian kotak ke bawah
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,14 +44,12 @@
             android:orientation="vertical"
             android:paddingBottom="15dp">
 
-            /** untuk bagian kotak barisan pertama
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:text="Register Your Account"
+                android:text="@string/Register_Acc"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -64,17 +60,18 @@
                 android:orientation="horizontal">
 
                 <EditText
+                    android:autofillHints="username"
                     android:id="@+id/et_name"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="1"
                     android:background="@color/white"
-                    android:hint="Username"
                     android:gravity="center"
+                    android:hint="@string/Username"
                     android:inputType="textPersonName"
                     android:maxWidth="200dp"
                     android:maxLength="12"
@@ -88,22 +85,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:text="#"
+                    android:text="@string/tag"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
                 <EditText
+                    android:autofillHints="XXX"
                     android:id="@+id/et_riottag"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/white"
-                    android:hint="XXX"
                     android:gravity="center"
-                    android:inputType="textPersonName"
+                    android:hint="@string/tag_value"
+                    android:inputType="textCapCharacters"
                     android:maxLength="3"
                     android:padding="15dp"
                     android:textAlignment="center"
@@ -114,6 +112,7 @@
             </LinearLayout>
 
             <EditText
+                android:autofillHints="email"
                 android:id="@+id/et_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -122,7 +121,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 android:background="@color/white"
-                android:hint="Email"
+                android:hint="@string/Email"
                 android:inputType="textEmailAddress"
                 android:padding="15dp"
                 android:textAlignment="center"
@@ -131,6 +130,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:autofillHints="password"
                 android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 android:background="@color/white"
-                android:hint="Password"
+                android:hint="@string/Password"
                 android:inputType="textPassword"
                 android:padding="15dp"
                 android:textAlignment="center"
@@ -148,6 +148,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:autofillHints="Confirm Password"
                 android:id="@+id/et_cpassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -156,7 +157,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 android:background="@color/white"
-                android:hint="Confirm Password"
+                android:hint="@string/Cpassword"
                 android:inputType="textPassword"
                 android:padding="15dp"
                 android:textAlignment="center"
@@ -172,7 +173,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/et_shadow"
                 android:gravity="center"
-                android:text="Register"
+                android:text="@string/Register"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
