@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="@color/black"
     android:orientation="vertical"
-    android:background="@color/black">
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="25dp"
@@ -42,27 +42,35 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="25dp"
             android:gravity="center"
-            android:textSize="24dp"
+            android:text="@string/desc_valopedia"
             android:textColor="@color/white"
-            android:text="@string/desc_valopedia"/>
+            android:textSize="24dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="280dp"
-            android:layout_height="50dp"
+            android:id="@+id/button_register_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
             android:layout_marginBottom="25dp"
+            android:layout_weight="1"
             android:background="@color/button_getstarted"
+            android:maxWidth="200dp"
             android:text="GET STARTED"
-            android:textSize="26dp"/>
+            android:textSize="26dp" />
+
         <Button
-            android:layout_width="280dp"
-            android:layout_height="50dp"
+            android:id="@+id/button_login_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="25dp"
             android:background="@android:color/transparent"
-            android:textSize="26dp"
-            android:text="LOGIN"/>
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="26dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
