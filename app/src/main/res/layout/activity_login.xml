@@ -127,7 +127,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textColorHint="#C4C4C4"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_login"
