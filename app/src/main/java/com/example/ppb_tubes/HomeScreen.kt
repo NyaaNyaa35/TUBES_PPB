@@ -20,7 +20,7 @@ class HomeScreen : AppCompatActivity() {
          val text = "Name : ${person.username.toString()},\n" +
         "Riottag : ${person.tag.toString()}, \nEmail : ${person.email.toString()}"
         tvObject.text = text
-         
+
          */
 
     }
