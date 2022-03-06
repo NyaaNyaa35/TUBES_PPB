@@ -56,9 +56,10 @@
             android:layout_marginRight="50dp"
             android:layout_marginBottom="25dp"
             android:layout_weight="1"
-            android:background="@color/button_getstarted"
+            android:background="@color/white"
             android:maxWidth="200dp"
             android:text="GET STARTED"
+            android:padding="10dp"
             android:textSize="26dp" />
 
         <Button
