@@ -27,4 +27,23 @@
     <string name="Register">Register</string>
     <string name="Login_txt">Login To Your Account</string>
     <string name="Login">Login</string>
+    <string name="Classic">Classic</string>
+    <string name="frenzy">Frenzy</string>
+    <string name="Ghost">Ghost</string>
+    <string name="GoldenGun">Golden Gun</string>
+    <string name="Sheriff">Sheriff</string>
+    <string name="Shorty">Shorty</string>
+    <string name="knife">Tactical Knife</string>
+    <string name="Stinger">Stinger</string>
+    <string name="Spectre">Spectre</string>
+    <string name="Bucky">Bucky</string>
+    <string name="Judge">Judge</string>
+    <string name="Bulldog">Bulldog</string>
+    <string name="Guardian">Guardian</string>
+    <string name="Phantom">Phantom</string>
+    <string name="Vandal">Vandal</string>
+    <string name="Marshal">Marshal</string>
+    <string name="Operator">Operator</string>
+    <string name="Ares">Ares</string>
+    <string name="Odin">Odin</string>
 </resources>
