@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".WeaponView.Classic"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.TacticalKnife"
+            android:exported="false" />
+        <activity
             android:name=".Weapon"
             android:exported="false" />
         <activity
