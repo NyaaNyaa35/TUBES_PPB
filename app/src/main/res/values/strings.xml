@@ -46,4 +46,70 @@
     <string name="Operator">Operator</string>
     <string name="Ares">Ares</string>
     <string name="Odin">Odin</string>
+    <string-array name="weapon_name">
+        <item>Knife</item>
+        <item>Classic</item>
+        <item>Frenzy</item>
+        <item>Ghost</item>
+        <item>Sheriff</item>
+        <item>Golden Gun</item>
+        <item>Shorty</item>
+        <item>Stinger</item>
+        <item>Spectre</item>
+        <item>Bucky</item>
+        <item>Judge</item>
+        <item>Bulldog</item>
+        <item>Guardian</item>
+        <item>Phantom</item>
+        <item>Vandal</item>
+        <item>Marshal</item>
+        <item>Operator</item>
+        <item>Ares</item>
+        <item>Odin</item>
+    </string-array>
+    <string-array name="weapon_pic_link">
+        <item>https://static.wikia.nocookie.net/valorant/images/d/d8/TacticalKnife.png/revision/latest/scale-to-width-down/200?cb=20220306002426</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/5/57/Classic.png/revision/latest/scale-to-width-down/130?cb=20220306002125</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/f/f1/Frenzy.png/revision/latest/scale-to-width-down/130?cb=20220306002141</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/170?cb=20220306002156</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/3/3e/Sheriff.png/revision/latest/scale-to-width-down/170?cb=20220306002329</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/2/23/GoldenGun.png/revision/latest/scale-to-width-down/170?cb=20210122000812</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/7/77/Shorty.png/revision/latest/scale-to-width-down/170?cb=20220306002343</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/b/b6/Stinger.png/revision/latest/scale-to-width-down/200?cb=20220306002413</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/9/90/Spectre.png/revision/latest/scale-to-width-down/200?cb=20220306002356</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/e/eb/Bucky.png/revision/latest/scale-to-width-down/200?cb=20220306002057</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/8/8a/Judge.png/revision/latest/scale-to-width-down/200?cb=20220306002225</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/0/07/Bulldog.png/revision/latest/scale-to-width-down/200?cb=20220306002110</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/f/fd/Guardian.png/revision/latest/scale-to-width-down/200?cb=20220306002211</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/e/ec/Phantom.png/revision/latest/scale-to-width-down/200?cb=20220306002314</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/5/56/Vandal.png/revision/latest/scale-to-width-down/200?cb=20220306002438</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/b/b9/Marshal.png/revision/latest/scale-to-width-down/200?cb=20220306002237</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/1/17/Operator.png/revision/latest/scale-to-width-down/200?cb=20220306002302</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/0/05/Ares.png/revision/latest/scale-to-width-down/200?cb=20220306002039</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/5/58/Odin.png/revision/latest/scale-to-width-down/200?cb=20220306002249</item>
+    </string-array>
+
+    <string name="Damage">Damage</string>
+    <string name="primary_fire">Primary Fire</string>
+    <string name="alt_fire">Alt Fire</string>
+
+    <string name="Row_Description">Name\nType\nCreds\nWall Penetration\nLength</string>
+    <string name="PrimaryFire">FireMode\nFire Rate\nRun Speed\nEquip Speed\n1st Shot Spread\nReload Speed\nMagazine\nReserve</string>
+    <string name="AlternateFire">Function\nPellet Count\nFire Rate</string>
+
+    /**
+        Knife Overview
+    */
+    <string name="knife_desc">: TacticalKnife\n: Melee\n: 0\n: No\n: 46.59 cm</string>
+    <string name="knife_damage">0 &#8211; 8 m\n\n<b>Front</b> &#8211; 50/75 (Primary/Alt)\n\n<b>Back</b> &#8211; 100/150 (Primary/Alt)</string>
+
+    /**
+        Classic Overview
+    */
+    <string name="classic_desc">: Classic\n: Sidearm\n: Free\n: Low\n: 30.92 cm</string>
+    <string name="classic_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="classic_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="PrimaryFire_Classic">: Semi-Automatic\n: 6.75 rounds/sec\n: 5.73 m/sec\n: 0.72 sec\n: 0.4 deg\n: 1.75 sec\n: 12\n: 36[3 magazines]</string>
+    <string name="AltFire_Classic">: Shotgun\n: 3\n: 2.22 bursts/sec</string>
+
 </resources>
