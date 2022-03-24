@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_weapon"
+        android:name="com.example.ppb_tubes.ui.weapon.WeaponFragment"
+        android:label="@string/menu_weapon"
+        tools:layout="@layout/fragment_weapon" />
+
+    <fragment
+        android:id="@+id/nav_agent"
+        android:name="com.example.ppb_tubes.ui.agent.AgentFragment"
+        android:label="@string/menu_agent"
+        tools:layout="@layout/fragment_agent" />
+
+    <fragment
+        android:id="@+id/nav_thread"
+        android:name="com.example.ppb_tubes.ui.Thread.ThreadFragment"
+        android:label="@string/menu_thread"
+        tools:layout="@layout/fragment_thread" />
+</navigation>
