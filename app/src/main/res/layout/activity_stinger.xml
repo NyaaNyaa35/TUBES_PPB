@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".WeaponView.Classic">
+    tools:context=".WeaponView.Stinger">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,9 +23,9 @@
             android:layout_marginTop="50dp"
             android:layout_marginEnd="40dp"
             android:background="@drawable/et_shadow"
-            android:contentDescription="@string/Classic"
+            android:contentDescription="@string/Stinger"
             android:padding="20dp"
-            android:src="@drawable/classic" />
+            android:src="@drawable/stinger" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/classic_desc"
+                android:text="@string/stinger_desc"
                 android:textSize="22sp" />
 
         </LinearLayout>
@@ -65,8 +65,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/Damage"
-            android:textSize="25sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,7 +85,7 @@
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="@string/classic_damage_1"
+                android:text="@string/stinger_damage_1"
                 android:textSize="20sp" />
 
             <TextView
@@ -104,7 +104,7 @@
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="@string/classic_damage_2"
+                android:text="@string/stinger_damage_2"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -118,8 +118,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/primary_fire"
-            android:textSize="25sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -144,7 +144,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/PrimaryFire_Classic"
+                android:text="@string/PrimaryFire_Stinger"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -159,8 +159,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/alt_fire"
-            android:textSize="25sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -176,17 +176,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/AlternateFire"
-                android:textSize="20sp" />
+                android:text="@string/AlternateFire_2"
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="45dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="30dp"
-                android:text="@string/AltFire_Classic"
-                android:textSize="19sp" />
+                android:text="@string/AltFire_Stinger"
+                android:textSize="18sp" />
 
         </LinearLayout>
     </LinearLayout>
