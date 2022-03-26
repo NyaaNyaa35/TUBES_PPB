@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".WeaponView.GoldenGun"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Sheriff"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Frenzy"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Shorty"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Ghost"
+            android:exported="false" />
+        <activity
             android:name=".WeaponView.Classic"
             android:exported="false" />
         <activity

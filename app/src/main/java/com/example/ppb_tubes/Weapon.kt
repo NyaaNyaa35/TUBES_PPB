@@ -17,16 +17,21 @@ class Weapon : AppCompatActivity() , View.OnClickListener{
 
          val btnClassic: ImageButton = findViewById(R.id.button_Classic)
          btnClassic.setOnClickListener(this)
-        /**  val btnFrenzy: ImageButton = findViewById(R.id.button_Frenzy)
+
+         val btnFrenzy: ImageButton = findViewById(R.id.button_Frenzy)
          btnFrenzy.setOnClickListener(this)
+
          val btnGhost: ImageButton = findViewById(R.id.button_Ghost)
          btnGhost.setOnClickListener(this)
+
          val btnGoldenGun: ImageButton = findViewById(R.id.button_GoldenGun)
          btnGoldenGun.setOnClickListener(this)
+
          val btnSheriff: ImageButton = findViewById(R.id.button_Sheriff)
          btnSheriff.setOnClickListener(this)
+
          val btnShorty: ImageButton = findViewById(R.id.button_Shorty)
-         btnShorty.setOnClickListener(this)*/
+         btnShorty.setOnClickListener(this)
 
     }
 
@@ -38,30 +43,30 @@ class Weapon : AppCompatActivity() , View.OnClickListener{
             }
 
             R.id.button_Classic -> {
-                val knifeIntent = Intent(this@Weapon, Classic::class.java)
-                startActivity(knifeIntent)
+                val classicIntent = Intent(this@Weapon, Classic::class.java)
+                startActivity(classicIntent)
             }
-            /**R.id.button_Frenzy -> {
-                val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-                startActivity(knifeIntent)
+            R.id.button_Frenzy -> {
+                val frenzyIntent = Intent(this@Weapon, Frenzy::class.java)
+                startActivity(frenzyIntent)
             }
             R.id.button_Ghost -> {
-                val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-                startActivity(knifeIntent)
+                val ghostIntent = Intent(this@Weapon, Ghost::class.java)
+                startActivity(ghostIntent)
             }
             R.id.button_GoldenGun -> {
-                val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-                startActivity(knifeIntent)
+                val ggunIntent = Intent(this@Weapon, GoldenGun::class.java)
+                startActivity(ggunIntent)
             }
             R.id.button_Sheriff -> {
-                val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-                startActivity(knifeIntent)
+                val sheriffIntent = Intent(this@Weapon, Sheriff::class.java)
+                startActivity(sheriffIntent)
             }
             R.id.button_Shorty -> {
-                val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-                startActivity(knifeIntent)
+                val shortyIntent = Intent(this@Weapon, Shorty::class.java)
+                startActivity(shortyIntent)
             }
-            R.id.button_Stinger-> {
+            /**R.id.button_Stinger-> {
                 val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
                 startActivity(knifeIntent)
             }
