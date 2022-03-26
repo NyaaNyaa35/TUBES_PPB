@@ -93,23 +93,65 @@
     <string name="primary_fire">Primary Fire</string>
     <string name="alt_fire">Alt Fire</string>
 
-    <string name="Row_Description">Name\nType\nCreds\nWall Penetration\nLength</string>
-    <string name="PrimaryFire">FireMode\nFire Rate\nRun Speed\nEquip Speed\n1st Shot Spread\nReload Speed\nMagazine\nReserve</string>
-    <string name="AlternateFire">Function\nPellet Count\nFire Rate</string>
+    <string name="Row_Description">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength</string>
+    <string name="PrimaryFire">FireMode\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
+    <string name="PrimaryFire_Shotgun">FireMode\n\nPellet Count\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
+    <string name="AlternateFire">Function\n\nPellet Count\n\nFire Rate</string>
+    <string name="Row_Description_2">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength\n\nFeature</string>
+    <string name="Row_Description_3">Name\n\nType\n\nWall Penetration\n\nLength\n\nFeature</string>
 
     /**
-        Knife Overview
+    Knife Overview
     */
-    <string name="knife_desc">: TacticalKnife\n: Melee\n: 0\n: No\n: 46.59 cm</string>
+    <string name="knife_desc">: TacticalKnife\n\n: Melee\n\n: 0\n\n: No\n\n: 46.59 cm</string>
     <string name="knife_damage">0 &#8211; 8 m\n\n<b>Front</b> &#8211; 50/75 (Primary/Alt)\n\n<b>Back</b> &#8211; 100/150 (Primary/Alt)</string>
 
     /**
-        Classic Overview
+    Classic Overview
     */
-    <string name="classic_desc">: Classic\n: Sidearm\n: Free\n: Low\n: 30.92 cm</string>
+    <string name="classic_desc">: Classic\n\n: Sidearm\n\n: Free\n\n: Low\n\n: 30.92 cm</string>
     <string name="classic_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
     <string name="classic_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
-    <string name="PrimaryFire_Classic">: Semi-Automatic\n: 6.75 rounds/sec\n: 5.73 m/sec\n: 0.72 sec\n: 0.4 deg\n: 1.75 sec\n: 12\n: 36[3 magazines]</string>
-    <string name="AltFire_Classic">: Shotgun\n: 3\n: 2.22 bursts/sec</string>
+    <string name="PrimaryFire_Classic">: Semi-Automatic\n\n: 6.75 rounds/sec\n\n: 5.73 m/sec\n\n: 0.72 sec\n\n: 0.4 deg\n\n: 1.75 sec\n\n: 12\n\n: 36[3 magazines]</string>
+    <string name="AltFire_Classic">: Shotgun\n\n: 3\n\n: 2.22 bursts/sec</string>
 
+    /**
+    Ghost Overview
+    */
+    <string name="ghost_desc">: Ghost\n\n: Sidearm\n\n: 500\n\n: Medium\n\n: 65.4 cm\n\n: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="ghost_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 105\n\n<b>Body</b> &#8211; 30\n\n<b>Leg</b> - 25</string>
+    <string name="ghost_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 87\n\n<b>Body</b> &#8211; 25\n\n<b>Leg</b> - 21</string>
+    <string name="PrimaryFire_Ghost">: Semi\n\n: 6.75 rounds/sec\n\n: 5.73 m/sec\n\n: 0.75 sec\n\n: 0.3 deg\n\n: 1.5 sec\n\n: 15\n\n: 45[3 magazines]</string>
+
+    /**
+    Shorty Overview
+    */
+    <string name="shorty_desc">: Shorty\n\n: Sidearm\n\n: 150\n\n: Low\n\n: 69 cm</string>
+    <string name="shorty_damage_1">0 &#8211; 7 m\n\n<b>Head</b> &#8211; 24\n\n<b>Body</b> &#8211; 12\n\n<b>Leg</b> - 10</string>
+    <string name="shorty_damage_2">7 &#8211; 15 m\n\n<b>Head</b> &#8211; 16\n\n<b>Body</b> &#8211; 8\n\n<b>Leg</b> - 6</string>
+    <string name="shorty_damage_3">15 &#8211; 50 m\n\n<b>Head</b> &#8211; 6\n\n<b>Body</b> &#8211; 3\n\n<b>Leg</b> - 2</string>
+    <string name="PrimaryFire_Shorty">: Semi\n\n: 15\n\n: 3.33 rounds/sec\n\n: 5.4 m/sec\n\n: 0.75 sec\n\n: 4 deg\n\n: 1.75 sec\n\n: 2\n\n: 10[5 magazines]</string>
+
+    /**
+    Frenzy Overview
+    */
+    <string name="frenzy_desc">: Frenzy\n\n: Sidearm\n\n: 450\n\n: Low\n\n: 40.89 cm</string>
+    <string name="frenzy_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="frenzy_damage_2">20 &#8211; 50 m\n\n<b>Head</b> &#8211; 63\n\n<b>Body</b> &#8211; 21\n\n<b>Leg</b> - 17</string>
+    <string name="PrimaryFire_Frenzy">: Auto\n\n: 10 rounds/sec\n\n: 5.73 m/sec\n\n: 1 sec\n\n: 0.45 deg\n\n: 1.5 sec\n\n: 13\n\n: 39[3 magazines]</string>
+
+    /**
+    Sheriff Overview
+    */
+    <string name="sheriff_desc">: Sheriff\n\n: Sidearm\n\n: 800\n\n: High\n\n: 42.53 cm</string>
+    <string name="sheriff_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 159\n\n<b>Body</b> &#8211; 55\n\n<b>Leg</b> - 46</string>
+    <string name="sheriff_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 145\n\n<b>Body</b> &#8211; 50\n\n<b>Leg</b> - 42</string>
+    <string name="PrimaryFire_Sheriff">: Semi\n\n: 4 rounds/sec\n\n: 5.4 m/sec\n\n: 1 sec\n\n: 0.25 deg\n\n: 2.25 sec\n\n: 6\n\n: 24[4 magazines]</string>
+
+    /**
+    Golden Gun Overview
+    */
+    <string name="goldengun_desc">: Golden Gun\n\n: Sidearm\n\n: High\n\n: 39.93 cm\n\n: Gain and instantly load 1 ammo on kill</string>
+    <string name="goldengun_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 800\n\n<b>Body</b> &#8211; 200\n\n<b>Leg</b> - 200</string>
+    <string name="PrimaryFire_goldengun">: Semi\n\n: 3 rounds/sec\n\n: 7.4 m/sec\n\n: 0.67 sec\n\n: 0 deg\n\n: 1.5 sec\n\n: 1\n\n: 2</string>
 </resources>
