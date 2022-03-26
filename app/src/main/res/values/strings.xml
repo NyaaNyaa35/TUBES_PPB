@@ -94,11 +94,13 @@
     <string name="alt_fire">Alt Fire</string>
 
     <string name="Row_Description">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength</string>
+    <string name="Row_Description_2">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength\n\nFeature</string>
+    <string name="Row_Description_3">Name\n\nType\n\nWall Penetration\n\nLength\n\nFeature</string>
     <string name="PrimaryFire">FireMode\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
     <string name="PrimaryFire_Shotgun">FireMode\n\nPellet Count\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
     <string name="AlternateFire">Function\n\nPellet Count\n\nFire Rate</string>
-    <string name="Row_Description_2">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength\n\nFeature</string>
-    <string name="Row_Description_3">Name\n\nType\n\nWall Penetration\n\nLength\n\nFeature</string>
+    <string name="AlternateFire_2">Function\n\nZoom\n\nFire Rate\n\n\nMove Speed\n\nBurst Fire\n\n1st Shot Spread\n\n Note(s)</string>
+    <string name="AlternateFire_3">Function\n\nZoom\n\nFire Rate\n\nMove Speed\n\n1st Shot Spread\n\n Note(s)</string>
 
     /**
     Knife Overview
@@ -154,4 +156,22 @@
     <string name="goldengun_desc">: Golden Gun\n\n: Sidearm\n\n: High\n\n: 39.93 cm\n\n: Gain and instantly load 1 ammo on kill</string>
     <string name="goldengun_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 800\n\n<b>Body</b> &#8211; 200\n\n<b>Leg</b> - 200</string>
     <string name="PrimaryFire_goldengun">: Semi\n\n: 3 rounds/sec\n\n: 7.4 m/sec\n\n: 0.67 sec\n\n: 0 deg\n\n: 1.5 sec\n\n: 1\n\n: 2</string>
+
+    /**
+    Stinger Overview
+    */
+    <string name="stinger_desc">: Stinger\n\n: SMG\n\n: 950\n\n: Low\n\n: 84.49 cm</string>
+    <string name="stinger_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 67\n\n<b>Body</b> &#8211; 27\n\n<b>Leg</b> - 22</string>
+    <string name="stinger_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 62\n\n<b>Body</b> &#8211; 25\n\n<b>Leg</b> - 21</string>
+    <string name="PrimaryFire_Stinger">: Auto\n\n: 16 rounds/sec\n\n: 5.73 m/sec\n\n: 0.75 sec\n\n: 0.65 deg\n\n: 2.25 sec\n\n: 20\n\n: 60[3 magazines]</string>
+    <string name="AltFire_Stinger">: Aim down sights\n\n: 1.15x\n\n: 52% (8.471 rounds/sec)\n\n: 76% [4.361m/sec]\n\n: 4 round burst\n\n: 0.5 deg\n\n: * Slight spread and recoil reduction\n * Crosshair follows recoil\n * Falloff distance increased to 30 m</string>
+
+    /**
+    Spectre Overview
+    */
+    <string name="spectre_desc">: Spectre\n\n: SMG\n\n: 1600\n\n: Medium\n\n: 98.02 cm\n\n: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="spectre_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="spectre_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="PrimaryFire_Spectre">: Fully Automatic\n\n: 13.33 rounds/sec\n\n: 5.73 m/sec\n\n: 0.75 sec\n\n: 0.4 deg\n\n: 2.25 sec\n\n: 30\n\n: 90[3 magazines]</string>
+    <string name="AltFire_Spectre">: Aim down sights\n\n: 1.15x\n\n: 90% (12 rounds/sec)\n\n: 76% [4.361m/sec]\n\n: 0.25 deg\n\n: * Slight spread and recoil reduction\n * Crosshair follows recoil</string>
 </resources>

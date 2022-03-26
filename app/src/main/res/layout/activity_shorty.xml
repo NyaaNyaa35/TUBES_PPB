@@ -65,7 +65,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/Damage"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,7 +86,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/shorty_damage_1"
-                android:textSize="25sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="3dp"
@@ -104,7 +105,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/shorty_damage_2"
-                android:textSize="25sp" />
+                android:textSize="20sp" />
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
@@ -115,7 +116,7 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="@string/shorty_damage_3"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -127,7 +128,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/primary_fire"
-            android:textSize="25sp" />
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
 
         <LinearLayout
             android:layout_width="match_parent"
