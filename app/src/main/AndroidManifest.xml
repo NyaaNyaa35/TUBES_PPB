@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".WeaponView.Operator"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Marshall"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Judge"
+            android:exported="false" />
+        <activity
             android:name=".WeaponView.Bucky"
             android:exported="false" />
         <activity

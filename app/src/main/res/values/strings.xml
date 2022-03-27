@@ -327,4 +327,118 @@
     <string name="Function_Bucky">: Air burst\n * Fire a canister that detonates after a short distance, spraying pellets</string>
     <string name="Notes_Bucky">: If a canister hits a target before 7.5m it will not detonate and only deal 40/20/15 damage from Head-Legs</string>
 
+    /**
+    Judge Overview
+    */
+    <string name="judge_desc">: Judge\n\n: Shotgun\n\n: 1850</string>
+    <string name="judge_wallpenetration">: Low</string>
+    <string name="judge_length">: 98.22 cm</string>
+    <string name="judge_FireMode">: Auto</string>
+    <string name="judge_PelletCount">: 12</string>
+    <string name="judge_FireRate">: 3.5 rounds/sec</string>
+    <string name="judge_RunSpeed">: 5.06 m/sec</string>
+    <string name="judge_EquipSpeed">: 1 sec</string>
+    <string name="judge_ShotSpread">: 2.25 deg</string>
+    <string name="judge_ReloadSpeed">: 2.2 sec</string>
+    <string name="judge_Magazine">: 7</string>
+    <string name="judge_Reserve">: 21[3 magazines]</string>
+    <string name="judge_damage_1">0 &#8211; 10 m\n\n<b>Head</b> &#8211; 34\n\n<b>Body</b> &#8211; 17\n\n<b>Leg</b> - 14</string>
+    <string name="judge_damage_2">10 &#8211; 15 m\n\n<b>Head</b> &#8211; 20\n\n<b>Body</b> &#8211; 10\n\n<b>Leg</b> - 8</string>
+    <string name="judge_damage_3">15 &#8211; 50 m\n\n<b>Head</b> &#8211; 14\n\n<b>Body</b> &#8211; 7\n\n<b>Leg</b> - 6</string>
+
+    /**
+    Operator Overview
+    */
+    <string name="operator_wallpenetration">: High</string>
+    <string name="operator_length">: 172.25 cm\n\u0020 46.86 cm scope</string>
+    <string name="operator_FireMode">: Semi</string>
+    <string name="operator_FireRate">: 0.6 rounds/sec</string>
+    <string name="operator_RunSpeed">: 5.13 m/sec</string>
+    <string name="operator_EquipSpeed">: 1.5 sec</string>
+    <string name="operator_ShotSpread">: 5 deg</string>
+    <string name="operator_ReloadSpeed">: 3.7 sec</string>
+    <string name="operator_Magazine">: 5</string>
+    <string name="operator_Reserve">: 10 (2 magazines)</string>
+    <string name="operator_Function">: Aim down sights</string>
+    <string name="operator_Zoom">: Dual Zoom toggle between 2.5x and 5x</string>
+    <string name="operator_AltFireRate">: 125% (0.75 rounds/sec)</string>
+    <string name="operator_MoveSpeed">: 76% (3.899 m/sec)</string>
+    <string name="operator_1stShotSpread">: 0 deg</string>
+    <string name="operator_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="operator_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 255\n\n<b>Body</b> &#8211; 150\n\n<b>Leg</b> - 120</string>
+    <string name="operator_desc">: Operator\n\n: Sniper\n\n: 4700</string>
+
+    /**
+    Marshall Overview
+    */
+    <string name="marshall_wallpenetration">: Medium</string>
+    <string name="marshall_length">: 154.05 cm\n\u0020 28.9 cm scope</string>
+    <string name="marshall_FireMode">: Semi</string>
+    <string name="marshall_FireRate">: 1.5 rounds/sec</string>
+    <string name="marshall_RunSpeed">: 5.4 m/sec</string>
+    <string name="marshall_EquipSpeed">: 1.25 sec</string>
+    <string name="marshall_ShotSpread">: 1 deg</string>
+    <string name="marshall_ReloadSpeed">: 2.5 sec (0.5 per bullet)</string>
+    <string name="marshall_Magazine">: 5</string>
+    <string name="marshall_Reserve">: 15 (3 magazines)</string>
+    <string name="marshall_Function">: Aim down sights</string>
+    <string name="marshall_Zoom">: 3.5x</string>
+    <string name="marshall_AltFireRate">: 80% (1,2 rounds/sec)</string>
+    <string name="marshall_MoveSpeed">: 90% (4.86 m/sec)</string>
+    <string name="marshall_1stShotSpread">: 0 deg</string>
+    <string name="marshall_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="marshall_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 202\n\n<b>Body</b> &#8211; 101\n\n<b>Leg</b> - 85</string>
+    <string name="marshall_desc">: Marshall\n\n: Sniper\n\n: 950</string>
+
+    /**
+    Ares Overview
+    */
+    <string name="ares_wallpenetration">: High</string>
+    <string name="ares_length">: 155.28 cm</string>
+    <string name="ares_FireMode">: Auto</string>
+    <string name="ares_FireRate">: 13 rounds/sec</string>
+    <string name="ares_RunSpeed">: 5.13 m/sec</string>
+    <string name="ares_EquipSpeed">: 1.25 sec</string>
+    <string name="ares_ShotSpread">: 0.8 deg</string>
+    <string name="ares_ReloadSpeed">: 3.25 sec (0.5 per bullet)</string>
+    <string name="ares_Magazine">: 50</string>
+    <string name="ares_Reserve">: 100 (2 magazines)</string>
+    <string name="ares_Function">: Aim down sights</string>
+    <string name="ares_Zoom">: 1.15x</string>
+    <string name="ares_AltFireRate">:100% (13 rounds/sec)</string>
+    <string name="ares_MoveSpeed">: 76% (3.899 m/sec)</string>
+    <string name="ares_1stShotSpread">: : 0.67 deg</string>
+    <string name="ares_Notes">:Slight spread and recoil reduction
+Crosshair follows recoil</string>
+    <string name="ares_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="ares_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="ares_desc">: Ares\n\n: Machine gun\n\n: 1600</string>
+    <string name="ares_Feature">: Rate of fire increases over time</string>
+
+    /**
+    Odin Overview
+    */
+    <string name="odin_wallpenetration">: High</string>
+    <string name="odin_length">: 174.04 cm</string>
+    <string name="odin_FireMode">: Auto</string>
+    <string name="odin_FireRate">: 12 &#8211; 15.6 rounds/sec</string>
+    <string name="odin_RunSpeed">: 5.13 m/sec</string>
+    <string name="odin_EquipSpeed">: 1.25 sec</string>
+    <string name="odin_ShotSpread">: 0.8 deg</string>
+    <string name="odin_ReloadSpeed">: 5 sec</string>
+    <string name="odin_Magazine">: 100</string>
+    <string name="odin_Reserve">: 200 (2 magazines)</string>
+    <string name="odin_Function">: Aim down sights</string>
+    <string name="odin_Zoom">: 1.15x</string>
+    <string name="odin_AltFireRate">:100% (15.6 rounds/sec)</string>
+    <string name="odin_MoveSpeed">: 76% (3.899 m/sec)</string>
+    <string name="odin_1stShotSpread">: : 0.79 deg</string>
+    <string name="odin_Notes">: Slight spread and recoil reduction
+Crosshair follows recoil
+Starts firing at maximum fire rate</string>
+    <string name="odin_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="odin_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="odin_desc">: Odin\n\n: Machine gun\n\n: 3200</string>
+    <string name="odin_Feature">: Rate of fire increases over time</string>
+
 </resources>
