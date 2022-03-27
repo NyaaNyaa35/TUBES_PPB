@@ -58,8 +58,9 @@
             android:layout_weight="1"
             android:background="@color/white"
             android:maxWidth="200dp"
-            android:text="@string/GET_STARTED"
             android:padding="10dp"
+            android:text="@string/GET_STARTED"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <Button

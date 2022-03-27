@@ -52,7 +52,8 @@
                 android:text="@string/Register_Acc"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
