@@ -27,4 +27,14 @@
     <string name="Register">Register</string>
     <string name="Login_txt">Login To Your Account</string>
     <string name="Login">Login</string>
+    <string name="upload_img">Upload Image</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_pass">Change Password</string>
+    <string name="edit_username">New Username</string>
+    <string name="edit_tag">New Tag</string>
+    <string name="change">Change</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="object_received">Object Diterima</string>
 </resources>

@@ -14,7 +14,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var tag: EditText
     private lateinit var password: EditText
 
-    val hardcoded_person: Person = Person("Test","AJG","test@email.com","123")
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +28,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.button_login -> {
+                val hardcoded_person = Person("Test","AJG","test@email.com","123")
 
                 username = findViewById(R.id.et_name)
                 tag = findViewById(R.id.et_riottag)

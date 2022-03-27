@@ -4,10 +4,10 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class Person(
-    val username:String?,
-    val tag: String?,
+    var username:String?,
+    var tag: String?,
     val email: String?,
-    val password: String?
+    var password: String?
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
@@ -18,7 +18,7 @@ data class Person(
     }
 
     override fun describeContents(): Int {
-        TODO("Not yet implemented")
+        return 0
     }
 
     override fun writeToParcel(parcel: Parcel, p1: Int) {
