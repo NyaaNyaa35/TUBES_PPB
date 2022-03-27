@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".MainActivityWithNav"
+            android:exported="false"
+            android:label="@string/title_activity_main_with_nav"
+            android:theme="@style/Theme.PPB_TUBES.NoActionBar" />
+        <activity
             android:name=".WeaponView.Spectre"
             android:exported="false" />
         <activity
