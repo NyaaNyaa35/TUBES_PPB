@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".WeaponView.GoldenGun">
+    tools:context=".WeaponView.Bucky">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,9 +23,9 @@
             android:layout_marginTop="50dp"
             android:layout_marginEnd="40dp"
             android:background="@drawable/et_shadow"
-            android:contentDescription="@string/GoldenGun"
+            android:contentDescription="@string/Bucky"
             android:padding="20dp"
-            android:src="@drawable/ggun" />
+            android:src="@drawable/bucky" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/Row_Description_2"
+                android:text="@string/Row_Description"
                 android:textSize="22sp" />
 
             <TextView
@@ -50,7 +50,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_desc"
+                android:text="@string/bucky_desc"
                 android:textSize="22sp" />
 
         </LinearLayout>
@@ -77,7 +77,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_wallpenetration"
+                android:text="@string/bucky_wallpenetration"
                 android:textSize="22sp" />
 
         </LinearLayout>
@@ -104,34 +104,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_length"
-                android:textSize="22sp" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:orientation="horizontal"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:layout_width="130dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
-                android:text="@string/Feature"
-                android:textSize="22sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_Feature"
+                android:text="@string/bucky_length"
                 android:textSize="22sp" />
 
         </LinearLayout>
@@ -145,8 +118,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/Damage"
-            android:textSize="25sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -165,9 +138,40 @@
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="@string/goldengun_damage_1"
-                android:textSize="25sp" />
+                android:text="@string/bucky_damage_1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/bucky_damage_2"
+                android:textSize="20sp" />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/bucky_damage_3"
+            android:textSize="20sp" />
+
 
         <TextView
             android:layout_width="match_parent"
@@ -179,8 +183,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/primary_fire"
-            android:textSize="25sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -205,11 +209,37 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_FireMode"
+                android:text="@string/bucky_FireMode"
                 android:textSize="20sp" />
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/PelletCount"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/bucky_PelletCount"
+                android:textSize="20sp" />
+
+        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -233,7 +263,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_FireRate"
+                android:text="@string/bucky_FireRate"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -261,7 +291,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_RunSpeed"
+                android:text="@string/bucky_RunSpeed"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -289,7 +319,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_EquipSpeed"
+                android:text="@string/bucky_EquipSpeed"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -317,7 +347,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_ShotSpread"
+                android:text="@string/bucky_ShotSpread"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -345,7 +375,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_ReloadSpeed"
+                android:text="@string/bucky_ReloadSpeed"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -373,7 +403,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_Magazine"
+                android:text="@string/bucky_Magazine"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -401,10 +431,133 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/goldengun_Reserve"
+                android:text="@string/bucky_Reserve"
                 android:textSize="20sp" />
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/rounded_rectangle_button_ui"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/alt_fire"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/Function"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/Function_Bucky"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/DetonationDistance"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/DetonationDistance_Bucky"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/PelletCount"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/PelletCount_Bucky"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/Notes"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/Notes_Bucky"
+                android:textSize="19sp" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
