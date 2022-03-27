@@ -437,4 +437,95 @@
     <string name="odin_desc">: Odin\n\n: Machine gun\n\n: 3200</string>
     <string name="odin_Feature">: Rate of fire increases over time</string>
 
+    /**
+    Bulldog Overview
+    */
+    <string name="bulldog_wallpenetration">: Medium</string>
+    <string name="bulldog_length">: 89.51 cm</string>
+    <string name="bulldog_FireMode">: Auto</string>
+    <string name="bulldog_FireRate">: 10 rounds/sec</string>
+    <string name="bulldog_RunSpeed">: 5.4 m/sec</string>
+    <string name="bulldog_EquipSpeed">: 1 sec</string>
+    <string name="bulldog_ShotSpread">: 0.3 deg</string>
+    <string name="bulldog_ReloadSpeed">: 2.5 sec</string>
+    <string name="bulldog_Magazine">: 24</string>
+    <string name="bulldog_Reserve">: 72 (3 magazines)</string>
+    <string name="bulldog_Function">: Aim down sights</string>
+    <string name="bulldog_Zoom">: 1.25x</string>
+    <string name="bulldog_AltFireRate">: 65.55% (6.555 rounds/sec)\n\u0020 2.185 bursts/sec</string>
+    <string name="bulldog_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="bulldog_1stShotSpread">: 0.3 deg</string>
+    <string name="bulldog_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="bulldog_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 115\n\n<b>Body</b> &#8211; 35\n\n<b>Leg</b> - 29</string>
+    <string name="bulldog_desc">: Bulldog\n\n: Rifle\n\n: 2050</string>
+
+    /**
+    Guardian Overview
+    */
+    <string name="guardian_wallpenetration">: High</string>
+    <string name="guardian_length">: 139.55 cm</string>
+    <string name="guardian_FireMode">: Semi-automatic</string>
+    <string name="guardian_FireRate">: 5.25 rounds/sec\n\u0020 324 rounds/min</string>
+    <string name="guardian_RunSpeed">: 5.4 m/sec</string>
+    <string name="guardian_EquipSpeed">: 1 sec</string>
+    <string name="guardian_ShotSpread">: 0.1 deg</string>
+    <string name="guardian_ReloadSpeed">: 2.5 sec</string>
+    <string name="guardian_Magazine">: 12</string>
+    <string name="guardian_Reserve">: 36 (3 magazines)</string>
+    <string name="guardian_Function">: Aim down sights</string>
+    <string name="guardian_Zoom">: 1.5x</string>
+    <string name="guardian_AltFireRate">: 100% (5.25 rounds/sec)</string>
+    <string name="guardian_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="guardian_1stShotSpread">: 0 deg</string>
+    <string name="guardian_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="guardian_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 195\n\n<b>Body</b> &#8211; 65\n\n<b>Leg</b> - 49</string>
+    <string name="guardian_desc">: Guardian\n\n: Rifle\n\n: 2250</string>
+
+    /**
+    Vandal Overview
+    */
+    <string name="vandal_wallpenetration">: Medium</string>
+    <string name="vandal_length">: 127.99 cm</string>
+    <string name="vandal_FireMode">: Auto</string>
+    <string name="vandal_FireRate">: 9.75 rds/sec\n\u0020 585 rds/min</string>
+    <string name="vandal_RunSpeed">: 5.4 m/sec</string>
+    <string name="vandal_EquipSpeed">: 1 sec</string>
+    <string name="vandal_ShotSpread">: 0.25 deg</string>
+    <string name="vandal_ReloadSpeed">: 2.5 sec</string>
+    <string name="vandal_Magazine">: 25</string>
+    <string name="vandal_Reserve">: 75 (3 magazines)</string>
+    <string name="vandal_Function">: Aim down sights</string>
+    <string name="vandal_Zoom">: 1.25x</string>
+    <string name="vandal_AltFireRate">: 90% (8.775 rds/sec)</string>
+    <string name="vandal_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="vandal_1stShotSpread">: 0.157 deg</string>
+    <string name="vandal_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="vandal_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 160\n\n<b>Body</b> &#8211; 40\n\n<b>Leg</b> - 34</string>
+    <string name="vandal_desc">: Vandal\n\n: Rifle\n\n: 2900</string>
+
+    /**
+    Phantom Overview
+    */
+    <string name="phantom_wallpenetration">: Medium</string>
+    <string name="phantom_length">: 121.11 cm\n\u0020 90.59 without silencer</string>
+    <string name="phantom_FireMode">: Auto</string>
+    <string name="phantom_FireRate">: 11 rds/sec\n\u0020 660 rds/min</string>
+    <string name="phantom_RunSpeed">: 5.4 m/sec</string>
+    <string name="phantom_EquipSpeed">: 1 sec</string>
+    <string name="phantom_ShotSpread">: 0.2 deg</string>
+    <string name="phantom_ReloadSpeed">: 2.5 sec</string>
+    <string name="phantom_Magazine">: 30</string>
+    <string name="phantom_Reserve">: 90 (3 magazines)</string>
+    <string name="phantom_Function">: Aim down sights</string>
+    <string name="phantom_Zoom">: 1.25x</string>
+    <string name="phantom_AltFireRate">: 90% (9.9 rds/sec)</string>
+    <string name="phantom_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="phantom_1stShotSpread">: 0.11 deg</string>
+    <string name="phantom_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="phantom_damage_1">0 &#8211; 15 m\n\n<b>Head</b> &#8211; 156\n\n<b>Body</b> &#8211; 39\n\n<b>Leg</b> - 33</string>
+    <string name="phantom_damage_2">15 &#8211; 30 m\n\n<b>Head</b> &#8211; 140\n\n<b>Body</b> &#8211; 35\n\n<b>Leg</b> - 29</string>
+    <string name="phantom_damage_3">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 124\n\n<b>Body</b> &#8211; 31\n\n<b>Leg</b> - 26</string>
+    <string name="phantom_desc">: Phantom\n\n: Rifle\n\n: 2900</string>
+    <string name="phantom_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+
 </resources>

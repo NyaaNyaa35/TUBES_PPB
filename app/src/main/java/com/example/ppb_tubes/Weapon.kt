@@ -56,6 +56,18 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
 
         val btnOdin: ImageButton = findViewById(R.id.button_Odin)
         btnOdin.setOnClickListener(this)
+
+        val btnBulldog: ImageButton = findViewById(R.id.button_Bulldog)
+        btnBulldog.setOnClickListener(this)
+
+        val btnGuardian: ImageButton = findViewById(R.id.button_Guardian)
+        btnGuardian.setOnClickListener(this)
+
+        val btnPhantom: ImageButton = findViewById(R.id.button_Phantom)
+        btnPhantom.setOnClickListener(this)
+
+        val btnVandal: ImageButton = findViewById(R.id.button_Vandal)
+        btnVandal.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -121,23 +133,22 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
                 val odinIntent = Intent(this@Weapon, Odin::class.java)
                 startActivity(odinIntent)
             }
-            /**
             R.id.button_Bulldog -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
+            val bulldogIntent = Intent(this@Weapon, Bulldog::class.java)
+            startActivity(bulldogIntent)
             }
             R.id.button_Guardian -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
+            val guardianIntent = Intent(this@Weapon, Guardian::class.java)
+            startActivity(guardianIntent)
             }
             R.id.button_Phantom -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
+            val phantomIntent = Intent(this@Weapon, Phantom::class.java)
+            startActivity(phantomIntent)
             }
             R.id.button_Vandal -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
-            }*/
+            val vandalIntent = Intent(this@Weapon, Vandal::class.java)
+            startActivity(vandalIntent)
+            }
         }
     }
 }
