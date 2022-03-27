@@ -405,15 +405,13 @@
     <string name="ares_Reserve">: 100 (2 magazines)</string>
     <string name="ares_Function">: Aim down sights</string>
     <string name="ares_Zoom">: 1.15x</string>
-    <string name="ares_AltFireRate">:100% (13 rounds/sec)</string>
+    <string name="ares_AltFireRate">: 100% (13 rounds/sec)</string>
     <string name="ares_MoveSpeed">: 76% (3.899 m/sec)</string>
-    <string name="ares_1stShotSpread">: : 0.67 deg</string>
-    <string name="ares_Notes">:Slight spread and recoil reduction
-Crosshair follows recoil</string>
-    <string name="ares_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
-    <string name="ares_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="ares_1stShotSpread">: 0.67 deg</string>
+    <string name="ares_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="ares_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 72\n\n<b>Body</b> &#8211; 30\n\n<b>Leg</b> - 25</string>
+    <string name="ares_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 67\n\n<b>Body</b> &#8211; 28\n\n<b>Leg</b> - 23</string>
     <string name="ares_desc">: Ares\n\n: Machine gun\n\n: 1600</string>
-    <string name="ares_Feature">: Rate of fire increases over time</string>
 
     /**
     Odin Overview
@@ -430,14 +428,12 @@ Crosshair follows recoil</string>
     <string name="odin_Reserve">: 200 (2 magazines)</string>
     <string name="odin_Function">: Aim down sights</string>
     <string name="odin_Zoom">: 1.15x</string>
-    <string name="odin_AltFireRate">:100% (15.6 rounds/sec)</string>
+    <string name="odin_AltFireRate">: 130% (15.6 rounds/sec)</string>
     <string name="odin_MoveSpeed">: 76% (3.899 m/sec)</string>
-    <string name="odin_1stShotSpread">: : 0.79 deg</string>
-    <string name="odin_Notes">: Slight spread and recoil reduction
-Crosshair follows recoil
-Starts firing at maximum fire rate</string>
-    <string name="odin_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
-    <string name="odin_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="odin_1stShotSpread">: 0.79 deg</string>
+    <string name="odin_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil\n\u0020 * Starts firing at maximum fire rate</string>
+    <string name="odin_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 95\n\n<b>Body</b> &#8211; 38\n\n<b>Leg</b> - 32</string>
+    <string name="odin_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 77\n\n<b>Body</b> &#8211; 31\n\n<b>Leg</b> - 26</string>
     <string name="odin_desc">: Odin\n\n: Machine gun\n\n: 3200</string>
     <string name="odin_Feature">: Rate of fire increases over time</string>
 

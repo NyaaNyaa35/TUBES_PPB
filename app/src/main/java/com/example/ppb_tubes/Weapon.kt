@@ -51,6 +51,11 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
         val btnOperator: ImageButton = findViewById(R.id.button_Operator)
         btnOperator.setOnClickListener(this)
 
+        val btnAres: ImageButton = findViewById(R.id.button_Ares)
+        btnAres.setOnClickListener(this)
+
+        val btnOdin: ImageButton = findViewById(R.id.button_Odin)
+        btnOdin.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -108,6 +113,14 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
                 val operatorIntent = Intent(this@Weapon, Operator::class.java)
                 startActivity(operatorIntent)
             }
+            R.id.button_Ares-> {
+                val aresIntent = Intent(this@Weapon, Ares::class.java)
+                startActivity(aresIntent)
+            }
+            R.id.button_Odin-> {
+                val odinIntent = Intent(this@Weapon, Odin::class.java)
+                startActivity(odinIntent)
+            }
             /**
             R.id.button_Bulldog -> {
             val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
@@ -124,14 +137,7 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
             R.id.button_Vandal -> {
             val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
             startActivity(knifeIntent)
-            }
-
-            R.id.button_Ares-> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
-            }
-            R.id.button_Odin-> {val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)}*/
+            }*/
         }
     }
 }
