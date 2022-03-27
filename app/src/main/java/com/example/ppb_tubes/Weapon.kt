@@ -42,6 +42,15 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
         val btnBucky: ImageButton = findViewById(R.id.button_Bucky)
         btnBucky.setOnClickListener(this)
 
+        val btnJudge: ImageButton = findViewById(R.id.button_Judge)
+        btnJudge.setOnClickListener(this)
+
+        val btnMarshal: ImageButton = findViewById(R.id.button_Marshal)
+        btnMarshal.setOnClickListener(this)
+
+        val btnOperator: ImageButton = findViewById(R.id.button_Operator)
+        btnOperator.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View) {
@@ -87,11 +96,19 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
                 val buckyIntent = Intent(this@Weapon, Bucky::class.java)
                 startActivity(buckyIntent)
             }
-            /**
             R.id.button_Judge -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
+                val judgeIntent = Intent(this@Weapon, Judge::class.java)
+                startActivity(judgeIntent)
             }
+            R.id.button_Marshal -> {
+                val marshalIntent = Intent(this@Weapon, Marshall::class.java)
+                startActivity(marshalIntent)
+            }
+            R.id.button_Operator -> {
+                val operatorIntent = Intent(this@Weapon, Operator::class.java)
+                startActivity(operatorIntent)
+            }
+            /**
             R.id.button_Bulldog -> {
             val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
             startActivity(knifeIntent)
@@ -108,14 +125,7 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
             val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
             startActivity(knifeIntent)
             }
-            R.id.button_Marshal -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
-            }
-            R.id.button_Operator-> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
-            }
+
             R.id.button_Ares-> {
             val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
             startActivity(knifeIntent)
