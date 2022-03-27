@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".WeaponView.Odin"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Ares"
+            android:exported="false" />
+        <activity
             android:name=".WeaponView.Operator"
             android:exported="false" />
         <activity

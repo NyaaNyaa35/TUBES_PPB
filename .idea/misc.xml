@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ares.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_bucky.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_classic.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_frenzy.xml" value="0.18" />
@@ -14,6 +15,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_main_with_nav.xml" value="0.33" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_marshall.xml" value="0.22" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_odin.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_operator.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_register.xml" value="0.13541666666666666" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sheriff.xml" value="0.25" />
@@ -24,6 +26,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_weapon.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_bar_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/content_main_activity_with_nav.xml" value="0.16168478260869565" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_blank.xml" value="0.1838768115942029" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/nav_header_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_classic.xml" value="0.19" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
