@@ -93,85 +93,227 @@
     <string name="primary_fire">Primary Fire</string>
     <string name="alt_fire">Alt Fire</string>
 
-    <string name="Row_Description">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength</string>
-    <string name="Row_Description_2">Name\n\nType\n\nCreds\n\nWall Penetration\n\nLength\n\nFeature</string>
+    <string name="Row_Description">Name\n\nType\n\nCreds</string>
+    <string name="Row_Description_2">Name\n\nType</string>
     <string name="Row_Description_3">Name\n\nType\n\nWall Penetration\n\nLength\n\nFeature</string>
     <string name="PrimaryFire">FireMode\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
     <string name="PrimaryFire_Shotgun">FireMode\n\nPellet Count\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
+
+    <string name="WallPenetration">Wall Penetration</string>
+    <string name="FireMode">Fire Mode</string>
+    <string name="RunSpeed">Run Speed</string>
+    <string name="EquipSpeed">Equip Speed</string>
+    <string name="ReloadSpeed">Reload Speed</string>
+    <string name="Magazine">Magazine</string>
+    <string name="Reserve">Reserve</string>
+    <string name="BurstFire">Burst Fire</string>
+    <string name="Feature">Feature(s)</string>
+    <string name="Length">Length</string>
+
     <string name="AlternateFire">Function\n\nPellet Count\n\nFire Rate</string>
     <string name="AlternateFire_2">Function\n\nZoom\n\nFire Rate\n\n\nMove Speed\n\nBurst Fire\n\n1st Shot Spread\n\n Note(s)</string>
     <string name="AlternateFire_3">Function\n\nZoom\n\nFire Rate\n\nMove Speed\n\n1st Shot Spread\n\n Note(s)</string>
 
     /**
+    Alternate Fire Category
+    */
+    <string name="DetonationDistance">Detonation Distance</string>
+    <string name="PelletCount">Pellet Count</string>
+    <string name="Function">Function</string>
+    <string name="Notes">Note(s)</string>
+    <string name="FireRate">Fire Rate</string>
+    <string name="MoveSpeed">Move Speed</string>
+    <string name="FirstShotSpread">1st Shot Spread</string>
+    <string name="Zoom">Zoom</string>
+
+    /**
     Knife Overview
     */
-    <string name="knife_desc">: TacticalKnife\n\n: Melee\n\n: 0\n\n: No\n\n: 46.59 cm</string>
+    <string name="knife_desc">: TacticalKnife\n\n: Melee\n\n: 0</string>
+    <string name="knife_wallpenetration">: No</string>
+    <string name="knife_length">: 46.59 cm</string>
     <string name="knife_damage">0 &#8211; 8 m\n\n<b>Front</b> &#8211; 50/75 (Primary/Alt)\n\n<b>Back</b> &#8211; 100/150 (Primary/Alt)</string>
 
     /**
     Classic Overview
     */
-    <string name="classic_desc">: Classic\n\n: Sidearm\n\n: Free\n\n: Low\n\n: 30.92 cm</string>
+    <string name="classic_desc">: Classic\n\n: Sidearm\n\n: Free</string>
+    <string name="classic_wallpenetration">: Low</string>
+    <string name="classic_length">: 30.92</string>
     <string name="classic_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
     <string name="classic_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
-    <string name="PrimaryFire_Classic">: Semi-Automatic\n\n: 6.75 rounds/sec\n\n: 5.73 m/sec\n\n: 0.72 sec\n\n: 0.4 deg\n\n: 1.75 sec\n\n: 12\n\n: 36[3 magazines]</string>
-    <string name="AltFire_Classic">: Shotgun\n\n: 3\n\n: 2.22 bursts/sec</string>
+    <string name="classic_FireMode">: Semi-Automatic</string>
+    <string name="classic_FireRate">: 6.75 rounds/sec</string>
+    <string name="classic_RunSpeed">: 5.73 m/sec</string>
+    <string name="classic_EquipSpeed">: 0.72 sec</string>
+    <string name="classic_ShotSpread">: 0.4 deg</string>
+    <string name="classic_ReloadSpeed">: 1.75 sec</string>
+    <string name="classic_Magazine">: 12</string>
+    <string name="classic_Reserve">: 36[3 magazines]</string>
+    <string name="classic_Function">: Shotgun</string>
+    <string name="classic_PelletCount">: 3</string>
+    <string name="classic_AltFireRate">: 2.22 bursts/sec</string>
 
     /**
     Ghost Overview
     */
-    <string name="ghost_desc">: Ghost\n\n: Sidearm\n\n: 500\n\n: Medium\n\n: 65.4 cm\n\n: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="ghost_desc">: Classic\n\n: Sidearm\n\n: 500</string>
+    <string name="ghost_wallpenetration">: Medium</string>
+    <string name="ghost_length">: 65.4 cm\n\u0020 39.93 cm without silencer</string>
+    <string name="ghost_FireMode">: Semi</string>
+    <string name="ghost_FireRate">: 6.75 rounds/sec</string>
+    <string name="ghost_RunSpeed">: 5.73 m/sec</string>
+    <string name="ghost_EquipSpeed">: 0.75 sec</string>
+    <string name="ghost_ShotSpread">: 0.3 deg</string>
+    <string name="ghost_ReloadSpeed">: 1.5 sec</string>
+    <string name="ghost_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="ghost_Magazine">: 15</string>
+    <string name="ghost_Reserve">: 45[3 magazines]</string>
     <string name="ghost_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 105\n\n<b>Body</b> &#8211; 30\n\n<b>Leg</b> - 25</string>
     <string name="ghost_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 87\n\n<b>Body</b> &#8211; 25\n\n<b>Leg</b> - 21</string>
-    <string name="PrimaryFire_Ghost">: Semi\n\n: 6.75 rounds/sec\n\n: 5.73 m/sec\n\n: 0.75 sec\n\n: 0.3 deg\n\n: 1.5 sec\n\n: 15\n\n: 45[3 magazines]</string>
 
     /**
     Shorty Overview
     */
-    <string name="shorty_desc">: Shorty\n\n: Sidearm\n\n: 150\n\n: Low\n\n: 69 cm</string>
+    <string name="shorty_desc">: Shorty\n\n: Sidearm\n\n: 150</string>
+    <string name="shorty_wallpenetration">: Low</string>
+    <string name="shorty_length">: 69 cm</string>
+    <string name="shorty_FireMode">: Semi</string>
+    <string name="shorty_PelletCount">: 15</string>
+    <string name="shorty_FireRate">: 3.33 rounds/sec</string>
+    <string name="shorty_RunSpeed">: 5.4 m/sec</string>
+    <string name="shorty_EquipSpeed">: 0.75 sec</string>
+    <string name="shorty_ShotSpread">: 4 deg</string>
+    <string name="shorty_ReloadSpeed">: 1.75 sec</string>
+    <string name="shorty_Magazine">: 2</string>
+    <string name="shorty_Reserve">: 10[5 magazines]</string>
+
     <string name="shorty_damage_1">0 &#8211; 7 m\n\n<b>Head</b> &#8211; 24\n\n<b>Body</b> &#8211; 12\n\n<b>Leg</b> - 10</string>
     <string name="shorty_damage_2">7 &#8211; 15 m\n\n<b>Head</b> &#8211; 16\n\n<b>Body</b> &#8211; 8\n\n<b>Leg</b> - 6</string>
     <string name="shorty_damage_3">15 &#8211; 50 m\n\n<b>Head</b> &#8211; 6\n\n<b>Body</b> &#8211; 3\n\n<b>Leg</b> - 2</string>
-    <string name="PrimaryFire_Shorty">: Semi\n\n: 15\n\n: 3.33 rounds/sec\n\n: 5.4 m/sec\n\n: 0.75 sec\n\n: 4 deg\n\n: 1.75 sec\n\n: 2\n\n: 10[5 magazines]</string>
 
     /**
     Frenzy Overview
     */
-    <string name="frenzy_desc">: Frenzy\n\n: Sidearm\n\n: 450\n\n: Low\n\n: 40.89 cm</string>
+    <string name="frenzy_desc">: Frenzy\n\n: Sidearm\n\n: 450</string>
+    <string name="frenzy_wallpenetration">: Low</string>
+    <string name="frenzy_length">: 40.89 cm</string>
+    <string name="frenzy_FireMode">: Auto</string>
+    <string name="frenzy_FireRate">: 10 rounds/sec</string>
+    <string name="frenzy_RunSpeed">: 5.73 m/sec</string>
+    <string name="frenzy_EquipSpeed">: 1 sec</string>
+    <string name="frenzy_ShotSpread">: 0.45 deg</string>
+    <string name="frenzy_ReloadSpeed">: 1.5 sec</string>
+    <string name="frenzy_Magazine">: 13</string>
+    <string name="frenzy_Reserve">: 39[3 magazines]</string>
     <string name="frenzy_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
     <string name="frenzy_damage_2">20 &#8211; 50 m\n\n<b>Head</b> &#8211; 63\n\n<b>Body</b> &#8211; 21\n\n<b>Leg</b> - 17</string>
-    <string name="PrimaryFire_Frenzy">: Auto\n\n: 10 rounds/sec\n\n: 5.73 m/sec\n\n: 1 sec\n\n: 0.45 deg\n\n: 1.5 sec\n\n: 13\n\n: 39[3 magazines]</string>
 
     /**
     Sheriff Overview
     */
-    <string name="sheriff_desc">: Sheriff\n\n: Sidearm\n\n: 800\n\n: High\n\n: 42.53 cm</string>
+    <string name="sheriff_desc">: Sheriff\n\n: Sidearm\n\n: 800</string>
+    <string name="sheriff_wallpenetration">: High</string>
+    <string name="sheriff_length">: 42.53 cm</string>
+    <string name="sheriff_FireMode">: Semi</string>
+    <string name="sheriff_FireRate">: 4 rounds/sec</string>
+    <string name="sheriff_RunSpeed">: 5.4 m/sec</string>
+    <string name="sheriff_EquipSpeed">: 1 sec</string>
+    <string name="sheriff_ShotSpread">: 0.25 deg</string>
+    <string name="sheriff_ReloadSpeed">: 2.25 sec</string>
+    <string name="sheriff_Magazine">: 6</string>
+    <string name="sheriff_Reserve">: 24[4 magazines]</string>
     <string name="sheriff_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 159\n\n<b>Body</b> &#8211; 55\n\n<b>Leg</b> - 46</string>
     <string name="sheriff_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 145\n\n<b>Body</b> &#8211; 50\n\n<b>Leg</b> - 42</string>
-    <string name="PrimaryFire_Sheriff">: Semi\n\n: 4 rounds/sec\n\n: 5.4 m/sec\n\n: 1 sec\n\n: 0.25 deg\n\n: 2.25 sec\n\n: 6\n\n: 24[4 magazines]</string>
 
     /**
     Golden Gun Overview
     */
-    <string name="goldengun_desc">: Golden Gun\n\n: Sidearm\n\n: High\n\n: 39.93 cm\n\n: Gain and instantly load 1 ammo on kill</string>
+    <string name="goldengun_desc">: Golden Gun\n\n: Sidearm</string>
+    <string name="goldengun_wallpenetration">: High</string>
+    <string name="goldengun_length">: 39.93 cm</string>
+    <string name="goldengun_Feature">: Gain and instantly load 1 ammo on kill</string>
+    <string name="goldengun_FireMode">: Semi</string>
+    <string name="goldengun_FireRate">: 3 rounds/sec</string>
+    <string name="goldengun_RunSpeed">: 7.4 m/sec</string>
+    <string name="goldengun_EquipSpeed">: 0.67 sec</string>
+    <string name="goldengun_ShotSpread">: 0 deg</string>
+    <string name="goldengun_ReloadSpeed">: 1.5 sec</string>
+    <string name="goldengun_Magazine">: 1</string>
+    <string name="goldengun_Reserve">: 2</string>
     <string name="goldengun_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 800\n\n<b>Body</b> &#8211; 200\n\n<b>Leg</b> - 200</string>
-    <string name="PrimaryFire_goldengun">: Semi\n\n: 3 rounds/sec\n\n: 7.4 m/sec\n\n: 0.67 sec\n\n: 0 deg\n\n: 1.5 sec\n\n: 1\n\n: 2</string>
 
     /**
     Stinger Overview
     */
-    <string name="stinger_desc">: Stinger\n\n: SMG\n\n: 950\n\n: Low\n\n: 84.49 cm</string>
     <string name="stinger_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 67\n\n<b>Body</b> &#8211; 27\n\n<b>Leg</b> - 22</string>
     <string name="stinger_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 62\n\n<b>Body</b> &#8211; 25\n\n<b>Leg</b> - 21</string>
-    <string name="PrimaryFire_Stinger">: Auto\n\n: 16 rounds/sec\n\n: 5.73 m/sec\n\n: 0.75 sec\n\n: 0.65 deg\n\n: 2.25 sec\n\n: 20\n\n: 60[3 magazines]</string>
-    <string name="AltFire_Stinger">: Aim down sights\n\n: 1.15x\n\n: 52% (8.471 rounds/sec)\n\n: 76% [4.361m/sec]\n\n: 4 round burst\n\n: 0.5 deg\n\n: * Slight spread and recoil reduction\n * Crosshair follows recoil\n * Falloff distance increased to 30 m</string>
+
+    <string name="stinger_desc">: Stinger\n\n: SMG\n\n: 950</string>
+    <string name="stinger_wallpenetration">: Low</string>
+    <string name="stinger_length">: 84.49 cm</string>
+    <string name="stinger_FireMode">: Auto</string>
+    <string name="stinger_FireRate">: 16 rounds/sec</string>
+    <string name="stinger_RunSpeed">: 5.73 m/sec</string>
+    <string name="stinger_EquipSpeed">: 0.75 sec</string>
+    <string name="stinger_ShotSpread">: 0.65 deg</string>
+    <string name="stinger_ReloadSpeed">: 2.25 sec</string>
+    <string name="stinger_Magazine">: 20</string>
+    <string name="stinger_Reserve">: 60 (3 magazines)</string>
+
+    <string name="stinger_Function">: Aim down sights</string>
+    <string name="stinger_Zoom">: 1.15x</string>
+    <string name="stinger_AltFireRate">: 52% (8.471 rounds/sec)\n\u00202.118 bursts/sec</string>
+    <string name="stinger_MoveSpeed">: 76% (4.361 m/sec)</string>
+    <string name="stinger_BurstFire">: 4 round burst</string>
+    <string name="stinger_1stShotSpread">: : 0.5 deg</string>
+    <string name="stinger_Notes">: * Slight spread and recoil reduction\n * Crosshair follows recoil\n * Falloff distance increased to 30 m</string>
 
     /**
     Spectre Overview
     */
-    <string name="spectre_desc">: Spectre\n\n: SMG\n\n: 1600\n\n: Medium\n\n: 98.02 cm\n\n: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="spectre_wallpenetration">: Medium</string>
+    <string name="spectre_length">: 98.02 cm\n\u0020 75.33 cm without silencer</string>
+    <string name="spectre_FireMode">: Fully automatic</string>
+    <string name="spectre_FireRate">: 13.33 rounds/sec</string>
+    <string name="spectre_RunSpeed">: 5.73 m/sec</string>
+    <string name="spectre_EquipSpeed">: 0.75 sec</string>
+    <string name="spectre_ShotSpread">: 0.4 deg</string>
+    <string name="spectre_ReloadSpeed">: 2.25 sec</string>
+    <string name="spectre_Magazine">: 30</string>
+    <string name="spectre_Reserve">: 90 (3 magazines)</string>
+    <string name="spectre_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="spectre_Function">: Aim down sights</string>
+    <string name="spectre_Zoom">: 1.15x</string>
+    <string name="spectre_AltFireRate">: 90% (12 rounds/sec)</string>
+    <string name="spectre_MoveSpeed">: 76% (4.361 m/sec)</string>
+    <string name="spectre_1stShotSpread">: 0.25 deg</string>
+    <string name="spectre_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
     <string name="spectre_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
     <string name="spectre_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
-    <string name="PrimaryFire_Spectre">: Fully Automatic\n\n: 13.33 rounds/sec\n\n: 5.73 m/sec\n\n: 0.75 sec\n\n: 0.4 deg\n\n: 2.25 sec\n\n: 30\n\n: 90[3 magazines]</string>
-    <string name="AltFire_Spectre">: Aim down sights\n\n: 1.15x\n\n: 90% (12 rounds/sec)\n\n: 76% [4.361m/sec]\n\n: 0.25 deg\n\n: * Slight spread and recoil reduction\n * Crosshair follows recoil</string>
+    <string name="spectre_desc">: Spectre\n\n: SMG\n\n: 1600</string>
+
+    /**
+    Bucky Overview
+    */
+    <string name="bucky_desc">: Bucky\n\n: Shotgun\n\n: 850</string>
+    <string name="bucky_wallpenetration">: Low</string>
+    <string name="bucky_length">: 123 cm</string>
+    <string name="bucky_FireMode">: Semi</string>
+    <string name="bucky_PelletCount">: 15</string>
+    <string name="bucky_FireRate">: 1.1 rounds/sec</string>
+    <string name="bucky_RunSpeed">: 5.06 m/sec</string>
+    <string name="bucky_EquipSpeed">: 1 sec</string>
+    <string name="bucky_ShotSpread">: 2.6 deg</string>
+    <string name="bucky_ReloadSpeed">: 2.5 sec [0.5 per shell]</string>
+    <string name="bucky_Magazine">: 5</string>
+    <string name="bucky_Reserve">: 10[2 magazines]</string>
+    <string name="bucky_damage_1">0 &#8211; 8 m\n\n<b>Head</b> &#8211; 40\n\n<b>Body</b> &#8211; 20\n\n<b>Leg</b> - 17</string>
+    <string name="bucky_damage_2">8 &#8211; 12 m\n\n<b>Head</b> &#8211; 26\n\n<b>Body</b> &#8211; 13\n\n<b>Leg</b> - 11</string>
+    <string name="bucky_damage_3">12 &#8211; 50 m\n\n<b>Head</b> &#8211; 18\n\n<b>Body</b> &#8211; 9\n\n<b>Leg</b> - 7</string>
+    <string name="DetonationDistance_Bucky">: 7.5m</string>
+    <string name="PelletCount_Bucky">: 5</string>
+    <string name="Function_Bucky">: Air burst\n * Fire a canister that detonates after a short distance, spraying pellets</string>
+    <string name="Notes_Bucky">: If a canister hits a target before 7.5m it will not detonate and only deal 40/20/15 damage from Head-Legs</string>
+
 </resources>

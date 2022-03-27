@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".WeaponView.Bucky"
+            android:exported="false" />
+        <activity
             android:name=".WeaponView.Spectre"
             android:exported="false" />
         <activity

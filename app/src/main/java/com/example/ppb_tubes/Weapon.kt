@@ -39,6 +39,9 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
         val btnSpectre: ImageButton = findViewById(R.id.button_Spectre)
         btnSpectre.setOnClickListener(this)
 
+        val btnBucky: ImageButton = findViewById(R.id.button_Bucky)
+        btnBucky.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View) {
@@ -80,11 +83,11 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
                 val spectreIntent = Intent(this@Weapon, Spectre::class.java)
                 startActivity(spectreIntent)
             }
-            /**
             R.id.button_Bucky -> {
-            val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
-            startActivity(knifeIntent)
+                val buckyIntent = Intent(this@Weapon, Bucky::class.java)
+                startActivity(buckyIntent)
             }
+            /**
             R.id.button_Judge -> {
             val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
             startActivity(knifeIntent)
