@@ -19,9 +19,6 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_change_pass)
-
-        //val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
-
         val btnEditChange : Button = findViewById(R.id.change_pass_btn)
         btnEditChange.setOnClickListener(this)
     }
@@ -40,17 +37,30 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
                 val oldPassText = oldPass.text.toString().trim()
                 val conPassText = conPass.text.toString().trim()
 
-                if (oldPassText == person.password && conPassText == person.password) {
-                    val person = Person(person.username,person.tag,person.email,newPassText)
-                    val moveIntent = Intent(this@ChangePassActivity, ProfileActivity::class.java)
-                    moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
-                    startActivity(moveIntent)
-                    finish()
-                } else {
+                if (newPassText == "" || oldPassText == "" || conPassText == "") {
                     val alertDialogBuilder = AlertDialog.Builder(this)
-                    alertDialogBuilder.setMessage("Wrong Password entry.\nPLease Try Again").show()
+                    alertDialogBuilder.setMessage("Please Complete The Form").show()
+                } else {
+                    if (oldPassText == person.password && conPassText == person.password) {
+                        val person = Person(person.username,person.tag,person.email,newPassText)
+                        val moveIntent = Intent(this@ChangePassActivity, ProfileActivity::class.java)
+                        moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
+                        startActivity(moveIntent)
+                        finish()
+                    } else {
+                        val alertDialogBuilder = AlertDialog.Builder(this)
+                        alertDialogBuilder.setMessage("Wrong Password entry.\nPLease Try Again").show()
+                    }
                 }
             }
         }
+    }
+
+    override fun onBackPressed() {
+        AlertDialog.Builder(this)
+            .setTitle("Warning")
+            .setMessage("Please Confirm Changes to Go Back")
+            .setPositiveButton("Yes", null)
+            .show()
     }
 }
