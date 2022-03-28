@@ -12,10 +12,6 @@ import org.w3c.dom.Text
 class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
         var EXTRA_PERSON= "extra_person"
-//        const val EXTRA_USERNAME= "extra_password"
-//        const val EXTRA_TAG= "extra_password"
-//        const val EXTRA_PASSWORD= "extra_password"
-//        const val EXTRA_EMAIL="extra_email"
     }
 
     private lateinit var username: TextView
@@ -28,10 +24,6 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
-
-//        val tvObject: TextView = findViewById(R.id.tv_object_received)
-//        val text = "Name : ${person.username.toString()}\n" + "Riottag : ${person.tag.toString()} \nEmail : ${person.email.toString()}"
-//        tvObject.text = text
 
         chgPass = findViewById(R.id.change_pass)
         chgPass.setOnClickListener(this)
@@ -52,10 +44,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                 val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@ProfileActivity, EditProfileActivity::class.java)
                 moveIntent.putExtra(EditProfileActivity.EXTRA_PERSON, person)
-//                moveIntent.putExtra(EditProfileActivity.EXTRA_PASSWORD, hardcodedPerson.password)
-//                moveIntent.putExtra(EditProfileActivity.EXTRA_EMAIL, hardcodedPerson.email)
                 startActivity(moveIntent)
-                finish()
             }
             R.id.upload_btn -> {
 
@@ -64,10 +53,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                 val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@ProfileActivity, ChangePassActivity::class.java)
                 moveIntent.putExtra(ChangePassActivity.EXTRA_PERSON, person)
-//                moveIntent.putExtra(EditProfileActivity.EXTRA_PASSWORD, hardcodedPerson.password)
-//                moveIntent.putExtra(EditProfileActivity.EXTRA_EMAIL, hardcodedPerson.email)
                 startActivity(moveIntent)
-                finish()
             }
         }
 
