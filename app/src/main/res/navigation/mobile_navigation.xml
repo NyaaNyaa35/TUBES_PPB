@@ -5,6 +5,12 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
+    <activity
+        android:id="@+id/nav_home"
+        android:name="com.example.ppb_tubes.HomeScreen"
+        android:label="@string/menu_weapon"
+        tools:layout="@layout/fragment_weapon" />
+
     <fragment
         android:id="@+id/nav_weapon"
         android:name="com.example.ppb_tubes.ui.weapon.WeaponFragment"
