@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 
-class HomeScreen : AppCompatActivity() , View.OnClickListener {
+class HomeScreen : AppCompatActivity(), View.OnClickListener {
     companion object {
         const val EXTRA_PERSON = "extra_person"
     }
@@ -23,22 +23,12 @@ class HomeScreen : AppCompatActivity() , View.OnClickListener {
 
         val btnProfile: Button = findViewById(R.id.profile_button)
         btnProfile.setOnClickListener(this)
+
         val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
         btnWeapon.setOnClickListener(this)
 
         val btnAgent: Button = findViewById(R.id.agent_ui_button)
         btnAgent.setOnClickListener(this)
-    }
-
-    override fun onClick(v: View) {
-        when(v.id){
-            R.id.profile_button -> {
-                val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
-                val moveIntent = Intent(this@HomeScreen, ProfileActivity::class.java)
-                moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
-                startActivity(moveIntent)
-            }
-        }
     }
 
     override fun onClick(v: View) {
@@ -50,6 +40,12 @@ class HomeScreen : AppCompatActivity() , View.OnClickListener {
             R.id.agent_ui_button -> {
                 val agentIntent = Intent(this@HomeScreen, Agent::class.java)
                 startActivity(agentIntent)
+            }
+            R.id.profile_button -> {
+                val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
+                val moveIntent = Intent(this@HomeScreen, ProfileActivity::class.java)
+                moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
+                startActivity(moveIntent)
             }
         }
     }
