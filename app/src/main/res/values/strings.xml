@@ -570,4 +570,15 @@
     <string name="astra_voiceactor">Effie Nkrumah</string>
     <string name="astra_ultpoints">7</string>
 
+    /**
+    neon
+    */
+    <string name="bio_neon">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she\’s always eons ahead of her enemy\’s next move.</string>
+    <string name="neon_artwork">Astra Artwork</string>
+    <string name="neon_race">Radiant</string>
+    <string name="neon_origin">Philippines</string>
+    <string name="neon_codename">Sprinter</string>
+    <string name="neon_added">11th January 2022</string>
+    <string name="neon_voiceactor">Vanille Velasquez</string>
+    <string name="neon_ultpoints">7</string>
 </resources>
