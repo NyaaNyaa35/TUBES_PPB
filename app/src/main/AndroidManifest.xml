@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".ChangePassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".WeaponView.Phantom"
             android:exported="false" />
         <activity
