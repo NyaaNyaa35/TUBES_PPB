@@ -16,11 +16,7 @@ class HomeScreen : AppCompatActivity() , View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_screen)
-//        val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
-//        val tvObject: TextView = findViewById(R.id.tv_object_received)
-//        val text = "Name : ${person.username.toString()}\n" + "Riottag : ${person.tag.toString()} \nEmail : ${person.email.toString()}"
-//        tvObject.text = text
-
+        val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
         val btnProfile: Button = findViewById(R.id.profile_button)
         btnProfile.setOnClickListener(this)
         val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
@@ -35,11 +31,6 @@ class HomeScreen : AppCompatActivity() , View.OnClickListener {
                 moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                 startActivity(moveIntent)
             }
-        }
-    }
-
-    override fun onClick(v: View) {
-        when (v.id) {
             R.id.weapon_ui_button -> {
                 val weaponIntent = Intent(this@HomeScreen, Weapon::class.java)
                 startActivity(weaponIntent)
