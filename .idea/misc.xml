@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_agent.xml" value="0.25" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/baseline_account_circle_18.xml" value="0.166" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/baseline_account_circle_24.xml" value="0.166" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.166" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/roundbtn.xml" value="0.1" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/rounded_button_ui.xml" value="0.1" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/rounded_rectangle_button_ui.xml" value="0.166" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/upload_pic_button.xml" value="0.166" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_change_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ares.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_astra.xml" value="0.19610507246376813" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_breach.xml" value="0.19610507246376813" />
@@ -48,6 +57,15 @@
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_main.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_main_with_nav.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_weapon.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/app_bar_main_activity_with_nav.xml" value="0.1425925925925926" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/content_main_activity_with_nav.xml" value="0.1" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/nav_header_main_activity_with_nav.xml" value="0.3625" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/menu/activity_main_drawer.xml" value="0.3564102564102564" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/TUBES_PPB/app/src/main/res/menu/main_activity_with_nav.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_profile.xml" value="0.24010416666666667" />
       </map>
     </option>
   </component>
