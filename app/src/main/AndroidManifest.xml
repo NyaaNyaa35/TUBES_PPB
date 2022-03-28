@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".Agent"
+            android:exported="false" />
+        <activity
             android:name=".AgentView.Chamber"
             android:exported="false" />
         <activity

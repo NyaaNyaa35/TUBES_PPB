@@ -548,11 +548,26 @@
     <string name="passive">Passive</string>
     <string name="basic_abilities">Basic Abilities</string>
     <string name="signature_abilities">Signature Abilities</string>
+    <string name="ultimate_abilities">Ultimate Abilities</string>
+    <string name="origin">Origin</string>
+    <string name="race">Race</string>
+    <string name="realname">Real Name</string>
+    <string name="codename">Codenames</string>
+    <string name="added">Added</string>
+    <string name="voiceactor">Voice Actor</string>
+    <string name="ultimatepoints">Ult. Points</string>
 
     /**
     Astra
     */
     <string name="bio_astra">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she\’s always eons ahead of her enemy\’s next move.</string>
     <string name="astra_artwork">Astra Artwork</string>
+    <string name="astra_race">Radiant</string>
+    <string name="gender">Gender</string>
+    <string name="astra_origin">Ghana</string>
+    <string name="astra_codename">Rift</string>
+    <string name="astra_added">2nd March 2021</string>
+    <string name="astra_voiceactor">Effie Nkrumah</string>
+    <string name="astra_ultpoints">7</string>
 
 </resources>
