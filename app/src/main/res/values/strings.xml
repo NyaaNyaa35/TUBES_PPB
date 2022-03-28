@@ -545,6 +545,10 @@
     <string name="biography">Biography</string>
     <string name="game_details">Game Details</string>
     <string name="role">Role</string>
+    <string name="duelist">Duelist</string>
+    <string name="controller">Controller</string>
+    <string name="initator">Initator</string>
+    <string name="sentitel">Sentinel</string>
     <string name="passive">Passive</string>
     <string name="basic_abilities">Basic Abilities</string>
     <string name="signature_abilities">Signature Abilities</string>
@@ -555,4 +559,11 @@
     <string name="bio_astra">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she\’s always eons ahead of her enemy\’s next move.</string>
     <string name="astra_artwork">Astra Artwork</string>
 
+    /**
+    Viper
+    */
+    <string name="bio_viper">Sabine Callas hails from the United States, with possible links to Seattle. Holding a doctorate and awards such as the R. Francis Prize and the Denton Outstanding Innovation Award, her previous occupations include roles with Kingdom Corporation, eventually becoming its first Chief Scientific Officer on the board of advisors, and influence over the conglomerate\'s ventures in Rabat, Morocco. It has also been suggested by her fellow agents that she used to be some sort of healer. At some point during her time at Kingdom however, there was an "incident". Little is known about what happened, but everything changed for Callas at that point after all she lost because of it, isolating and dedicating herself to pursuing vengeance instead.
+        After the events of First Light, the secretive VALORANT Protocol was founded, with Callas becoming its second agent, "Viper", and one of its founders. Despite this, the Protocol would eventually have its seventh recruit, Sage, as its second-in-command under Brimstone. Viper's opinion on whether she wanted to be in such a leadership position or not is currently unknown. At some point, Viper was also involved in Erik Torsten's recruitment as the thirteenth agent of the Protocol.
+        Since the rise of Venice and the numerous battles the disaster triggered, Viper has been seen leading multiple missions across the globe, including one to Rabat to prevent a spike detonation and another to New Mexico to do a preliminary sweep of a destroyed research facility. Another mission had her accompanying Brimstone when they encountered French weapons designer Vincent Fabron. The encounter did not go smoothly, but it led to Fabron's eventual recruitment into the Protocol, despite the apprehensions of the two senior agents.</string>
+    <string name="viper_artwork">Viper Artwork</string>
 </resources>
