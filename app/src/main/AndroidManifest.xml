@@ -18,7 +18,71 @@
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".WeaponView.Phantom"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Vandal"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Guardian"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Bulldog"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Odin"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Ares"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Operator"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Marshall"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Judge"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Bucky"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityWithNav"
+            android:exported="false"
+            android:label="@string/title_activity_main_with_nav"
+            android:theme="@style/Theme.PPB_TUBES.NoActionBar" />
+        <activity
+            android:name=".WeaponView.Spectre"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Stinger"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.GoldenGun"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Sheriff"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Frenzy"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Shorty"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Ghost"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.Classic"
+            android:exported="false" />
+        <activity
+            android:name=".WeaponView.TacticalKnife"
+            android:exported="false" />
+        <activity
+            android:name=".Weapon"
+            android:exported="false" />
         <activity
             android:name=".HomeScreen"
             android:exported="false" />

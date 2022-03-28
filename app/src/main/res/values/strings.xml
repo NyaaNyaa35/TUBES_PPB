@@ -36,5 +36,504 @@
     <string name="old_password">Old Password</string>
     <string name="new_password">New Password</string>
     <string name="confirm_password">Confirm Password</string>
-    <string name="object_received">Object Diterima</string>
+    <string name="Classic">Classic</string>
+    <string name="frenzy">Frenzy</string>
+    <string name="Ghost">Ghost</string>
+    <string name="GoldenGun">Golden Gun</string>
+    <string name="Sheriff">Sheriff</string>
+    <string name="Shorty">Shorty</string>
+    <string name="knife">Tactical Knife</string>
+    <string name="Stinger">Stinger</string>
+    <string name="Spectre">Spectre</string>
+    <string name="Bucky">Bucky</string>
+    <string name="Judge">Judge</string>
+    <string name="Bulldog">Bulldog</string>
+    <string name="Guardian">Guardian</string>
+    <string name="Phantom">Phantom</string>
+    <string name="Vandal">Vandal</string>
+    <string name="Marshal">Marshal</string>
+    <string name="Operator">Operator</string>
+    <string name="Ares">Ares</string>
+    <string name="Odin">Odin</string>
+    <string name="title_activity_main_with_nav">MainActivityWithNav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_weapon">Weapon</string>
+    <string name="menu_agent">Agent</string>
+    <string name="menu_thread">Thread</string>
+    <string-array name="weapon_name">
+        <item>Knife</item>
+        <item>Classic</item>
+        <item>Frenzy</item>
+        <item>Ghost</item>
+        <item>Sheriff</item>
+        <item>Golden Gun</item>
+        <item>Shorty</item>
+        <item>Stinger</item>
+        <item>Spectre</item>
+        <item>Bucky</item>
+        <item>Judge</item>
+        <item>Bulldog</item>
+        <item>Guardian</item>
+        <item>Phantom</item>
+        <item>Vandal</item>
+        <item>Marshal</item>
+        <item>Operator</item>
+        <item>Ares</item>
+        <item>Odin</item>
+    </string-array>
+    <string-array name="weapon_pic_link">
+        <item>https://static.wikia.nocookie.net/valorant/images/d/d8/TacticalKnife.png/revision/latest/scale-to-width-down/200?cb=20220306002426</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/5/57/Classic.png/revision/latest/scale-to-width-down/130?cb=20220306002125</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/f/f1/Frenzy.png/revision/latest/scale-to-width-down/130?cb=20220306002141</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/170?cb=20220306002156</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/3/3e/Sheriff.png/revision/latest/scale-to-width-down/170?cb=20220306002329</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/2/23/GoldenGun.png/revision/latest/scale-to-width-down/170?cb=20210122000812</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/7/77/Shorty.png/revision/latest/scale-to-width-down/170?cb=20220306002343</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/b/b6/Stinger.png/revision/latest/scale-to-width-down/200?cb=20220306002413</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/9/90/Spectre.png/revision/latest/scale-to-width-down/200?cb=20220306002356</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/e/eb/Bucky.png/revision/latest/scale-to-width-down/200?cb=20220306002057</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/8/8a/Judge.png/revision/latest/scale-to-width-down/200?cb=20220306002225</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/0/07/Bulldog.png/revision/latest/scale-to-width-down/200?cb=20220306002110</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/f/fd/Guardian.png/revision/latest/scale-to-width-down/200?cb=20220306002211</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/e/ec/Phantom.png/revision/latest/scale-to-width-down/200?cb=20220306002314</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/5/56/Vandal.png/revision/latest/scale-to-width-down/200?cb=20220306002438</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/b/b9/Marshal.png/revision/latest/scale-to-width-down/200?cb=20220306002237</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/1/17/Operator.png/revision/latest/scale-to-width-down/200?cb=20220306002302</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/0/05/Ares.png/revision/latest/scale-to-width-down/200?cb=20220306002039</item>
+        <item>https://static.wikia.nocookie.net/valorant/images/5/58/Odin.png/revision/latest/scale-to-width-down/200?cb=20220306002249</item>
+    </string-array>
+
+    <string name="Damage">Damage</string>
+    <string name="primary_fire">Primary Fire</string>
+    <string name="alt_fire">Alt Fire</string>
+
+    <string name="Row_Description">Name\n\nType\n\nCreds</string>
+    <string name="Row_Description_2">Name\n\nType</string>
+    <string name="Row_Description_3">Name\n\nType\n\nWall Penetration\n\nLength\n\nFeature</string>
+    <string name="PrimaryFire">FireMode\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
+    <string name="PrimaryFire_Shotgun">FireMode\n\nPellet Count\n\nFire Rate\n\nRun Speed\n\nEquip Speed\n\n1st Shot Spread\n\nReload Speed\n\nMagazine\n\nReserve</string>
+
+    <string name="WallPenetration">Wall Penetration</string>
+    <string name="FireMode">Fire Mode</string>
+    <string name="RunSpeed">Run Speed</string>
+    <string name="EquipSpeed">Equip Speed</string>
+    <string name="ReloadSpeed">Reload Speed</string>
+    <string name="Magazine">Magazine</string>
+    <string name="Reserve">Reserve</string>
+    <string name="BurstFire">Burst Fire</string>
+    <string name="Feature">Feature(s)</string>
+    <string name="Length">Length</string>
+
+    <string name="AlternateFire">Function\n\nPellet Count\n\nFire Rate</string>
+    <string name="AlternateFire_2">Function\n\nZoom\n\nFire Rate\n\n\nMove Speed\n\nBurst Fire\n\n1st Shot Spread\n\n Note(s)</string>
+    <string name="AlternateFire_3">Function\n\nZoom\n\nFire Rate\n\nMove Speed\n\n1st Shot Spread\n\n Note(s)</string>
+
+    /**
+    Alternate Fire Category
+    */
+    <string name="DetonationDistance">Detonation Distance</string>
+    <string name="PelletCount">Pellet Count</string>
+    <string name="Function">Function</string>
+    <string name="Notes">Note(s)</string>
+    <string name="FireRate">Fire Rate</string>
+    <string name="MoveSpeed">Move Speed</string>
+    <string name="FirstShotSpread">1st Shot Spread</string>
+    <string name="Zoom">Zoom</string>
+
+    /**
+    Knife Overview
+    */
+    <string name="knife_desc">: TacticalKnife\n\n: Melee\n\n: 0</string>
+    <string name="knife_wallpenetration">: No</string>
+    <string name="knife_length">: 46.59 cm</string>
+    <string name="knife_damage">0 &#8211; 8 m\n\n<b>Front</b> &#8211; 50/75 (Primary/Alt)\n\n<b>Back</b> &#8211; 100/150 (Primary/Alt)</string>
+
+    /**
+    Classic Overview
+    */
+    <string name="classic_desc">: Classic\n\n: Sidearm\n\n: Free</string>
+    <string name="classic_wallpenetration">: Low</string>
+    <string name="classic_length">: 30.92</string>
+    <string name="classic_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="classic_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="classic_FireMode">: Semi-Automatic</string>
+    <string name="classic_FireRate">: 6.75 rounds/sec</string>
+    <string name="classic_RunSpeed">: 5.73 m/sec</string>
+    <string name="classic_EquipSpeed">: 0.72 sec</string>
+    <string name="classic_ShotSpread">: 0.4 deg</string>
+    <string name="classic_ReloadSpeed">: 1.75 sec</string>
+    <string name="classic_Magazine">: 12</string>
+    <string name="classic_Reserve">: 36[3 magazines]</string>
+    <string name="classic_Function">: Shotgun</string>
+    <string name="classic_PelletCount">: 3</string>
+    <string name="classic_AltFireRate">: 2.22 bursts/sec</string>
+
+    /**
+    Ghost Overview
+    */
+    <string name="ghost_desc">: Classic\n\n: Sidearm\n\n: 500</string>
+    <string name="ghost_wallpenetration">: Medium</string>
+    <string name="ghost_length">: 65.4 cm\n\u0020 39.93 cm without silencer</string>
+    <string name="ghost_FireMode">: Semi</string>
+    <string name="ghost_FireRate">: 6.75 rounds/sec</string>
+    <string name="ghost_RunSpeed">: 5.73 m/sec</string>
+    <string name="ghost_EquipSpeed">: 0.75 sec</string>
+    <string name="ghost_ShotSpread">: 0.3 deg</string>
+    <string name="ghost_ReloadSpeed">: 1.5 sec</string>
+    <string name="ghost_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="ghost_Magazine">: 15</string>
+    <string name="ghost_Reserve">: 45[3 magazines]</string>
+    <string name="ghost_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 105\n\n<b>Body</b> &#8211; 30\n\n<b>Leg</b> - 25</string>
+    <string name="ghost_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 87\n\n<b>Body</b> &#8211; 25\n\n<b>Leg</b> - 21</string>
+
+    /**
+    Shorty Overview
+    */
+    <string name="shorty_desc">: Shorty\n\n: Sidearm\n\n: 150</string>
+    <string name="shorty_wallpenetration">: Low</string>
+    <string name="shorty_length">: 69 cm</string>
+    <string name="shorty_FireMode">: Semi</string>
+    <string name="shorty_PelletCount">: 15</string>
+    <string name="shorty_FireRate">: 3.33 rounds/sec</string>
+    <string name="shorty_RunSpeed">: 5.4 m/sec</string>
+    <string name="shorty_EquipSpeed">: 0.75 sec</string>
+    <string name="shorty_ShotSpread">: 4 deg</string>
+    <string name="shorty_ReloadSpeed">: 1.75 sec</string>
+    <string name="shorty_Magazine">: 2</string>
+    <string name="shorty_Reserve">: 10[5 magazines]</string>
+
+    <string name="shorty_damage_1">0 &#8211; 7 m\n\n<b>Head</b> &#8211; 24\n\n<b>Body</b> &#8211; 12\n\n<b>Leg</b> - 10</string>
+    <string name="shorty_damage_2">7 &#8211; 15 m\n\n<b>Head</b> &#8211; 16\n\n<b>Body</b> &#8211; 8\n\n<b>Leg</b> - 6</string>
+    <string name="shorty_damage_3">15 &#8211; 50 m\n\n<b>Head</b> &#8211; 6\n\n<b>Body</b> &#8211; 3\n\n<b>Leg</b> - 2</string>
+
+    /**
+    Frenzy Overview
+    */
+    <string name="frenzy_desc">: Frenzy\n\n: Sidearm\n\n: 450</string>
+    <string name="frenzy_wallpenetration">: Low</string>
+    <string name="frenzy_length">: 40.89 cm</string>
+    <string name="frenzy_FireMode">: Auto</string>
+    <string name="frenzy_FireRate">: 10 rounds/sec</string>
+    <string name="frenzy_RunSpeed">: 5.73 m/sec</string>
+    <string name="frenzy_EquipSpeed">: 1 sec</string>
+    <string name="frenzy_ShotSpread">: 0.45 deg</string>
+    <string name="frenzy_ReloadSpeed">: 1.5 sec</string>
+    <string name="frenzy_Magazine">: 13</string>
+    <string name="frenzy_Reserve">: 39[3 magazines]</string>
+    <string name="frenzy_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="frenzy_damage_2">20 &#8211; 50 m\n\n<b>Head</b> &#8211; 63\n\n<b>Body</b> &#8211; 21\n\n<b>Leg</b> - 17</string>
+
+    /**
+    Sheriff Overview
+    */
+    <string name="sheriff_desc">: Sheriff\n\n: Sidearm\n\n: 800</string>
+    <string name="sheriff_wallpenetration">: High</string>
+    <string name="sheriff_length">: 42.53 cm</string>
+    <string name="sheriff_FireMode">: Semi</string>
+    <string name="sheriff_FireRate">: 4 rounds/sec</string>
+    <string name="sheriff_RunSpeed">: 5.4 m/sec</string>
+    <string name="sheriff_EquipSpeed">: 1 sec</string>
+    <string name="sheriff_ShotSpread">: 0.25 deg</string>
+    <string name="sheriff_ReloadSpeed">: 2.25 sec</string>
+    <string name="sheriff_Magazine">: 6</string>
+    <string name="sheriff_Reserve">: 24[4 magazines]</string>
+    <string name="sheriff_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 159\n\n<b>Body</b> &#8211; 55\n\n<b>Leg</b> - 46</string>
+    <string name="sheriff_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 145\n\n<b>Body</b> &#8211; 50\n\n<b>Leg</b> - 42</string>
+
+    /**
+    Golden Gun Overview
+    */
+    <string name="goldengun_desc">: Golden Gun\n\n: Sidearm</string>
+    <string name="goldengun_wallpenetration">: High</string>
+    <string name="goldengun_length">: 39.93 cm</string>
+    <string name="goldengun_Feature">: Gain and instantly load 1 ammo on kill</string>
+    <string name="goldengun_FireMode">: Semi</string>
+    <string name="goldengun_FireRate">: 3 rounds/sec</string>
+    <string name="goldengun_RunSpeed">: 7.4 m/sec</string>
+    <string name="goldengun_EquipSpeed">: 0.67 sec</string>
+    <string name="goldengun_ShotSpread">: 0 deg</string>
+    <string name="goldengun_ReloadSpeed">: 1.5 sec</string>
+    <string name="goldengun_Magazine">: 1</string>
+    <string name="goldengun_Reserve">: 2</string>
+    <string name="goldengun_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 800\n\n<b>Body</b> &#8211; 200\n\n<b>Leg</b> - 200</string>
+
+    /**
+    Stinger Overview
+    */
+    <string name="stinger_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 67\n\n<b>Body</b> &#8211; 27\n\n<b>Leg</b> - 22</string>
+    <string name="stinger_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 62\n\n<b>Body</b> &#8211; 25\n\n<b>Leg</b> - 21</string>
+
+    <string name="stinger_desc">: Stinger\n\n: SMG\n\n: 950</string>
+    <string name="stinger_wallpenetration">: Low</string>
+    <string name="stinger_length">: 84.49 cm</string>
+    <string name="stinger_FireMode">: Auto</string>
+    <string name="stinger_FireRate">: 16 rounds/sec</string>
+    <string name="stinger_RunSpeed">: 5.73 m/sec</string>
+    <string name="stinger_EquipSpeed">: 0.75 sec</string>
+    <string name="stinger_ShotSpread">: 0.65 deg</string>
+    <string name="stinger_ReloadSpeed">: 2.25 sec</string>
+    <string name="stinger_Magazine">: 20</string>
+    <string name="stinger_Reserve">: 60 (3 magazines)</string>
+
+    <string name="stinger_Function">: Aim down sights</string>
+    <string name="stinger_Zoom">: 1.15x</string>
+    <string name="stinger_AltFireRate">: 52% (8.471 rounds/sec)\n\u00202.118 bursts/sec</string>
+    <string name="stinger_MoveSpeed">: 76% (4.361 m/sec)</string>
+    <string name="stinger_BurstFire">: 4 round burst</string>
+    <string name="stinger_1stShotSpread">: : 0.5 deg</string>
+    <string name="stinger_Notes">: * Slight spread and recoil reduction\n * Crosshair follows recoil\n * Falloff distance increased to 30 m</string>
+
+    /**
+    Spectre Overview
+    */
+    <string name="spectre_wallpenetration">: Medium</string>
+    <string name="spectre_length">: 98.02 cm\n\u0020 75.33 cm without silencer</string>
+    <string name="spectre_FireMode">: Fully automatic</string>
+    <string name="spectre_FireRate">: 13.33 rounds/sec</string>
+    <string name="spectre_RunSpeed">: 5.73 m/sec</string>
+    <string name="spectre_EquipSpeed">: 0.75 sec</string>
+    <string name="spectre_ShotSpread">: 0.4 deg</string>
+    <string name="spectre_ReloadSpeed">: 2.25 sec</string>
+    <string name="spectre_Magazine">: 30</string>
+    <string name="spectre_Reserve">: 90 (3 magazines)</string>
+    <string name="spectre_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
+    <string name="spectre_Function">: Aim down sights</string>
+    <string name="spectre_Zoom">: 1.15x</string>
+    <string name="spectre_AltFireRate">: 90% (12 rounds/sec)</string>
+    <string name="spectre_MoveSpeed">: 76% (4.361 m/sec)</string>
+    <string name="spectre_1stShotSpread">: 0.25 deg</string>
+    <string name="spectre_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="spectre_damage_1">0 &#8211; 20 m\n\n<b>Head</b> &#8211; 78\n\n<b>Body</b> &#8211; 26\n\n<b>Leg</b> - 22</string>
+    <string name="spectre_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 66\n\n<b>Body</b> &#8211; 22\n\n<b>Leg</b> - 18</string>
+    <string name="spectre_desc">: Spectre\n\n: SMG\n\n: 1600</string>
+
+    /**
+    Bucky Overview
+    */
+    <string name="bucky_desc">: Bucky\n\n: Shotgun\n\n: 850</string>
+    <string name="bucky_wallpenetration">: Low</string>
+    <string name="bucky_length">: 123 cm</string>
+    <string name="bucky_FireMode">: Semi</string>
+    <string name="bucky_PelletCount">: 15</string>
+    <string name="bucky_FireRate">: 1.1 rounds/sec</string>
+    <string name="bucky_RunSpeed">: 5.06 m/sec</string>
+    <string name="bucky_EquipSpeed">: 1 sec</string>
+    <string name="bucky_ShotSpread">: 2.6 deg</string>
+    <string name="bucky_ReloadSpeed">: 2.5 sec [0.5 per shell]</string>
+    <string name="bucky_Magazine">: 5</string>
+    <string name="bucky_Reserve">: 10[2 magazines]</string>
+    <string name="bucky_damage_1">0 &#8211; 8 m\n\n<b>Head</b> &#8211; 40\n\n<b>Body</b> &#8211; 20\n\n<b>Leg</b> - 17</string>
+    <string name="bucky_damage_2">8 &#8211; 12 m\n\n<b>Head</b> &#8211; 26\n\n<b>Body</b> &#8211; 13\n\n<b>Leg</b> - 11</string>
+    <string name="bucky_damage_3">12 &#8211; 50 m\n\n<b>Head</b> &#8211; 18\n\n<b>Body</b> &#8211; 9\n\n<b>Leg</b> - 7</string>
+    <string name="DetonationDistance_Bucky">: 7.5m</string>
+    <string name="PelletCount_Bucky">: 5</string>
+    <string name="Function_Bucky">: Air burst\n * Fire a canister that detonates after a short distance, spraying pellets</string>
+    <string name="Notes_Bucky">: If a canister hits a target before 7.5m it will not detonate and only deal 40/20/15 damage from Head-Legs</string>
+
+    /**
+    Judge Overview
+    */
+    <string name="judge_desc">: Judge\n\n: Shotgun\n\n: 1850</string>
+    <string name="judge_wallpenetration">: Low</string>
+    <string name="judge_length">: 98.22 cm</string>
+    <string name="judge_FireMode">: Auto</string>
+    <string name="judge_PelletCount">: 12</string>
+    <string name="judge_FireRate">: 3.5 rounds/sec</string>
+    <string name="judge_RunSpeed">: 5.06 m/sec</string>
+    <string name="judge_EquipSpeed">: 1 sec</string>
+    <string name="judge_ShotSpread">: 2.25 deg</string>
+    <string name="judge_ReloadSpeed">: 2.2 sec</string>
+    <string name="judge_Magazine">: 7</string>
+    <string name="judge_Reserve">: 21[3 magazines]</string>
+    <string name="judge_damage_1">0 &#8211; 10 m\n\n<b>Head</b> &#8211; 34\n\n<b>Body</b> &#8211; 17\n\n<b>Leg</b> - 14</string>
+    <string name="judge_damage_2">10 &#8211; 15 m\n\n<b>Head</b> &#8211; 20\n\n<b>Body</b> &#8211; 10\n\n<b>Leg</b> - 8</string>
+    <string name="judge_damage_3">15 &#8211; 50 m\n\n<b>Head</b> &#8211; 14\n\n<b>Body</b> &#8211; 7\n\n<b>Leg</b> - 6</string>
+
+    /**
+    Operator Overview
+    */
+    <string name="operator_wallpenetration">: High</string>
+    <string name="operator_length">: 172.25 cm\n\u0020 46.86 cm scope</string>
+    <string name="operator_FireMode">: Semi</string>
+    <string name="operator_FireRate">: 0.6 rounds/sec</string>
+    <string name="operator_RunSpeed">: 5.13 m/sec</string>
+    <string name="operator_EquipSpeed">: 1.5 sec</string>
+    <string name="operator_ShotSpread">: 5 deg</string>
+    <string name="operator_ReloadSpeed">: 3.7 sec</string>
+    <string name="operator_Magazine">: 5</string>
+    <string name="operator_Reserve">: 10 (2 magazines)</string>
+    <string name="operator_Function">: Aim down sights</string>
+    <string name="operator_Zoom">: Dual Zoom toggle between 2.5x and 5x</string>
+    <string name="operator_AltFireRate">: 125% (0.75 rounds/sec)</string>
+    <string name="operator_MoveSpeed">: 76% (3.899 m/sec)</string>
+    <string name="operator_1stShotSpread">: 0 deg</string>
+    <string name="operator_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="operator_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 255\n\n<b>Body</b> &#8211; 150\n\n<b>Leg</b> - 120</string>
+    <string name="operator_desc">: Operator\n\n: Sniper\n\n: 4700</string>
+
+    /**
+    Marshall Overview
+    */
+    <string name="marshall_wallpenetration">: Medium</string>
+    <string name="marshall_length">: 154.05 cm\n\u0020 28.9 cm scope</string>
+    <string name="marshall_FireMode">: Semi</string>
+    <string name="marshall_FireRate">: 1.5 rounds/sec</string>
+    <string name="marshall_RunSpeed">: 5.4 m/sec</string>
+    <string name="marshall_EquipSpeed">: 1.25 sec</string>
+    <string name="marshall_ShotSpread">: 1 deg</string>
+    <string name="marshall_ReloadSpeed">: 2.5 sec (0.5 per bullet)</string>
+    <string name="marshall_Magazine">: 5</string>
+    <string name="marshall_Reserve">: 15 (3 magazines)</string>
+    <string name="marshall_Function">: Aim down sights</string>
+    <string name="marshall_Zoom">: 3.5x</string>
+    <string name="marshall_AltFireRate">: 80% (1,2 rounds/sec)</string>
+    <string name="marshall_MoveSpeed">: 90% (4.86 m/sec)</string>
+    <string name="marshall_1stShotSpread">: 0 deg</string>
+    <string name="marshall_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="marshall_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 202\n\n<b>Body</b> &#8211; 101\n\n<b>Leg</b> - 85</string>
+    <string name="marshall_desc">: Marshall\n\n: Sniper\n\n: 950</string>
+
+    /**
+    Ares Overview
+    */
+    <string name="ares_wallpenetration">: High</string>
+    <string name="ares_length">: 155.28 cm</string>
+    <string name="ares_FireMode">: Auto</string>
+    <string name="ares_FireRate">: 13 rounds/sec</string>
+    <string name="ares_RunSpeed">: 5.13 m/sec</string>
+    <string name="ares_EquipSpeed">: 1.25 sec</string>
+    <string name="ares_ShotSpread">: 0.8 deg</string>
+    <string name="ares_ReloadSpeed">: 3.25 sec (0.5 per bullet)</string>
+    <string name="ares_Magazine">: 50</string>
+    <string name="ares_Reserve">: 100 (2 magazines)</string>
+    <string name="ares_Function">: Aim down sights</string>
+    <string name="ares_Zoom">: 1.15x</string>
+    <string name="ares_AltFireRate">: 100% (13 rounds/sec)</string>
+    <string name="ares_MoveSpeed">: 76% (3.899 m/sec)</string>
+    <string name="ares_1stShotSpread">: 0.67 deg</string>
+    <string name="ares_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="ares_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 72\n\n<b>Body</b> &#8211; 30\n\n<b>Leg</b> - 25</string>
+    <string name="ares_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 67\n\n<b>Body</b> &#8211; 28\n\n<b>Leg</b> - 23</string>
+    <string name="ares_desc">: Ares\n\n: Machine gun\n\n: 1600</string>
+
+    /**
+    Odin Overview
+    */
+    <string name="odin_wallpenetration">: High</string>
+    <string name="odin_length">: 174.04 cm</string>
+    <string name="odin_FireMode">: Auto</string>
+    <string name="odin_FireRate">: 12 &#8211; 15.6 rounds/sec</string>
+    <string name="odin_RunSpeed">: 5.13 m/sec</string>
+    <string name="odin_EquipSpeed">: 1.25 sec</string>
+    <string name="odin_ShotSpread">: 0.8 deg</string>
+    <string name="odin_ReloadSpeed">: 5 sec</string>
+    <string name="odin_Magazine">: 100</string>
+    <string name="odin_Reserve">: 200 (2 magazines)</string>
+    <string name="odin_Function">: Aim down sights</string>
+    <string name="odin_Zoom">: 1.15x</string>
+    <string name="odin_AltFireRate">: 130% (15.6 rounds/sec)</string>
+    <string name="odin_MoveSpeed">: 76% (3.899 m/sec)</string>
+    <string name="odin_1stShotSpread">: 0.79 deg</string>
+    <string name="odin_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil\n\u0020 * Starts firing at maximum fire rate</string>
+    <string name="odin_damage_1">0 &#8211; 30 m\n\n<b>Head</b> &#8211; 95\n\n<b>Body</b> &#8211; 38\n\n<b>Leg</b> - 32</string>
+    <string name="odin_damage_2">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 77\n\n<b>Body</b> &#8211; 31\n\n<b>Leg</b> - 26</string>
+    <string name="odin_desc">: Odin\n\n: Machine gun\n\n: 3200</string>
+    <string name="odin_Feature">: Rate of fire increases over time</string>
+
+    /**
+    Bulldog Overview
+    */
+    <string name="bulldog_wallpenetration">: Medium</string>
+    <string name="bulldog_length">: 89.51 cm</string>
+    <string name="bulldog_FireMode">: Auto</string>
+    <string name="bulldog_FireRate">: 10 rounds/sec</string>
+    <string name="bulldog_RunSpeed">: 5.4 m/sec</string>
+    <string name="bulldog_EquipSpeed">: 1 sec</string>
+    <string name="bulldog_ShotSpread">: 0.3 deg</string>
+    <string name="bulldog_ReloadSpeed">: 2.5 sec</string>
+    <string name="bulldog_Magazine">: 24</string>
+    <string name="bulldog_Reserve">: 72 (3 magazines)</string>
+    <string name="bulldog_Function">: Aim down sights</string>
+    <string name="bulldog_Zoom">: 1.25x</string>
+    <string name="bulldog_AltFireRate">: 65.55% (6.555 rounds/sec)\n\u0020 2.185 bursts/sec</string>
+    <string name="bulldog_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="bulldog_1stShotSpread">: 0.3 deg</string>
+    <string name="bulldog_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="bulldog_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 115\n\n<b>Body</b> &#8211; 35\n\n<b>Leg</b> - 29</string>
+    <string name="bulldog_desc">: Bulldog\n\n: Rifle\n\n: 2050</string>
+
+    /**
+    Guardian Overview
+    */
+    <string name="guardian_wallpenetration">: High</string>
+    <string name="guardian_length">: 139.55 cm</string>
+    <string name="guardian_FireMode">: Semi-automatic</string>
+    <string name="guardian_FireRate">: 5.25 rounds/sec\n\u0020 324 rounds/min</string>
+    <string name="guardian_RunSpeed">: 5.4 m/sec</string>
+    <string name="guardian_EquipSpeed">: 1 sec</string>
+    <string name="guardian_ShotSpread">: 0.1 deg</string>
+    <string name="guardian_ReloadSpeed">: 2.5 sec</string>
+    <string name="guardian_Magazine">: 12</string>
+    <string name="guardian_Reserve">: 36 (3 magazines)</string>
+    <string name="guardian_Function">: Aim down sights</string>
+    <string name="guardian_Zoom">: 1.5x</string>
+    <string name="guardian_AltFireRate">: 100% (5.25 rounds/sec)</string>
+    <string name="guardian_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="guardian_1stShotSpread">: 0 deg</string>
+    <string name="guardian_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="guardian_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 195\n\n<b>Body</b> &#8211; 65\n\n<b>Leg</b> - 49</string>
+    <string name="guardian_desc">: Guardian\n\n: Rifle\n\n: 2250</string>
+
+    /**
+    Vandal Overview
+    */
+    <string name="vandal_wallpenetration">: Medium</string>
+    <string name="vandal_length">: 127.99 cm</string>
+    <string name="vandal_FireMode">: Auto</string>
+    <string name="vandal_FireRate">: 9.75 rds/sec\n\u0020 585 rds/min</string>
+    <string name="vandal_RunSpeed">: 5.4 m/sec</string>
+    <string name="vandal_EquipSpeed">: 1 sec</string>
+    <string name="vandal_ShotSpread">: 0.25 deg</string>
+    <string name="vandal_ReloadSpeed">: 2.5 sec</string>
+    <string name="vandal_Magazine">: 25</string>
+    <string name="vandal_Reserve">: 75 (3 magazines)</string>
+    <string name="vandal_Function">: Aim down sights</string>
+    <string name="vandal_Zoom">: 1.25x</string>
+    <string name="vandal_AltFireRate">: 90% (8.775 rds/sec)</string>
+    <string name="vandal_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="vandal_1stShotSpread">: 0.157 deg</string>
+    <string name="vandal_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="vandal_damage_1">0 &#8211; 50 m\n\n<b>Head</b> &#8211; 160\n\n<b>Body</b> &#8211; 40\n\n<b>Leg</b> - 34</string>
+    <string name="vandal_desc">: Vandal\n\n: Rifle\n\n: 2900</string>
+
+    /**
+    Phantom Overview
+    */
+    <string name="phantom_wallpenetration">: Medium</string>
+    <string name="phantom_length">: 121.11 cm\n\u0020 90.59 without silencer</string>
+    <string name="phantom_FireMode">: Auto</string>
+    <string name="phantom_FireRate">: 11 rds/sec\n\u0020 660 rds/min</string>
+    <string name="phantom_RunSpeed">: 5.4 m/sec</string>
+    <string name="phantom_EquipSpeed">: 1 sec</string>
+    <string name="phantom_ShotSpread">: 0.2 deg</string>
+    <string name="phantom_ReloadSpeed">: 2.5 sec</string>
+    <string name="phantom_Magazine">: 30</string>
+    <string name="phantom_Reserve">: 90 (3 magazines)</string>
+    <string name="phantom_Function">: Aim down sights</string>
+    <string name="phantom_Zoom">: 1.25x</string>
+    <string name="phantom_AltFireRate">: 90% (9.9 rds/sec)</string>
+    <string name="phantom_MoveSpeed">: 76% (4.104 m/sec)</string>
+    <string name="phantom_1stShotSpread">: 0.11 deg</string>
+    <string name="phantom_Notes">: * Slight spread and recoil reduction\n\u0020 * Crosshair follows recoil</string>
+    <string name="phantom_damage_1">0 &#8211; 15 m\n\n<b>Head</b> &#8211; 156\n\n<b>Body</b> &#8211; 39\n\n<b>Leg</b> - 33</string>
+    <string name="phantom_damage_2">15 &#8211; 30 m\n\n<b>Head</b> &#8211; 140\n\n<b>Body</b> &#8211; 35\n\n<b>Leg</b> - 29</string>
+    <string name="phantom_damage_3">30 &#8211; 50 m\n\n<b>Head</b> &#8211; 124\n\n<b>Body</b> &#8211; 31\n\n<b>Leg</b> - 26</string>
+    <string name="phantom_desc">: Phantom\n\n: Rifle\n\n: 2900</string>
+    <string name="phantom_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
 </resources>

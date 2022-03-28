@@ -47,7 +47,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                     startActivity(moveIntent)
                 } else {
                     val alertDialogBuilder = AlertDialog.Builder(this)
-                    alertDialogBuilder.setMessage("Wrong Account entry.\nPLease Try Again").show()
+                    alertDialogBuilder.setMessage("Wrong Account entry.\nPlease Try Again").show()
                 }
             }
         }
