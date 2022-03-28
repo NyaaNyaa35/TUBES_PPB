@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".AgentView.Astra">
+    tools:context=".AgentView.Neon">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/astra_artwork"
-                android:src="@drawable/astra_artwork" />
+                android:src="@drawable/neonartwork" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bio_astra"
+                    android:text="@string/bio_neon"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
@@ -92,7 +92,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/astra_codename"
+                android:text="@string/neon_codename"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -116,10 +116,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/astra_added"
+                android:text="@string/neon_added"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -146,7 +146,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/astra_voiceactor"
+                android:text="@string/neon_voiceactor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -174,14 +174,14 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/ghana" />
+                android:src="@drawable/philippinesflag" />
 
             <TextView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/astra_origin"
+                android:text="@string/neon_origin"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -209,7 +209,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/astra_race"
+                android:text="@string/neon_race"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -257,7 +257,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -268,6 +267,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
                 android:text="@string/role"
                 android:textSize="22sp" />
 
@@ -275,11 +275,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/controller" />
+                android:src="@drawable/duelist" />
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -293,14 +293,13 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="35dp"
                 android:text="@string/basic_abilities"
                 android:textSize="22sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
                 android:gravity="start"
                 android:orientation="vertical"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -311,33 +310,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
-                    android:src="@drawable/gravitywell" />
+                    android:src="@drawable/fastlaneneon" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
-                    android:src="@drawable/novapulse" />
+                    android:src="@drawable/relayboltneon" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:src="@drawable/nebuladissipate" />
             </LinearLayout>
-
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -348,6 +337,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
                 android:text="@string/signature_abilities"
                 android:textSize="22sp" />
 
@@ -355,15 +345,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/astralform" />
+                android:src="@drawable/highgearneon" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -374,6 +364,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
                 android:text="@string/ultimate_abilities"
                 android:textSize="22sp" />
 
@@ -381,11 +372,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/cosmicdivide" />
+                android:src="@drawable/overdriveneon" />
 
         </LinearLayout>
-
     </LinearLayout>
 
 </ScrollView>

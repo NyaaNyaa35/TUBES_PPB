@@ -21,13 +21,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.button_login_main -> {
-                val loginIntent = Intent(this@MainActivity, MainActivityWithNav::class.java)
+                val loginIntent = Intent(this@MainActivity, LoginActivity::class.java)
                 startActivity(loginIntent)
             }
-            //R.id.button_register_main -> {
-            //    val registerIntent = Intent(this@MainActivity, RegisterActivity::class.java)
-            //    startActivity(registerIntent)
-            //}
+            R.id.button_register_main -> {
+                val registerIntent = Intent(this@MainActivity, RegisterActivity::class.java)
+                startActivity(registerIntent)
+            }
         }
     }
 }
