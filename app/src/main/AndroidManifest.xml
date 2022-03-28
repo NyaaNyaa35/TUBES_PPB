@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".AgentView.Chamber"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Brimstone"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Breach"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Astra"
+            android:exported="false" />
+        <activity
+            android:name=".Agent"
+            android:exported="false" />
+        <activity
             android:name=".WeaponView.Phantom"
             android:exported="false" />
         <activity

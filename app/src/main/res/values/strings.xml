@@ -528,4 +528,21 @@
     <string name="phantom_desc">: Phantom\n\n: Rifle\n\n: 2900</string>
     <string name="phantom_Feature">: Silenced\n * Tracers not visible to enemies\n * Firing sound can\'t be heard at 40m+ except in direction of fire</string>
 
+    /**
+    Agent Section
+    */
+
+    <string name="biography">Biography</string>
+    <string name="game_details">Game Details</string>
+    <string name="role">Role</string>
+    <string name="passive">Passive</string>
+    <string name="basic_abilities">Basic Abilities</string>
+    <string name="signature_abilities">Signature Abilities</string>
+
+    /**
+    Astra
+    */
+    <string name="bio_astra">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she\’s always eons ahead of her enemy\’s next move.</string>
+    <string name="astra_artwork">Astra Artwork</string>
+
 </resources>
