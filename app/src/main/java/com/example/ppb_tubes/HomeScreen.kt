@@ -25,6 +25,9 @@ class HomeScreen : AppCompatActivity() , View.OnClickListener {
         btnProfile.setOnClickListener(this)
         val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
         btnWeapon.setOnClickListener(this)
+
+        val btnAgent: Button = findViewById(R.id.agent_ui_button)
+        btnAgent.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -43,6 +46,10 @@ class HomeScreen : AppCompatActivity() , View.OnClickListener {
             R.id.weapon_ui_button -> {
                 val weaponIntent = Intent(this@HomeScreen, Weapon::class.java)
                 startActivity(weaponIntent)
+            }
+            R.id.agent_ui_button -> {
+                val agentIntent = Intent(this@HomeScreen, Agent::class.java)
+                startActivity(agentIntent)
             }
         }
     }

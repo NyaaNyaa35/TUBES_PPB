@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_agent.xml" value="0.25" />
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/baseline_account_circle_18.xml" value="0.166" />
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/baseline_account_circle_24.xml" value="0.166" />
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.166" />
@@ -13,8 +14,11 @@
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_change_pass.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Nealson William/AndroidStudioProjects/TUBES_PPB/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ares.xml" value="0.25" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_astra.xml" value="0.19610507246376813" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_breach.xml" value="0.19610507246376813" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_bucky.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_bulldog.xml" value="0.1838768115942029" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_chamber.xml" value="0.19610507246376813" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_classic.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_frenzy.xml" value="0.18" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ghost.xml" value="0.22" />
@@ -40,6 +44,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_bar_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/content_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_blank.xml" value="0.1838768115942029" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_weapon.xml" value="0.11503623188405797" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/nav_header_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_classic.xml" value="0.19" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
