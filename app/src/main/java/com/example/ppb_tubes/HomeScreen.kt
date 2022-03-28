@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 
-class HomeScreen : AppCompatActivity(), View.OnClickListener {
+class HomeScreen : AppCompatActivity() , View.OnClickListener {
     companion object {
         const val EXTRA_PERSON = "extra_person"
     }
@@ -23,6 +23,8 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
 
         val btnProfile: Button = findViewById(R.id.profile_button)
         btnProfile.setOnClickListener(this)
+        val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
+        btnWeapon.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -32,6 +34,15 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
                 val moveIntent = Intent(this@HomeScreen, ProfileActivity::class.java)
                 moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                 startActivity(moveIntent)
+            }
+        }
+    }
+
+    override fun onClick(v: View) {
+        when (v.id) {
+            R.id.weapon_ui_button -> {
+                val weaponIntent = Intent(this@HomeScreen, Weapon::class.java)
+                startActivity(weaponIntent)
             }
         }
     }

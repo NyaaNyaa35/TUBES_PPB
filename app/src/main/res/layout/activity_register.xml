@@ -52,7 +52,8 @@
                 android:text="@string/Register_Acc"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -62,7 +63,7 @@
                 <EditText
                     android:autofillHints="username"
                     android:id="@+id/et_name"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="20dp"
@@ -167,10 +168,12 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_register"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:background="@drawable/et_shadow"
                 android:gravity="center"
                 android:text="@string/Register"
