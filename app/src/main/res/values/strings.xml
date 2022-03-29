@@ -603,4 +603,15 @@
     <string name="phoe_codename">Phoenix \nApollo(Pre-Beta)</string>
     <string name="phoe_voiceactor">Afolabi Allia</string>
     <string name="phoe_ultpoints">6</string>
+
+    /**
+    Raze
+    */
+    <string name="bio_raze">Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”</string>
+    <string name="raze_artwork">Phoenix Artwork</string>
+    <string name="raze_race">Human</string>
+    <string name="raze_origin">Brazil</string>
+    <string name="raze_codename">Clay</string>
+    <string name="raze_voiceactor">Carolina Ravassa</string>
+    <string name="raze_ultpoints">8</string>
 </resources>
