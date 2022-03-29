@@ -583,7 +583,41 @@
     <string name="breach_voiceactor">David Menkin</string>
     <string name="breach_artwork">Breach Artwork</string>
 
+    /**
+    Cypher
+    */
+    <string name="bio_cypher">The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</string>
+    <string name="cypher_race">Human</string>
+    <string name="cypher_origin">Morocco</string>
+    <string name="cypher_codename">Aamir\nGumshoe</string>
+    <string name="cypher_realname">Amir El Amari</string>
+    <string name="cypher_added">Beta</string>
+    <string name="cypher_voiceactor">Nabil Elouahabi</string>
+    <string name="cypher_artwork">Cypher Artwork</string>
 
+    /**
+    Chamber
+    */
+    <string name="bio_chamber">Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</string>
+    <string name="chamber_race">Human</string>
+    <string name="chamber_origin">France</string>
+    <string name="chamber_codename">Deadeye</string>
+    <string name="chamber_realname">Vincent Fabron</string>
+    <string name="chamber_added">November 16th, 2021</string>
+    <string name="chamber_voiceactor">Hugo Pierre Martin</string>
+    <string name="chamber_artwork">Chamber Artwork</string>
+
+    /**
+    Jett
+    */
+    <string name="bio_jett">Representing her home country of South Korea, Jett\'s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</string>
+    <string name="jett_race">Human</string>
+    <string name="jett_origin">South Korea</string>
+    <string name="jett_codename">Hawk\nWoosh\nWushu</string>
+    <string name="jett_realname">Joon-Hee (준희)</string>
+    <string name="jett_added">June 2, 2020 (launch)</string>
+    <string name="jett_voiceactor">Shannon Williams</string>
+    <string name="jett_artwork">Jett Artwork</string>
 
     /**
     neon
@@ -693,7 +727,7 @@
     <string name="reyna_voiceactor">Karina Altamirano</string>
     <string name="reyna_ultpoints">6</string>
 
-    /** 
+    /**
     omen
     */
     <string name="bio_omen">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</string>

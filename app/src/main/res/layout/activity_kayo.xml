@@ -90,7 +90,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="170dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:text="@string/kayo_codename"
@@ -117,7 +117,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="200dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/kayo_added"
@@ -144,7 +144,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="170dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/kayo_voiceactor"
@@ -171,7 +171,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="190dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="33dp"
                 android:layout_marginTop="25dp"
@@ -200,7 +200,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:text="@string/kayo_race"
