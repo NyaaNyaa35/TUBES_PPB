@@ -26,6 +26,24 @@
         <activity
             android:name=".AgentView.Sova"
             android:exported="false" />
+      <activity
+            android:name=".AgentView.Killjoy"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Kayo"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Raze"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Phoenix"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Omen"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Neon"
+            android:exported="false" />
         <activity
             android:name=".Agent"
             android:exported="false" />
