@@ -584,4 +584,74 @@
 
 
 
+    /**
+    neon
+    */
+    <string name="bio_neon">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she\’s always eons ahead of her enemy\’s next move.</string>
+    <string name="neon_artwork">Astra Artwork</string>
+    <string name="neon_race">Radiant</string>
+    <string name="neon_origin">Philippines</string>
+    <string name="neon_codename">Sprinter</string>
+    <string name="neon_added">11th January 2022</string>
+    <string name="neon_voiceactor">Vanille Velasquez</string>
+    <string name="neon_ultpoints">7</string>
+
+    /**
+    omen
+    */
+    <string name="bio_omen">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</string>
+    <string name="omen_artwork">Omen Artwork</string>
+    <string name="omen_race">Radiant</string>
+    <string name="omen_origin">Unknown</string>
+    <string name="omen_codename">Wraith</string>
+    <string name="omen_voiceactor">Jason Marnocha</string>
+    <string name="omen_added">Beta</string>
+    <string name="omen_ultpoints">7</string>
+
+    /**
+    phoenix
+    */
+    <string name="bio_phoe">Hailing from the U.K., Phoenix star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he is got backup or not, he will rush into a fight on his own terms.</string>
+    <string name="phoe_artwork">Phoenix Artwork</string>
+    <string name="phoe_race">Radiant</string>
+    <string name="phoe_origin">United Kingdom</string>
+    <string name="phoe_codename">Phoenix \nApollo(Pre-Beta)</string>
+    <string name="phoe_voiceactor">Afolabi Allia</string>
+    <string name="phoe_added">Beta</string>
+    <string name="phoe_ultpoints">6</string>
+
+    /**
+    Raze
+    */
+    <string name="bio_raze">Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”</string>
+    <string name="raze_artwork">Phoenix Artwork</string>
+    <string name="raze_race">Human</string>
+    <string name="raze_origin">Brazil</string>
+    <string name="raze_codename">Clay</string>
+    <string name="raze_voiceactor">Carolina Ravassa</string>
+    <string name="raze_added">Beta</string>
+    <string name="raze_ultpoints">8</string>
+
+    /**
+    KAY/O
+    */
+    <string name="bio_kayo">KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents capacity to fight back, securing him and his allies the ultimate edge.</string>
+    <string name="kayo_artwork">KAY/O Artwork</string>
+    <string name="kayo_race">Robot</string>
+    <string name="kayo_origin">Alternate Timeline Earth</string>
+    <string name="kayo_codename">Grenadier</string>
+    <string name="kayo_voiceactor">Gabe Kunda</string>
+    <string name="kayo_added">June 22, 2021</string>
+    <string name="kayo_ultpoints">7</string>
+
+    /**
+    Killjoy
+    */
+    <string name="bio_kj">The genius of Germany, Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear does not stop her enemies, her robots debuff will help make short work of them.</string>
+    <string name="kj_artwork">Killjoy Artwork</string>
+    <string name="kj_race">Human</string>
+    <string name="kj_origin">Germany</string>
+    <string name="kj_voiceactor">Eva Feiler</string>
+    <string name="kj_added">August 4, 2020</string>
+    <string name="kj_ultpoints">7</string>
 </resources>
