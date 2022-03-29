@@ -558,6 +558,7 @@
     <string name="ultimatepoints">Ult. Points</string>
     <string name="gender">Gender</string>
     <string name="beta">Beta</string>
+    <string name="aliases">Aliases</string>
 
     /**
     Astra
@@ -750,4 +751,17 @@
     <string name="kj_voiceactor">Eva Feiler</string>
     <string name="kj_added">August 4, 2020</string>
     <string name="kj_ultpoints">7</string>
+
+    /**
+    Brimstone
+    */
+    <string name="bio_brimstone">Joining from the USA, Brimstone\'s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.</string>
+    <string name="brimstone_artwork">Brimstone Artwork</string>
+    <string name="brimstone_race">Human</string>
+    <string name="brimstone_origin">United States</string>
+    <string name="brimstone_voiceactor">Steve Blum</string>
+    <string name="brimstone_added">June 2, 2020</string>
+    <string name="brimstone_ultpoints">7</string>
+    <string name="brimstone_realname">Liam Byrne</string>
+    <string name="brimstone_aliases">Brim\nBig Man</string>
 </resources>

@@ -18,6 +18,9 @@ class Agent : AppCompatActivity(), View.OnClickListener {
         val btnBreach: ImageButton = findViewById(R.id.button_breach)
         btnBreach.setOnClickListener(this)
 
+        val btnBrimstone: ImageButton = findViewById(R.id.button_brimstone)
+        btnBrimstone.setOnClickListener(this)
+
         val btnKayo: ImageButton = findViewById(R.id.button_kayo)
         btnKayo.setOnClickListener(this)
 
@@ -73,6 +76,10 @@ class Agent : AppCompatActivity(), View.OnClickListener {
             R.id.button_breach -> {
                 val breachIntent = Intent(this@Agent, Breach::class.java)
                 startActivity(breachIntent)
+            }
+            R.id.button_brimstone -> {
+                val brimstoneIntent = Intent(this@Agent, Brimstone::class.java)
+                startActivity(brimstoneIntent)
             }
             R.id.button_kayo -> {
                 val kayoIntent = Intent(this@Agent, Kayo::class.java)
