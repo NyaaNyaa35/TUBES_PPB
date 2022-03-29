@@ -175,7 +175,7 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/australiaflag" />
+                android:src="@drawable/australiaflagicon" />
 
             <TextView
                 android:layout_width="wrap_content"
