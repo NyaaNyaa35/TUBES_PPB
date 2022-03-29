@@ -614,4 +614,15 @@
     <string name="raze_codename">Clay</string>
     <string name="raze_voiceactor">Carolina Ravassa</string>
     <string name="raze_ultpoints">8</string>
+
+    /**
+    KAY/O
+    */
+    <string name="bio_kayo">KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents capacity to fight back, securing him and his allies the ultimate edge.</string>
+    <string name="kayo_artwork">KAY/O Artwork</string>
+    <string name="kayo_race">Robot</string>
+    <string name="kayo_origin">Alternate Timeline Earth</string>
+    <string name="kayo_codename">Grenadier</string>
+    <string name="kayo_voiceactor">Gabe Kunda</string>
+    <string name="kayo_ultpoints">7</string>
 </resources>
