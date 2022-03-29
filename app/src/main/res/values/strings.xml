@@ -591,6 +591,7 @@
     <string name="omen_origin">Unknown</string>
     <string name="omen_codename">Wraith</string>
     <string name="omen_voiceactor">Jason Marnocha</string>
+    <string name="omen_added">Beta</string>
     <string name="omen_ultpoints">7</string>
 
     /**
@@ -602,6 +603,7 @@
     <string name="phoe_origin">United Kingdom</string>
     <string name="phoe_codename">Phoenix \nApollo(Pre-Beta)</string>
     <string name="phoe_voiceactor">Afolabi Allia</string>
+    <string name="phoe_added">Beta</string>
     <string name="phoe_ultpoints">6</string>
 
     /**
@@ -613,6 +615,7 @@
     <string name="raze_origin">Brazil</string>
     <string name="raze_codename">Clay</string>
     <string name="raze_voiceactor">Carolina Ravassa</string>
+    <string name="raze_added">Beta</string>
     <string name="raze_ultpoints">8</string>
 
     /**
@@ -624,5 +627,17 @@
     <string name="kayo_origin">Alternate Timeline Earth</string>
     <string name="kayo_codename">Grenadier</string>
     <string name="kayo_voiceactor">Gabe Kunda</string>
+    <string name="kayo_added">June 22, 2021</string>
     <string name="kayo_ultpoints">7</string>
+
+    /**
+    Killjoy
+    */
+    <string name="bio_kj">The genius of Germany, Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear does not stop her enemies, her robots debuff will help make short work of them.</string>
+    <string name="kj_artwork">Killjoy Artwork</string>
+    <string name="kj_race">Human</string>
+    <string name="kj_origin">Germany</string>
+    <string name="kj_voiceactor">Eva Feiler</string>
+    <string name="kj_added">August 4, 2020</string>
+    <string name="kj_ultpoints">7</string>
 </resources>
