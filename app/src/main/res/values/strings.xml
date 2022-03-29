@@ -600,7 +600,7 @@
     /**
     Viper
     */
-    <string name="viper_bio">The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy\'s vision. If the toxins don't kill her prey, her mind games surely will.</string>
+    <string name="viper_bio">The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy\'s vision. If the toxins don\'t kill her prey, her mind games surely will.</string>
     <string name="snake_bite">Snake Bite</string>
     <string name="poison_cloud">Poison Cloud</string>
     <string name="toxic_screen">Toxic Screen</string>
