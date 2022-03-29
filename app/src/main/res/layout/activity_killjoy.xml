@@ -147,7 +147,7 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/Germany" />
+                android:src="@drawable/germany" />
 
             <TextView
                 android:layout_width="130dp"
