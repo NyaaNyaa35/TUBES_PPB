@@ -581,4 +581,15 @@
     <string name="neon_added">11th January 2022</string>
     <string name="neon_voiceactor">Vanille Velasquez</string>
     <string name="neon_ultpoints">7</string>
+
+    /**
+    neon
+    */
+    <string name="bio_omen">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</string>
+    <string name="omen_artwork">Omen Artwork</string>
+    <string name="omen_race">Radiant</string>
+    <string name="omen_origin">Unknown</string>
+    <string name="omen_codename">Wraith</string>
+    <string name="omen_voiceactor">Jason Marnocha</string>
+    <string name="omen_ultpoints">7</string>
 </resources>
