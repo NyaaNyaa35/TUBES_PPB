@@ -39,9 +39,6 @@ class Agent : AppCompatActivity(), View.OnClickListener {
         val btnRaze: ImageButton = findViewById(R.id.button_raze)
         btnRaze.setOnClickListener(this)
         /**
-        val btnBrimstone: ImageButton = findViewById(R.id.button_brimstone)
-        btnBrimstone.setOnClickListener(this)
-
         val btnChamber: ImageButton = findViewById(R.id.button_chamber)
         btnChamber.setOnClickListener(this)
 
@@ -50,9 +47,12 @@ class Agent : AppCompatActivity(), View.OnClickListener {
 
         val btnJett: ImageButton = findViewById(R.id.button_jett)
         btnJett.setOnClickListener(this)
-
+         */
         val btnReyna: ImageButton = findViewById(R.id.button_reyna)
         btnReyna.setOnClickListener(this)
+
+        val btnSage: ImageButton = findViewById(R.id.button_sage)
+        btnSage.setOnClickListener(this)
 
         val btnSkye: ImageButton = findViewById(R.id.button_skye)
         btnSkye.setOnClickListener(this)
@@ -64,7 +64,7 @@ class Agent : AppCompatActivity(), View.OnClickListener {
         btnViper.setOnClickListener(this)
 
         val btnYoru: ImageButton = findViewById(R.id.button_yoru)
-        btnYoru.setOnClickListener(this)*/
+        btnYoru.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -105,23 +105,32 @@ class Agent : AppCompatActivity(), View.OnClickListener {
                 val razeIntent = Intent(this@Agent, Raze::class.java)
                 startActivity(razeIntent)
             }
+            R.id.button_reyna -> {
+                val reynaIntent = Intent(this@Agent, Reyna::class.java)
+                startActivity(reynaIntent)
+            }
+            R.id.button_sage -> {
+                val sageIntent = Intent(this@Agent, Sage::class.java)
+                startActivity(sageIntent)
+            }
+            R.id.button_skye -> {
+                val skyeIntent = Intent(this@Agent, Skye::class.java)
+                startActivity(skyeIntent)
+            }
+            R.id.button_sova -> {
+                val sovaIntent = Intent(this@Agent, Sova::class.java)
+                startActivity(sovaIntent)
+            }
+            R.id.button_viper -> {
+                val viperIntent = Intent(this@Agent, Viper::class.java)
+                startActivity(viperIntent)
+            }
+            R.id.button_yoru -> {
+                val yoruIntent = Intent(this@Agent, Yoru::class.java)
+                startActivity(yoruIntent)
+            }
             /**
-            R.id.button_Frenzy -> {
-            val frenzyIntent = Intent(this@Agent, Frenzy::class.java)
-            startActivity(frenzyIntent)
-            }
-            R.id.button_Ghost -> {
-            val ghostIntent = Intent(this@Agent, Ghost::class.java)
-            startActivity(ghostIntent)
-            }
-            R.id.button_GoldenGun -> {
-            val ggunIntent = Intent(this@Agent, GoldenGun::class.java)
-            startActivity(ggunIntent)
-            }
-            R.id.button_Sheriff -> {
-            val sheriffIntent = Intent(this@Agent, Sheriff::class.java)
-            startActivity(sheriffIntent)
-            }
+
             R.id.button_Shorty -> {
             val shortyIntent = Intent(this@Agent, Shorty::class.java)
             startActivity(shortyIntent)

@@ -21,6 +21,9 @@
             android:name=".AgentView.Skye"
             android:exported="false" />
         <activity
+            android:name=".AgentView.Viper"
+            android:exported="false" />
+        <activity
             android:name=".AgentView.Yoru"
             android:exported="false" />
         <activity

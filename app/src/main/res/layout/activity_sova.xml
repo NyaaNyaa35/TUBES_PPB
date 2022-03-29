@@ -27,12 +27,12 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/sova_artwork"
+                android:layout_width="200dp"
+                android:layout_height="400dp"
                 android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
+                android:contentDescription="@string/sova_artwork"
                 android:maxHeight="420dp"
+                android:scaleType="fitCenter"
                 android:src="@drawable/sovaartwork" />
 
             <LinearLayout
@@ -52,13 +52,20 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <ScrollView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sova_bio"
-                    android:textSize="18sp" />
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sova_bio"
+                        android:textSize="18sp" />
+
+                </ScrollView>
             </LinearLayout>
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -299,6 +306,7 @@
                 android:layout_marginTop="25dp"
                 android:text="@string/basic_abilities"
                 android:textSize="22sp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -307,6 +315,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -323,17 +332,18 @@
                         android:layout_marginTop="25dp"
                         android:background="@color/black"
                         android:src="@drawable/owldrone22" />
+
                     <TextView
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
                         android:layout_marginStart="5dp"
+                        android:layout_marginTop="20dp"
                         android:gravity="center_vertical"
                         android:text="@string/owl_drone"
-                        android:textSize="23sp"
                         android:textColor="@color/black"
-                        />
+                        android:textSize="23sp" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -342,13 +352,14 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
+
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:background="@color/black"
-                        android:src="@drawable/shockBolt22" />
+                        android:src="@drawable/shockbolt22" />
 
                     <TextView
                         android:layout_width="136dp"
@@ -362,7 +373,6 @@
 
                 </LinearLayout>
             </LinearLayout>
-
 
 
         </LinearLayout>
@@ -390,17 +400,17 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
                 android:background="@color/black"
-                android:src="@drawable/reconBolt22" />
+                android:src="@drawable/reconbolt22" />
+
             <TextView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="27dp"
                 android:layout_marginStart="5dp"
+                android:layout_marginTop="27dp"
                 android:gravity="center_vertical"
                 android:text="@string/recon_bolt"
-                android:textSize="23sp"
                 android:textColor="@color/black"
-                />
+                android:textSize="23sp" />
 
         </LinearLayout>
 
@@ -426,16 +436,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
-                android:src="@drawable/hunterFury22" />
+                android:src="@drawable/hunterfury22" />
+
             <TextView
                 android:layout_width="135dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="27dp"
                 android:layout_marginStart="5dp"
+                android:layout_marginTop="27dp"
                 android:gravity="center_vertical"
                 android:text="@string/hunter_fury"
-                android:textSize="23sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="23sp" />
         </LinearLayout>
     </LinearLayout>
 
