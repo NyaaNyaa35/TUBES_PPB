@@ -27,6 +27,9 @@
             android:name=".AgentView.Omen"
             android:exported="false" />
         <activity
+            android:name=".AgentView.Neon"
+            android:exported="false" />
+        <activity
             android:name=".Agent"
             android:exported="false" />
         <activity
