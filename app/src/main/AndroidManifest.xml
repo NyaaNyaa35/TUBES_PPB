@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".AgentView.Phoenix"
+            android:exported="false" />
+        <activity
             android:name=".AgentView.Omen"
             android:exported="false" />
         <activity

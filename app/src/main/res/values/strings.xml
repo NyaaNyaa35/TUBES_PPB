@@ -583,7 +583,7 @@
     <string name="neon_ultpoints">7</string>
 
     /**
-    neon
+    omen
     */
     <string name="bio_omen">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</string>
     <string name="omen_artwork">Omen Artwork</string>
@@ -592,4 +592,15 @@
     <string name="omen_codename">Wraith</string>
     <string name="omen_voiceactor">Jason Marnocha</string>
     <string name="omen_ultpoints">7</string>
+
+    /**
+    phoenix
+    */
+    <string name="bio_phoe">Hailing from the U.K., Phoenix star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he is got backup or not, he will rush into a fight on his own terms.</string>
+    <string name="phoe_artwork">Phoenix Artwork</string>
+    <string name="phoe_race">Radiant</string>
+    <string name="phoe_origin">United Kingdom</string>
+    <string name="phoe_codename">Phoenix \nApollo(Pre-Beta)</string>
+    <string name="phoe_voiceactor">Afolabi Allia</string>
+    <string name="phoe_ultpoints">6</string>
 </resources>
