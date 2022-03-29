@@ -359,7 +359,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:background="@color/black"
-                        android:src="@drawable/shockbolt22" />
+                        android:src="@drawable/shockboltdua" />
 
                     <TextView
                         android:layout_width="136dp"
@@ -400,7 +400,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
                 android:background="@color/black"
-                android:src="@drawable/reconbolt22" />
+                android:src="@drawable/reconbolticon" />
 
             <TextView
                 android:layout_width="130dp"
@@ -436,7 +436,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
-                android:src="@drawable/hunterfury22" />
+                android:src="@drawable/hunterfurydua" />
 
             <TextView
                 android:layout_width="135dp"

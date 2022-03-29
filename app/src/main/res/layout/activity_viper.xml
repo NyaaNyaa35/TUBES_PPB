@@ -322,7 +322,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="25dp"
                         android:background="@color/black"
-                        android:src="@drawable/snakebite" />
+                        android:src="@drawable/snakebite22" />
 
                     <TextView
                         android:layout_width="130dp"
@@ -350,7 +350,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:background="@color/black"
-                        android:src="@drawable/poisoncloud22" />
+                        android:src="@drawable/poisonclouddua" />
 
                     <TextView
                         android:layout_width="136dp"
@@ -391,7 +391,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
                 android:background="@color/black"
-                android:src="@drawable/toxicscreen" />
+                android:src="@drawable/toxicscreendua" />
 
             <TextView
                 android:layout_width="130dp"
@@ -427,7 +427,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
-                android:src="@drawable/viper_pit22" />
+                android:src="@drawable/viperpit22" />
 
             <TextView
                 android:layout_width="130dp"
