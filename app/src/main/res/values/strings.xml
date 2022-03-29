@@ -597,6 +597,102 @@
     <string name="neon_ultpoints">7</string>
 
     /**
+    Viper
+    */
+    <string name="viper_bio">The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy\'s vision. If the toxins don't kill her prey, her mind games surely will.</string>
+    <string name="snake_bite">Snake Bite</string>
+    <string name="poison_cloud">Poison Cloud</string>
+    <string name="toxic_screen">Toxic Screen</string>
+    <string name="viper_pit">Viper\'s Pit</string>
+    <string name="viper_artwork">Viper Artwork</string>
+    <string name="viper_race">Human</string>
+    <string name="viper_origin">United States</string>
+    <string name="viper_codename">Pandemic</string>
+    <string name="viper_added">Beta</string>
+    <string name="viper_voiceactor">Ashly Burch</string>
+    <string name="viper_ultpoints">7</string>
+
+    /*
+    Sova
+    */
+    <string name="sova_bio">Born from the eternal winter of Russia\'s tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</string>
+    <string name="shock_bolt">Shock Bolt</string>
+    <string name="recon_bolt">Recon Bolt</string>
+    <string name="owl_drone">Owl Drone</string>
+    <string name="hunter_fury">Hunter\'s Fury</string>
+    <string name="sova_artwork">Sova Artwork</string>
+    <string name="sova_race">Human</string>
+    <string name="sova_origin">Russia</string>
+    <string name="sova_codename">Hunter</string>
+    <string name="sova_added">Beta</string>
+    <string name="sova_voiceactor">Aaron Vodovoz</string>
+    <string name="sova_ultpoints">8</string>
+
+    /*
+    Yoru
+    */
+    <string name="yoru_bio">Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.</string>
+    <string name="fakeout">Fakeout</string>
+    <string name="blindside">Blindside</string>
+    <string name="gatecrash">Gatecrash</string>
+    <string name="dimensionaldrift">Dimensional Drift</string>
+    <string name="yoru_artwork">Yoru Artwork</string>
+    <string name="yoru_race">Radiant</string>
+    <string name="yoru_origin">Japan</string>
+    <string name="yoru_codename">Stealth\nStealthboi</string>
+    <string name="yoru_added">12th January 2021</string>
+    <string name="yoru_voiceactor">Daisuke Takahashi</string>
+    <string name="yoru_ultpoints">7</string>
+
+    /*
+    Skye
+    */
+    <string name="skye_bio">Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye\'s side.</string>
+    <string name="regrowth">Regrowth</string>
+    <string name="trailblazer">Trailblazer</string>
+    <string name="guidinglight">Guiding Light</string>
+    <string name="seekers">Seekers</string>
+    <string name="skye_artwork">Skye Artwork</string>
+    <string name="skye_race">Radiant</string>
+    <string name="skye_origin">Australia</string>
+    <string name="skye_codename">Guide</string>
+    <string name="skye_added">2nd November 2020</string>
+    <string name="skye_voiceactor">Miranda O\' Hare</string>
+    <string name="skye_ultpoints">7</string>
+
+    /*
+    Sage
+    */
+    <string name="sage_bio">The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</string>
+    <string name="barrier">Barrier Orb</string>
+    <string name="slow">Slow Orb</string>
+    <string name="healing">Healing Orb</string>
+    <string name="resurrection">Resurrection</string>
+    <string name="sage_artwork">Sage Artwork</string>
+    <string name="sage_race">Radiant</string>
+    <string name="sage_origin">China</string>
+    <string name="sage_codename">Thorne</string>
+    <string name="sage_added">Beta</string>
+    <string name="sage_voiceactor">Naomi Yang</string>
+    <string name="sage_ultpoints">8</string>
+
+    /*
+    Reyna
+    */
+    <string name="reyna_bio">Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</string>
+    <string name="leer">Leer</string>
+    <string name="devour">Devour</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="Empress">Empress</string>
+    <string name="reyna_artwork">Reyna Artwork</string>
+    <string name="reyna_race">Radiant</string>
+    <string name="reyna_origin">Mexico</string>
+    <string name="reyna_codename">Vampire</string>
+    <string name="reyna_added">1st June 2020</string>
+    <string name="reyna_voiceactor">Karina Altamirano</string>
+    <string name="reyna_ultpoints">6</string>
+
+    /** 
     omen
     */
     <string name="bio_omen">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</string>
