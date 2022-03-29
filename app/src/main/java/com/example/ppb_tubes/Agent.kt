@@ -14,10 +14,11 @@ class Agent : AppCompatActivity(), View.OnClickListener  {
 
         val btnAstra: ImageButton = findViewById(R.id.button_astra)
         btnAstra.setOnClickListener(this)
-        /**
+
         val btnBreach: ImageButton = findViewById(R.id.button_breach)
         btnBreach.setOnClickListener(this)
 
+        /**
         val btnBrimstone: ImageButton = findViewById(R.id.button_brimstone)
         btnBrimstone.setOnClickListener(this)
 
@@ -70,11 +71,11 @@ class Agent : AppCompatActivity(), View.OnClickListener  {
                 val knifeIntent = Intent(this@Agent, Astra::class.java)
                 startActivity(knifeIntent)
             }
-            /**
-            R.id.button_Classic -> {
-                val classicIntent = Intent(this@Agent, Classic::class.java)
-                startActivity(classicIntent)
+            R.id.button_breach -> {
+                val breachIntent = Intent(this@Agent, Breach::class.java)
+                startActivity(breachIntent)
             }
+            /**
             R.id.button_Frenzy -> {
                 val frenzyIntent = Intent(this@Agent, Frenzy::class.java)
                 startActivity(frenzyIntent)

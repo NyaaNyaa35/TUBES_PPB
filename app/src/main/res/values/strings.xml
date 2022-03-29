@@ -556,19 +556,33 @@
     <string name="added">Added</string>
     <string name="voiceactor">Voice Actor</string>
     <string name="ultimatepoints">Ult. Points</string>
+    <string name="gender">Gender</string>
+    <string name="beta">Beta</string>
 
     /**
     Astra
     */
     <string name="bio_astra">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she\’s always eons ahead of her enemy\’s next move.</string>
-    <string name="astra_artwork">Astra Artwork</string>
     <string name="astra_race">Radiant</string>
-    <string name="gender">Gender</string>
     <string name="astra_origin">Ghana</string>
     <string name="astra_codename">Rift</string>
     <string name="astra_added">2nd March 2021</string>
     <string name="astra_voiceactor">Effie Nkrumah</string>
-    <string name="astra_ultpoints">7</string>
+    <string name="astra_artwork">Astra Artwork</string>
+
+    /**
+    Breach
+    */
+    <string name="bio_breach">Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</string>
+    <string name="breach_race">Human</string>
+    <string name="breach_origin">Sweden</string>
+    <string name="breach_codename">Breach</string>
+    <string name="breach_realname">Erik Torsten</string>
+    <string name="breach_added">From The Beginning</string>
+    <string name="breach_voiceactor">David Menkin</string>
+    <string name="breach_artwork">Breach Artwork</string>
+
+
 
     /**
     neon
