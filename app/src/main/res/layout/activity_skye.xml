@@ -90,7 +90,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/skye_codename"
@@ -117,7 +117,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="210dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/skye_added"
@@ -144,7 +144,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="200dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/skye_voiceactor"
@@ -178,7 +178,7 @@
                 android:src="@drawable/australiaflag" />
 
             <TextView
-                android:layout_width="135dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
@@ -207,7 +207,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/yoru_race"

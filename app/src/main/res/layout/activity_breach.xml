@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".AgentView.Astra">
+    tools:context=".AgentView.Breach">
 
     <LinearLayout
         android:layout_width="match_parent"

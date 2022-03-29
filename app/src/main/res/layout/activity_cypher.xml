@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".AgentView.Viper">
+    tools:context=".AgentView.Cypher">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,9 +28,9 @@
 
             <ImageView
                 android:layout_width="200dp"
-                android:layout_height="400dp"
-                android:contentDescription="@string/viper_artwork"
-                android:src="@drawable/viperartwork" />
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cypher_artwork"
+                android:src="@drawable/cypher_artwork" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/viper_bio"
+                    android:text="@string/bio_cypher"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
@@ -84,6 +84,33 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
+                android:text="@string/realname"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="@string/cypher_realname"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
                 android:text="@string/codename"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -92,7 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_codename"
+                android:text="@string/cypher_codename"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -119,7 +146,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_added"
+                android:text="@string/cypher_added"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -146,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_voiceactor"
+                android:text="@string/cypher_voiceactor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -174,14 +201,14 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/us" />
+                android:src="@drawable/morocco" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/viper_origin"
+                android:text="@string/cypher_origin"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -206,10 +233,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_race"
+                android:text="@string/brimstone_race"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -236,8 +263,8 @@
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/female" />
+                android:layout_marginStart="15dp"
+                android:src="@drawable/male" />
 
         </LinearLayout>
 
@@ -257,6 +284,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -267,7 +295,6 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
                 android:text="@string/role"
                 android:textSize="22sp" />
 
@@ -275,9 +302,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/controller" />
+                android:src="@drawable/sentinel" />
 
         </LinearLayout>
 
@@ -301,76 +327,36 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
                 android:gravity="start"
                 android:orientation="vertical"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:orientation="horizontal"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/trapwire" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="25dp"
-                        android:background="@color/black"
-                        android:src="@drawable/snakebite" />
-
-                    <TextView
-                        android:layout_width="130dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="20dp"
-                        android:gravity="center_vertical"
-                        android:text="@string/snake_bite"
-                        android:textColor="@color/black"
-                        android:textSize="23sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:orientation="horizontal"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:background="@color/black"
-                        android:src="@drawable/poisoncloud22" />
-
-                    <TextView
-                        android:layout_width="136dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="@string/poison_cloud"
-                        android:textColor="@color/black"
-                        android:textSize="23sp" />
-
-                </LinearLayout>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/cybercage" />
             </LinearLayout>
-
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -381,7 +367,6 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
                 android:text="@string/signature_abilities"
                 android:textSize="22sp" />
 
@@ -389,25 +374,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="32dp"
-                android:background="@color/black"
-                android:src="@drawable/toxicscreen" />
-
-            <TextView
-                android:layout_width="130dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="27dp"
-                android:gravity="center_vertical"
-                android:text="@string/toxic_screen"
-                android:textColor="@color/black"
-                android:textSize="23sp" />
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/spycam" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -418,7 +393,6 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
                 android:text="@string/ultimate_abilities"
                 android:textSize="22sp" />
 
@@ -426,18 +400,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="32dp"
-                android:src="@drawable/viper_pit22" />
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/neuraltheft" />
 
-            <TextView
-                android:layout_width="130dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="27dp"
-                android:gravity="center_vertical"
-                android:text="@string/viper_pit"
-                android:textColor="@color/black"
-                android:textSize="23sp" />
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>

@@ -89,7 +89,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="170dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/kj_voiceactor"
@@ -116,7 +116,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="200dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/kj_added"
@@ -179,7 +179,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:text="@string/kj_race"

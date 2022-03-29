@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".AgentView.Jett"
+            android:exported="false" />
+        <activity
+            android:name=".AgentView.Cypher"
+            android:exported="false" />
+        <activity
             android:name=".AgentView.Reyna"
             android:exported="false" />
         <activity
@@ -29,7 +35,7 @@
         <activity
             android:name=".AgentView.Sova"
             android:exported="false" />
-      <activity
+        <activity
             android:name=".AgentView.Killjoy"
             android:exported="false" />
         <activity

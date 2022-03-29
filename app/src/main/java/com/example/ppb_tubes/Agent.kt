@@ -21,6 +21,15 @@ class Agent : AppCompatActivity(), View.OnClickListener {
         val btnBrimstone: ImageButton = findViewById(R.id.button_brimstone)
         btnBrimstone.setOnClickListener(this)
 
+        val btnChamber: ImageButton = findViewById(R.id.button_chamber)
+        btnChamber.setOnClickListener(this)
+
+        val btnCypher: ImageButton = findViewById(R.id.button_cypher)
+        btnCypher.setOnClickListener(this)
+
+        val btnJett: ImageButton = findViewById(R.id.button_jett)
+        btnJett.setOnClickListener(this)
+
         val btnKayo: ImageButton = findViewById(R.id.button_kayo)
         btnKayo.setOnClickListener(this)
 
@@ -38,16 +47,7 @@ class Agent : AppCompatActivity(), View.OnClickListener {
 
         val btnRaze: ImageButton = findViewById(R.id.button_raze)
         btnRaze.setOnClickListener(this)
-        /**
-        val btnChamber: ImageButton = findViewById(R.id.button_chamber)
-        btnChamber.setOnClickListener(this)
 
-        val btnCypher: ImageButton = findViewById(R.id.button_cypher)
-        btnCypher.setOnClickListener(this)
-
-        val btnJett: ImageButton = findViewById(R.id.button_jett)
-        btnJett.setOnClickListener(this)
-         */
         val btnReyna: ImageButton = findViewById(R.id.button_reyna)
         btnReyna.setOnClickListener(this)
 
@@ -80,6 +80,18 @@ class Agent : AppCompatActivity(), View.OnClickListener {
             R.id.button_brimstone -> {
                 val brimstoneIntent = Intent(this@Agent, Brimstone::class.java)
                 startActivity(brimstoneIntent)
+            }
+            R.id.button_chamber -> {
+                val chamberIntent = Intent(this@Agent, Chamber::class.java)
+                startActivity(chamberIntent)
+            }
+            R.id.button_cypher -> {
+                val cypherIntent = Intent(this@Agent, Cypher::class.java)
+                startActivity(cypherIntent)
+            }
+            R.id.button_jett -> {
+                val jettIntent = Intent(this@Agent, Jett::class.java)
+                startActivity(jettIntent)
             }
             R.id.button_kayo -> {
                 val kayoIntent = Intent(this@Agent, Kayo::class.java)
@@ -129,48 +141,6 @@ class Agent : AppCompatActivity(), View.OnClickListener {
                 val yoruIntent = Intent(this@Agent, Yoru::class.java)
                 startActivity(yoruIntent)
             }
-            /**
-
-            R.id.button_Shorty -> {
-            val shortyIntent = Intent(this@Agent, Shorty::class.java)
-            startActivity(shortyIntent)
-            }
-            R.id.button_Stinger -> {
-            val stingerIntent = Intent(this@Agent, Stinger::class.java)
-            startActivity(stingerIntent)
-            }
-            R.id.button_Spectre -> {
-            val spectreIntent = Intent(this@Agent, Spectre::class.java)
-            startActivity(spectreIntent)
-            }
-            R.id.button_Bucky -> {
-            val buckyIntent = Intent(this@Agent, Bucky::class.java)
-            startActivity(buckyIntent)
-            }
-            R.id.button_Judge -> {
-            val judgeIntent = Intent(this@Agent, Judge::class.java)
-            startActivity(judgeIntent)
-            }
-            R.id.button_Marshal -> {
-            val marshalIntent = Intent(this@Agent, Marshall::class.java)
-            startActivity(marshalIntent)
-            }
-            R.id.button_Operator -> {
-            val operatorIntent = Intent(this@Agent, Operator::class.java)
-            startActivity(operatorIntent)
-            }
-            R.id.button_Ares-> {
-            val aresIntent = Intent(this@Agent, Ares::class.java)
-            startActivity(aresIntent)
-            }
-            R.id.button_Odin-> {
-            val odinIntent = Intent(this@Agent, Odin::class.java)
-            startActivity(odinIntent)
-            }
-            R.id.button_Bulldog -> {
-            val bulldogIntent = Intent(this@Agent, Bulldog::class.java)
-            startActivity(bulldogIntent)
-            }*/
         }
     }
 }
