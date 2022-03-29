@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".AgentView.Viper">
-
+    tools:context=".AgentView.Yoru">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/viper_artwork"
-                android:src="@drawable/viperartwork" />
+                android:src="@drawable/yoruartwork" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,7 +51,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/viper_bio"
+                    android:text="@string/yoru_bio"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
@@ -91,7 +90,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_codename"
+                android:text="@string/yoru_codename"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -115,10 +114,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_added"
+                android:text="@string/yoru_added"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -145,7 +144,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_voiceactor"
+                android:text="@string/yoru_voiceactor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -173,14 +172,14 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/us" />
+                android:src="@drawable/japan" />
 
             <TextView
                 android:layout_width="135dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/viper_origin"
+                android:text="@string/yoru_origin"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -208,7 +207,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="@string/viper_race"
+                android:text="@string/yoru_race"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -236,7 +235,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/female" />
+                android:src="@drawable/male" />
 
         </LinearLayout>
 
@@ -276,7 +275,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/controller" />
+                android:src="@drawable/duelist" />
 
         </LinearLayout>
 
@@ -319,14 +318,14 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="25dp"
                         android:background="@color/black"
-                        android:src="@drawable/snakeBite" />
+                        android:src="@drawable/fakeout" />
                     <TextView
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginStart="5dp"
                         android:gravity="center_vertical"
-                        android:text="@string/snake_bite"
+                        android:text="@string/fakeout"
                         android:textSize="23sp"
                         android:textColor="@color/black"
                         />
@@ -345,7 +344,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:background="@color/black"
-                        android:src="@drawable/poisonCloud22" />
+                        android:src="@drawable/blindside" />
 
                     <TextView
                         android:layout_width="136dp"
@@ -353,7 +352,7 @@
                         android:layout_marginStart="5dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="@string/poison_cloud"
+                        android:text="@string/blindside"
                         android:textColor="@color/black"
                         android:textSize="23sp" />
 
@@ -387,14 +386,14 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
                 android:background="@color/black"
-                android:src="@drawable/toxicScreenpng" />
+                android:src="@drawable/gatecrash" />
             <TextView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="27dp"
                 android:layout_marginStart="5dp"
                 android:gravity="center_vertical"
-                android:text="@string/toxic_screen"
+                android:text="@string/gatecrash"
                 android:textSize="23sp"
                 android:textColor="@color/black"
                 />
@@ -423,14 +422,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
-                android:src="@drawable/viper_pit22" />
+                android:src="@drawable/dimensionalDrift" />
             <TextView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="27dp"
                 android:layout_marginStart="5dp"
                 android:gravity="center_vertical"
-                android:text="@string/viper_pit"
+                android:text="@string/dimensionaldrift"
                 android:textSize="23sp"
                 android:textColor="@color/black"/>
         </LinearLayout>
