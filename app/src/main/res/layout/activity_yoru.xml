@@ -422,7 +422,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="32dp"
-                android:src="@drawable/dimensionaldrift" />
+                android:src="@drawable/dimensionaldrifticon" />
             <TextView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"

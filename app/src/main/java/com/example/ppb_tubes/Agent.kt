@@ -12,6 +12,8 @@ class Agent : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agent)
 
+        setSupportActionBar(findViewById(R.id.my_toolbar))
+
         val btnAstra: ImageButton = findViewById(R.id.button_astra)
         btnAstra.setOnClickListener(this)
 
