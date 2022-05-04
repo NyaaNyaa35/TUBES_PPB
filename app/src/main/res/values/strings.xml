@@ -799,4 +799,5 @@
     <string name="brimstone_realname">Liam Byrne</string>
     <string name="brimstone_aliases">Brim\nBig Man</string>
     <string name="logout">Logout</string>
+    <string name="skin">Skins</string>
 </resources>
