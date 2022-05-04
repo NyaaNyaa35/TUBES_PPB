@@ -17,10 +17,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="KAY/O"
+            android:fontFamily="@font/freeserifbolditalic"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="5dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -36,7 +48,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="25dp"
                 android:gravity="start"
                 android:orientation="vertical"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -92,7 +104,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/kayo_codename"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -119,7 +131,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/kayo_added"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -146,7 +158,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/kayo_voiceactor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -173,7 +185,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="33dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
                 android:text="@string/kayo_origin"
                 android:textSize="22sp"
@@ -202,7 +214,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="34dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/kayo_race"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -230,7 +242,6 @@
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
                 android:src="@drawable/male" />
 
         </LinearLayout>

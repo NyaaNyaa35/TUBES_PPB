@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".AgentView.Fade"
+            android:exported="false" />
+        <activity
             android:name=".ui.SkinActivity"
             android:exported="false" />
         <activity
