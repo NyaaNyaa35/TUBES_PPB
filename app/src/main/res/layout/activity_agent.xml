@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -97,11 +96,13 @@
                     android:src="@drawable/cypher" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/button_jett"
+                    android:id="@+id/button_fade"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/jett" />
+                    android:src="@drawable/fade" />
+
+
             </LinearLayout>
 
             <LinearLayout
@@ -113,124 +114,124 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/button_jett"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/jett" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_kayo"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/kayo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="start"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_killjoy"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
                     android:src="@drawable/killjoy" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:gravity="start"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_neon"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/neon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="start"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_omen"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
                     android:src="@drawable/omen" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:gravity="start"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_phoenix"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/phoenix" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="start"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_raze"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
                     android:src="@drawable/raze" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:gravity="start"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_sage"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/sage" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="start"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_reyna"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
                     android:src="@drawable/reyna" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:gravity="start"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_skye"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginEnd="5dp"
-                    android:src="@drawable/skye" />
-
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/button_sova"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/sova" />
-
+                    android:src="@drawable/skye" />
 
             </LinearLayout>
 
@@ -245,17 +246,36 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/button_viper"
+                    android:id="@+id/button_sova"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginEnd="5dp"
+                    android:src="@drawable/sova" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/button_viper"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
                     android:src="@drawable/viper" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="start"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/button_yoru"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
                     android:src="@drawable/yoru" />
 
             </LinearLayout>

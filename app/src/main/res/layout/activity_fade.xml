@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
-    tools:context=".AgentView.Sage">
+    tools:context=".AgentView.Fade">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +22,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
             android:layout_marginEnd="25dp"
-            android:text="SAGE"
+            android:text="FADE"
             android:fontFamily="@font/freeserifbolditalic"
             android:textSize="25sp"
             android:textColor="@color/black"
@@ -29,7 +30,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="400dp"
             android:layout_marginTop="5dp"
             android:gravity="start"
             android:orientation="horizontal"
@@ -39,9 +40,9 @@
 
             <ImageView
                 android:layout_width="200dp"
-                android:layout_height="400dp"
-                android:contentDescription="@string/sage_artwork"
-                android:src="@drawable/sageartwork" />
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/fade_artwork"
+                android:src="@drawable/fade_artwork" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -60,13 +61,14 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sage_bio"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bio_fade"
+                        android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="@string/sage_codename"
+                android:text="@string/fade_codename"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -129,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="@string/sage_added"
+                android:text="@string/fade_added"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -156,7 +158,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="@string/sage_voiceactor"
+                android:text="@string/fade_voiceactor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -184,14 +186,14 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="18dp"
-                android:src="@drawable/chinaflagicon" />
+                android:src="@drawable/turkey" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/sage_origin"
+                android:text="@string/fade_origin"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -216,10 +218,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="@string/sage_race"
+                android:text="@string/fade_race"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -266,6 +268,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -276,7 +279,6 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
                 android:text="@string/role"
                 android:textSize="22sp" />
 
@@ -284,9 +286,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="25dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/sentinel" />
+                android:src="@drawable/initiator" />
 
         </LinearLayout>
 
@@ -306,77 +307,39 @@
                 android:layout_marginTop="25dp"
                 android:text="@string/basic_abilities"
                 android:textSize="22sp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
                 android:gravity="start"
                 android:orientation="vertical"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
-                <LinearLayout
-                    android:layout_width="match_parent"
+
+                <ImageView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:orientation="horizontal"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/prowler" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="25dp"
-                        android:background="@color/black"
-                        android:src="@drawable/barrier" />
-                    <TextView
-                        android:layout_width="130dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginStart="5dp"
-                        android:gravity="center_vertical"
-                        android:text="@string/barrier"
-                        android:textSize="23sp"
-                        android:textColor="@color/black"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:orientation="horizontal"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:background="@color/black"
-                        android:src="@drawable/slow" />
-
-                    <TextView
-                        android:layout_width="136dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="@string/slow"
-                        android:textColor="@color/black"
-                        android:textSize="23sp" />
-
-                </LinearLayout>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/seize" />
             </LinearLayout>
-
-
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -387,7 +350,6 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
                 android:text="@string/signature_abilities"
                 android:textSize="22sp" />
 
@@ -395,25 +357,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="32dp"
-                android:background="@color/black"
-                android:src="@drawable/healing" />
-            <TextView
-                android:layout_width="140dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="27dp"
-                android:layout_marginStart="5dp"
-                android:gravity="center_vertical"
-                android:text="@string/healing"
-                android:textSize="23sp"
-                android:textColor="@color/black"
-                />
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/haunt" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:gravity="start"
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -424,7 +376,6 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="25dp"
                 android:text="@string/ultimate_abilities"
                 android:textSize="22sp" />
 
@@ -432,17 +383,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="32dp"
-                android:src="@drawable/resurrect" />
-            <TextView
-                android:layout_width="130dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="27dp"
-                android:layout_marginStart="5dp"
-                android:gravity="center_vertical"
-                android:text="@string/resurrection"
-                android:textSize="23sp"
-                android:textColor="@color/black"/>
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/nightfall" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>
