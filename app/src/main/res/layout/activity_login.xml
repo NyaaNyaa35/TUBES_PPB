@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:text="@string/Login_txt"
+                android:text="@string/Create_txt"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -144,15 +144,15 @@
                 android:layout_marginRight="50dp"
                 android:background="@drawable/et_shadow"
                 android:gravity="center"
-                android:text="@string/Login"
+                android:text="@string/Create"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <com.google.android.gms.common.SignInButton
-                android:id="@+id/googleSignInButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="125dp"/>
+<!--            <com.google.android.gms.common.SignInButton-->
+<!--                android:id="@+id/googleSignInButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="125dp"/>-->
 
         </LinearLayout>
 

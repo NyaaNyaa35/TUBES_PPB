@@ -25,8 +25,8 @@
     <string name="Password">Password</string>
     <string name="Cpassword">Confirm Password</string>
     <string name="Register">Register</string>
-    <string name="Login_txt">Login To Your Account</string>
-    <string name="Login">Login</string>
+    <string name="Create_txt">Create Your Account</string>
+    <string name="Create">Create Account</string>
     <string name="upload_img">Upload Image</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="change_pass">Change Password</string>
@@ -62,6 +62,7 @@
     <string name="nav_header_subtitle">Rafaelc@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+<!--    <string name="default_web_client_id">681845344876-reioep3q4v681gfdtssvscjhstpms44r.apps.googleusercontent.com</string>-->
 
     <string name="menu_weapon">Weapon</string>
     <string name="menu_agent">Agent</string>
@@ -799,4 +800,5 @@
     <string name="brimstone_realname">Liam Byrne</string>
     <string name="brimstone_aliases">Brim\nBig Man</string>
     <string name="logout">Logout</string>
+
 </resources>

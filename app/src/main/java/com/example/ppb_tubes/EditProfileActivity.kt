@@ -45,7 +45,7 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
                 if (conPasstext == person.password) {
                     val personEdt = Person(usernameText,tagTeks,person.email,person.password)
                     val moveIntent = Intent(this@EditProfileActivity, ProfileActivity::class.java)
-                    moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, personEdt)
+                    //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, personEdt)
                     startActivity(moveIntent)
                     finish()
                 } else {
@@ -63,7 +63,7 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
                     dialog, which -> finish()
                 val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@EditProfileActivity, ProfileActivity::class.java)
-                moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
+                //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                 startActivity(moveIntent)
             }
             .setNegativeButton("No", null)

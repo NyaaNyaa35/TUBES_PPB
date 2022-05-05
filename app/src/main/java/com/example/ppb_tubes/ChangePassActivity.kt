@@ -44,7 +44,7 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
                     if (oldPassText == person.password && conPassText == person.password) {
                         val person = Person(person.username,person.tag,person.email,newPassText)
                         val moveIntent = Intent(this@ChangePassActivity, ProfileActivity::class.java)
-                        moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
+                        //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                         startActivity(moveIntent)
                         finish()
                     } else {
