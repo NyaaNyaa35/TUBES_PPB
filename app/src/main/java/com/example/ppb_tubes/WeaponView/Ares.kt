@@ -6,12 +6,14 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import com.example.ppb_tubes.Adapter.SkinAdapter
 import com.example.ppb_tubes.R
+import com.example.ppb_tubes.Util.Constant
 import com.example.ppb_tubes.ui.SkinActivity
 
 class Ares : AppCompatActivity(), View.OnClickListener {
 
-    private val weaponName : String = "Ares"
+    val weaponUuid : String = "55d8a0f4-4274-ca67-fe2c-06ab45efdf58"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +28,7 @@ class Ares : AppCompatActivity(), View.OnClickListener {
             R.id.see_skin -> {
                 val skinIntent = Intent(this@Ares,
                     SkinActivity::class.java)
-                skinIntent.putExtra(SkinActivity.WEAPONNAME,weaponName)
+                skinIntent.putExtra(SkinActivity.EXTRA_WEAPONUUID, weaponUuid)
                 startActivity(skinIntent)
             }
         }

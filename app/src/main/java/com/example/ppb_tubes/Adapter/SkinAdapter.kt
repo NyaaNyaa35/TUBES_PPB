@@ -7,13 +7,18 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.ppb_tubes.Model.Skins
+import com.example.ppb_tubes.Model.Weapons
 import com.example.ppb_tubes.R
 import kotlinx.android.synthetic.main.adapter_skin.view.*
 
-class SkinAdapter(private val results: ArrayList<Skins.Data>) :
+class SkinAdapter(private val results: ArrayList<Skins>) :
     RecyclerView.Adapter<SkinAdapter.ViewHolder>() {
 
-    private lateinit var WeaponNameChosen : String
+    fun setData(data: List<Skins>) {
+        results.clear()
+        results.addAll(data)
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ViewHolder(
         LayoutInflater.from(parent.context).inflate(R.layout.adapter_skin, parent, false)
@@ -21,26 +26,14 @@ class SkinAdapter(private val results: ArrayList<Skins.Data>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val result = results[position]
-//        val check = result.displayName.contains(WeaponNameChosen)
-//        if (check){
-//            Log.d("SkinAdapter", "result.displayName: ${result.displayName}")
-            holder.view.textView.text = result.displayName
+        Log.d("SkinAdapter", "result.displayName: ${result.displayName}")
+        holder.view.textView.text = result.displayName
             Glide.with(holder.view)
                 .load(result.displayIcon)
                 .into(holder.view.weapon_image)
-//        } else {
-//            Log.d("Not " , WeaponNameChosen)
-//        }
     }
 
     override fun getItemCount() = results.size
 
     inner class ViewHolder(val view: View) : RecyclerView.ViewHolder(view)
-
-    fun setData(data: List<Skins.Data>, weaponNamePassing: String) {
-//        WeaponNameChosen = weaponNamePassing
-        results.clear()
-        results.addAll(data)
-        notifyDataSetChanged()
-    }
 }

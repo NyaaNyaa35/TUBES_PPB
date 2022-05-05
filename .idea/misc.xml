@@ -6,7 +6,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/font/serifbolditalic.xml" value="0.22870370370370371" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_agent.xml" value="0.21" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_api.xml" value="0.1" />
-        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ares.xml" value="0.25" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ares.xml" value="0.22769753610875107" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_astra.xml" value="0.2" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_breach.xml" value="0.2" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_brimstone.xml" value="0.12001811594202899" />
@@ -42,7 +42,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sage.xml" value="0.15" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sheriff.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_shorty.xml" value="0.24663299663299662" />
-        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin.xml" value="0.1" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin_adapter.xml" value="0.20416666666666666" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skye.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sova.xml" value="0.12001811594202899" />
@@ -53,7 +53,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_viper.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_weapon.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_yoru.xml" value="0.2" />
-        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/adapter_skin.xml" value="0.1" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/adapter_skin.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_bar_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_main_bar.xml" value="0.1" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/content_main_activity_with_nav.xml" value="0.16168478260869565" />

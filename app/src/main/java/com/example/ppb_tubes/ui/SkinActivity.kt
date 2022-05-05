@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ppb_tubes.API.ApiService
 import com.example.ppb_tubes.Adapter.SkinAdapter
 import com.example.ppb_tubes.Model.Skins
+import com.example.ppb_tubes.Model.Weapons
 import com.example.ppb_tubes.R
 import kotlinx.android.synthetic.main.activity_skin.*
 import retrofit2.Call
@@ -15,10 +16,12 @@ import retrofit2.Response
 
 class SkinActivity : AppCompatActivity() {
     companion object {
-        const val WEAPONNAME = "weapon_name"
+        val EXTRA_WEAPONUUID : String = "WEAPON_NAME"
     }
 
     lateinit var skinAdapter : SkinAdapter
+
+    lateinit var skin : ArrayList<Skins>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,27 +43,32 @@ class SkinActivity : AppCompatActivity() {
     }
 
     private fun getDataFromApi() {
-        ApiService.endpoint.getSkins()
-            .enqueue(object : Callback<Skins> {
-                override fun onResponse(call: Call<Skins>, response: Response<Skins>) {
-                    if (response.isSuccessful){
-                        showIcon(response.body()!!)
+        val uuid = intent.getStringExtra(EXTRA_WEAPONUUID)
+        if (uuid != null) {
+            ApiService.endpoint.getWeapon(uuid)
+                .enqueue(object : Callback<Weapons> {
+                    override fun onResponse(call: Call<Weapons>, response: Response<Weapons>) {
+                        if (response.isSuccessful){
+                            showIcon(response.body()!!)
+                        } else {
+                            printLog("Response onFailure : ${response.message()}")
+                        }
                     }
-                }
 
-                override fun onFailure(call: Call<Skins>, t: Throwable) {
-                    printLog("onFailure : $t")
-                }
-
-            })
+                    override fun onFailure(call: Call<Weapons>, t: Throwable) {
+                        printLog("onFailure API: $t")
+                    }
+                })
+        }
     }
 
     private fun printLog(message: String){
-        Log.d(WEAPONNAME, message)
+        Log.d(EXTRA_WEAPONUUID, message)
     }
 
-    private fun showIcon(skin: Skins){
-        val results = skin.data
-        skinAdapter.setData(results, WEAPONNAME)
+    private fun showIcon(weapon: Weapons){
+        val results = weapon.data
+        skin = results.skins
+        skinAdapter.setData(skin)
     }
 }
