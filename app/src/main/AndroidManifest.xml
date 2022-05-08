@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPB_TUBES">
         <activity
+            android:name=".ui.Thread.CreateThreadActivity"
+            android:exported="false" />
+        <activity
             android:name=".AgentView.Jett"
             android:exported="false" />
         <activity

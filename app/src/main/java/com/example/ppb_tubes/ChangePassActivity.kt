@@ -3,23 +3,34 @@ package com.example.ppb_tubes
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.DocumentReference
+import com.google.firebase.firestore.FirebaseFirestore
 
 class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
         var EXTRA_PERSON= "extra_person"
+        var EXTRA_UID="extra_uid"
+        private const val TAG = "ChangePassActivity"
     }
     private lateinit var newPass: EditText
     private lateinit var oldPass: EditText
     private lateinit var conPass: EditText
+    private lateinit var auth: FirebaseAuth
+    private lateinit var fstore: FirebaseFirestore
+    private lateinit var userId: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_change_pass)
         val btnEditChange : Button = findViewById(R.id.change_pass_btn)
+        userId = intent.getStringExtra(EXTRA_UID).toString()
+        fstore = FirebaseFirestore.getInstance()
         btnEditChange.setOnClickListener(this)
     }
 
@@ -27,7 +38,7 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
         when(v.id) {
             R.id.change_pass_btn -> {
 
-                val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
+                val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
 
                 newPass = findViewById(R.id.new_pass)
                 oldPass = findViewById(R.id.old_pass)
@@ -42,7 +53,16 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
                     alertDialogBuilder.setMessage("Please Complete The Form").show()
                 } else {
                     if (oldPassText == person.password && conPassText == person.password) {
-                        val person = Person(person.username,person.tag,person.email,newPassText)
+                        //val person = Person(person.username,person.tag,person.email,newPassText)
+                        var documentReference: DocumentReference = fstore.collection("users").document(userId)
+                        documentReference.update(
+                            "password",newPassText
+                        ).addOnCompleteListener(this) {
+                            if (it.isSuccessful){
+                                Log.d(TAG, "User password updated.")
+                            }
+                            Log.w(TAG, "Failed to update user password.")
+                        }
                         val moveIntent = Intent(this@ChangePassActivity, ProfileActivity::class.java)
                         //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                         startActivity(moveIntent)

@@ -25,7 +25,7 @@ import org.w3c.dom.Text
 
 class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
-        //var EXTRA_PERSON= "extra_person"
+        var EXTRA_PERSON= "extra_person"
     }
 
     private lateinit var username: TextView
@@ -37,7 +37,9 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var userId: String
     private lateinit var storageref: StorageReference
     private lateinit var profileImg: CircleImageView
-//    val hardcodedPerson: Person = Person("Test","AJG","test@email.com","123")
+    //private lateinit var passExtra: String
+    private val personExtra: Person = Person()
+
     private val getResult =
         registerForActivityResult(
             ActivityResultContracts.StartActivityForResult()
@@ -71,6 +73,11 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                     Log.d("Data Exist", "DocumentSnapshot data: ${document.data}")
                     username.text = document.getString("username") + "#" + document.getString("tag")
                     email.text = auth.currentUser!!.email.toString()
+                    //passExtra = document.getString("password").toString()
+                    personExtra.username = document.getString("username")
+                    personExtra.tag = document.getString("tag")
+                    personExtra.email = auth.currentUser!!.email.toString()
+                    personExtra.password = document.getString("password").toString()
                 } else {
                     Log.d("Null","Data Doesn't Exist")
                 }
@@ -99,20 +106,25 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.edit_btn -> {
-                val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
+                //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@ProfileActivity, EditProfileActivity::class.java)
-                moveIntent.putExtra(EditProfileActivity.EXTRA_PERSON, person)
+                //moveIntent.putExtra(EditProfileActivity.EXTRA_PASS, passExtra)
+                moveIntent.putExtra(EditProfileActivity.EXTRA_PERSON, personExtra)
+                moveIntent.putExtra(EditProfileActivity.EXTRA_UID,userId)
                 startActivity(moveIntent)
+                finish()
             }
             R.id.upload_btn -> {
                 val galleryIntent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
                 getResult.launch(galleryIntent)
             }
             R.id.change_pass -> {
-                val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
+                //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@ProfileActivity, ChangePassActivity::class.java)
-                moveIntent.putExtra(ChangePassActivity.EXTRA_PERSON, person)
+                moveIntent.putExtra(ChangePassActivity.EXTRA_PERSON, personExtra)
+                moveIntent.putExtra(ChangePassActivity.EXTRA_UID,userId)
                 startActivity(moveIntent)
+                finish()
             }
         }
 

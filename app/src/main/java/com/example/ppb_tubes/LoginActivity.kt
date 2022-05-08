@@ -73,7 +73,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.button_login -> {
-                val hardcoded_person = Person("Test","AJG","test@email.com","123")
+                //val hardcoded_person = Person("Test","AJG","test@email.com","123")
 
                 username = findViewById(R.id.et_name)
                 tag = findViewById(R.id.et_riottag)
@@ -106,9 +106,16 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                         }
                         Log.w(TAG, "Failed to add user to database")
                     }
+//                documentReference.collection("users").document(userID).collection("thread")
+//                var thread : HashMap<String,String> = HashMap<String,String> ()
+//                thread.put("text","")
+//                thread.put("likes","0")
+//                thread.put("dislikes","0")
+                //val person_data = Person(username_text,tag_text,auth.currentUser!!.email,password_text)
                 val moveIntent = Intent(this@LoginActivity, HomeScreen::class.java)
-                //moveIntent.putExtra(HomeScreen.EXTRA_PERSON, hardcoded_person)
+                //moveIntent.putExtra(HomeScreen.EXTRA_PERSON, person_data)
                 startActivity(moveIntent)
+                finish()
 //
 //                if (username_text == hardcoded_person.username &&
 //                    tag_text == hardcoded_person.tag &&

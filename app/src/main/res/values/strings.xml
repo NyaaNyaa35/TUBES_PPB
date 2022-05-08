@@ -62,7 +62,7 @@
     <string name="nav_header_subtitle">Rafaelc@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-<!--    <string name="default_web_client_id">681845344876-reioep3q4v681gfdtssvscjhstpms44r.apps.googleusercontent.com</string>-->
+    <!--    <string name="default_web_client_id">681845344876-reioep3q4v681gfdtssvscjhstpms44r.apps.googleusercontent.com</string>-->
 
     <string name="menu_weapon">Weapon</string>
     <string name="menu_agent">Agent</string>
@@ -800,5 +800,6 @@
     <string name="brimstone_realname">Liam Byrne</string>
     <string name="brimstone_aliases">Brim\nBig Man</string>
     <string name="logout">Logout</string>
+    <string name="cretae_thread">Create Thread</string>
 
 </resources>

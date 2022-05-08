@@ -10,6 +10,7 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.annotation.NonNull
+import com.example.ppb_tubes.ui.Thread.CreateThreadActivity
 import com.google.android.gms.auth.api.Auth
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInApi
@@ -50,6 +51,9 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
         val btnProfile: Button = findViewById(R.id.profile_button)
         btnProfile.setOnClickListener(this)
 
+        val btnThread: Button = findViewById(R.id.thread_ui_button)
+        btnThread.setOnClickListener(this)
+
         val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
         btnWeapon.setOnClickListener(this)
 
@@ -69,6 +73,10 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
             R.id.agent_ui_button -> {
                 val agentIntent = Intent(this@HomeScreen, Agent::class.java)
                 startActivity(agentIntent)
+            }
+            R.id.thread_ui_button -> {
+                val threadIntent = Intent(this,CreateThreadActivity::class.java)
+                startActivity(threadIntent)
             }
             R.id.profile_button -> {
                 //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person

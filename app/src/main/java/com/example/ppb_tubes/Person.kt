@@ -4,10 +4,10 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class Person(
-    var username:String?,
-    var tag: String?,
-    val email: String?,
-    var password: String?
+    var username:String?="",
+    var tag: String?="",
+    var email: String?="",
+    var password: String?=""
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
