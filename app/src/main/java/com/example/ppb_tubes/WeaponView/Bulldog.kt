@@ -1,12 +1,9 @@
 package com.example.ppb_tubes.WeaponView
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import com.example.ppb_tubes.R
-import com.example.ppb_tubes.ui.SkinActivity
 
 class Bulldog : AppCompatActivity(), View.OnClickListener {
 
@@ -16,20 +13,20 @@ class Bulldog : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bulldog)
 
-        val seeSkin: Button = findViewById(R.id.see_skin)
-        seeSkin.setOnClickListener(this)
+//        val seeSkin: Button = findViewById(R.id.see_skin)
+//        seeSkin.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.see_skin -> {
-                val skinIntent = Intent(
-                    this@Bulldog,
-                    SkinActivity::class.java
-                )
-                skinIntent.putExtra(SkinActivity.EXTRA_WEAPONUUID, weaponUuid)
-                startActivity(skinIntent)
-            }
+//            R.id.see_skin -> {
+//                val skinIntent = Intent(
+//                    this@Bulldog,
+//                    SkinActivity::class.java
+//                )
+//                skinIntent.putExtra(SkinActivity.EXTRA_WEAPONUUID, weaponUuid)
+//                startActivity(skinIntent)
+//            }
         }
     }
 }

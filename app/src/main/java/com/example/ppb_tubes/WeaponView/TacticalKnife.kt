@@ -6,7 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.example.ppb_tubes.R
-import com.example.ppb_tubes.ui.SkinActivity
+//import com.example.ppb_tubes.ui.skins.AllSkins.SkinActivity
+//import com.example.ppb_tubes.ui.skins.UUID.SkinByUuidActivity
 
 class TacticalKnife : AppCompatActivity(), View.OnClickListener {
 
@@ -16,20 +17,19 @@ class TacticalKnife : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tactical_knife)
 
-        val seeSkin: Button = findViewById(R.id.see_skin)
-        seeSkin.setOnClickListener(this)
+//        val seeSkin: Button = findViewById(R.id.see_skin)
+//        seeSkin.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.see_skin -> {
-                val skinIntent = Intent(
-                    this@TacticalKnife,
-                    SkinActivity::class.java
-                )
-                skinIntent.putExtra(SkinActivity.EXTRA_WEAPONUUID, weaponUuid)
-                startActivity(skinIntent)
-            }
+//            R.id.see_skin -> {
+//                val skinIntent = Intent(
+//                    this@TacticalKnife,
+//                    SkinByUuidActivity::class.java)
+//                skinIntent.putExtra(SkinByUuidActivity.EXTRA_WEAPONUUID, weaponUuid)
+//                startActivity(skinIntent)
+//            }
         }
     }
 }

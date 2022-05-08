@@ -812,4 +812,10 @@
     <string name="fade_added">April 27th, 2022</string>
     <string name="fade_ultpoints">7</string>
     <string name="fade_codename">Bounty Hunter</string>
+    <string name="home">Skins</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_bookmark">Bookmark</string>
+    <string name="title">Title Skin</string>
+    <string name="Skins">SKINS</string>
 </resources>
