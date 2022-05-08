@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/drawable/ic_error.xml" value="0.114" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/font/serifbolditalic.xml" value="0.22870370370370371" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_agent.xml" value="0.21" />
@@ -67,6 +68,8 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_thread.xml" value="0.15260416666666668" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/nav_header_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/menu/main_activity_with_nav.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.147" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.147" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_classic.xml" value="0.19" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
         <entry key="..\:/PPB_TUBES/app/src/main/res/layout/activity_login.xml" value="0.18" />
