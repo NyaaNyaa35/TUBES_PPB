@@ -10,7 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PPB_TUBES">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".AgentView.Fade"
+            android:exported="false" />
+        <activity
+            android:name=".ui.skins.allskins.SkinActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.Thread.CreateThreadActivity"
             android:exported="false" />

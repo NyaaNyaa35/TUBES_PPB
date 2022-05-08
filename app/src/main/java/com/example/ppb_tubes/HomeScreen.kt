@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
@@ -16,6 +15,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInApi
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.example.ppb_tubes.ui.skins.allskins.SkinActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -60,6 +60,9 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
         val btnAgent: Button = findViewById(R.id.agent_ui_button)
         btnAgent.setOnClickListener(this)
 
+        val btnSkins: Button = findViewById(R.id.skins_ui_button)
+        btnSkins.setOnClickListener(this)
+
         val btnLogout: Button = findViewById(R.id.logoutBtn)
         btnLogout.setOnClickListener(this)
     }
@@ -82,6 +85,10 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
                 //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@HomeScreen, ProfileActivity::class.java)
                 //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
+                startActivity(moveIntent)
+            }
+            R.id.skins_ui_button -> {
+                val moveIntent = Intent(this@HomeScreen, SkinActivity::class.java)
                 startActivity(moveIntent)
             }
             R.id.logoutBtn -> {

@@ -62,8 +62,9 @@
     <string name="nav_header_subtitle">Rafaelc@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <!--    <string name="default_web_client_id">681845344876-reioep3q4v681gfdtssvscjhstpms44r.apps.googleusercontent.com</string>-->
-
+    <string name="logout">Logout</string>
+    <string name="skin">Skins</string>
+    <string name="cretae_thread">Create Thread</string>
     <string name="menu_weapon">Weapon</string>
     <string name="menu_agent">Agent</string>
     <string name="menu_thread">Thread</string>
@@ -799,7 +800,24 @@
     <string name="brimstone_ultpoints">7</string>
     <string name="brimstone_realname">Liam Byrne</string>
     <string name="brimstone_aliases">Brim\nBig Man</string>
-    <string name="logout">Logout</string>
-    <string name="cretae_thread">Create Thread</string>
 
+
+    /**
+    Fade
+    */
+    <string name="bio_fade">Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark.</string>
+    <string name="fade_artwork">Fade Artwork</string>
+    <string name="fade_race">Radiant</string>
+    <string name="fade_origin">Turkey</string>
+    <string name="fade_voiceactor">Selin Cuhadaroglu</string>
+    <string name="fade_added">April 27th, 2022</string>
+    <string name="fade_ultpoints">7</string>
+    <string name="fade_codename">Bounty Hunter</string>
+    <string name="home">Skins</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_bookmark">Bookmark</string>
+    <string name="title">Title Skin</string>
+    <string name="Skins">SKINS</string>
+    <string name="search_hint">Search..</string>
 </resources>

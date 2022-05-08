@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,324 +7,353 @@
     android:background="#C4C4C4"
     tools:context=".Weapon">
 
-    <LinearLayout
+    <include
+        layout="@layout/app_main_bar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="wrap_content"/>
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_knife"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/knife"
-            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/knife"/>
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Classic"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/classic"
-            tools:ignore="SpeakableTextPresentCheck" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Classic"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_knife"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/knife"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Frenzy"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/frenzy"
-            tools:ignore="SpeakableTextPresentCheck" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/frenzy"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/knife"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Ghost"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/ghost"
-            tools:ignore="SpeakableTextPresentCheck" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Ghost"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Classic"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/classic"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_GoldenGun"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/ggun"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/GoldenGun"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Classic"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Sheriff"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/sheriff"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Sheriff"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Frenzy"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/frenzy"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Shorty"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/shorty"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Shorty"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frenzy"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Stinger"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/stinger"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Stinger"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Ghost"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/ghost"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Spectre"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/spectre"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Spectre"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ghost"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Bucky"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/bucky"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Bucky"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_GoldenGun"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/ggun" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Judge"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/judge"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Judge"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GoldenGun"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Bulldog"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/bulldog"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Bulldog"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Sheriff"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/sheriff" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Guardian"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/guardian"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Guardian"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Sheriff"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Phantom"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/phantom"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Phantom"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Shorty"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/shorty" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Vandal"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/vandal"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Vandal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Shorty"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Marshal"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/marshal"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Marshal"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Stinger"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/stinger" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Operator"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/operator"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Operator"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Stinger"
+                android:textSize="30sp" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Ares"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/ares"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Ares"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Spectre"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/spectre" />
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/button_Odin"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="75dp"
-            android:background="@drawable/et_shadow"
-            android:padding="10dp"
-            android:src="@drawable/odin"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/Odin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Spectre"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Bucky"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/bucky" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bucky"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Judge"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/judge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Judge"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Bulldog"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/bulldog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bulldog"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Guardian"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/guardian" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Guardian"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Phantom"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/phantom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phantom"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Vandal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/vandal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Vandal"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Marshal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/marshal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Marshal"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Operator"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/operator" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Operator"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Ares"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/ares" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ares"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/button_Odin"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/et_shadow"
+                android:padding="10dp"
+                android:src="@drawable/odin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Odin"
+                android:textSize="30sp" />
 
 
-
-    </LinearLayout>
-</ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -8,9 +8,12 @@ import android.widget.ImageButton
 import com.example.ppb_tubes.WeaponView.*
 
 class Weapon : AppCompatActivity(), View.OnClickListener {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_weapon)
+
+        setSupportActionBar(findViewById(R.id.my_toolbar))
 
         val btnKnife: ImageButton = findViewById(R.id.button_knife)
         btnKnife.setOnClickListener(this)
@@ -125,29 +128,29 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
                 val operatorIntent = Intent(this@Weapon, Operator::class.java)
                 startActivity(operatorIntent)
             }
-            R.id.button_Ares-> {
+            R.id.button_Ares -> {
                 val aresIntent = Intent(this@Weapon, Ares::class.java)
                 startActivity(aresIntent)
             }
-            R.id.button_Odin-> {
+            R.id.button_Odin -> {
                 val odinIntent = Intent(this@Weapon, Odin::class.java)
                 startActivity(odinIntent)
             }
             R.id.button_Bulldog -> {
-            val bulldogIntent = Intent(this@Weapon, Bulldog::class.java)
-            startActivity(bulldogIntent)
+                val bulldogIntent = Intent(this@Weapon, Bulldog::class.java)
+                startActivity(bulldogIntent)
             }
             R.id.button_Guardian -> {
-            val guardianIntent = Intent(this@Weapon, Guardian::class.java)
-            startActivity(guardianIntent)
+                val guardianIntent = Intent(this@Weapon, Guardian::class.java)
+                startActivity(guardianIntent)
             }
             R.id.button_Phantom -> {
-            val phantomIntent = Intent(this@Weapon, Phantom::class.java)
-            startActivity(phantomIntent)
+                val phantomIntent = Intent(this@Weapon, Phantom::class.java)
+                startActivity(phantomIntent)
             }
             R.id.button_Vandal -> {
-            val vandalIntent = Intent(this@Weapon, Vandal::class.java)
-            startActivity(vandalIntent)
+                val vandalIntent = Intent(this@Weapon, Vandal::class.java)
+                startActivity(vandalIntent)
             }
         }
     }

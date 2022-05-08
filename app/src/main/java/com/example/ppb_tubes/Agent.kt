@@ -12,6 +12,8 @@ class Agent : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agent)
 
+        setSupportActionBar(findViewById(R.id.my_toolbar))
+
         val btnAstra: ImageButton = findViewById(R.id.button_astra)
         btnAstra.setOnClickListener(this)
 
@@ -26,6 +28,9 @@ class Agent : AppCompatActivity(), View.OnClickListener {
 
         val btnCypher: ImageButton = findViewById(R.id.button_cypher)
         btnCypher.setOnClickListener(this)
+
+        val btnFade: ImageButton = findViewById(R.id.button_fade)
+        btnFade.setOnClickListener(this)
 
         val btnJett: ImageButton = findViewById(R.id.button_jett)
         btnJett.setOnClickListener(this)
@@ -88,6 +93,10 @@ class Agent : AppCompatActivity(), View.OnClickListener {
             R.id.button_cypher -> {
                 val cypherIntent = Intent(this@Agent, Cypher::class.java)
                 startActivity(cypherIntent)
+            }
+            R.id.button_fade -> {
+                val fadeIntent = Intent(this@Agent, Fade::class.java)
+                startActivity(fadeIntent)
             }
             R.id.button_jett -> {
                 val jettIntent = Intent(this@Agent, Jett::class.java)
