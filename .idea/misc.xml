@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/drawable/ic_error.xml" value="0.114" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/font/serifbolditalic.xml" value="0.22870370370370371" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_agent.xml" value="0.21" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_api.xml" value="0.1" />
@@ -42,8 +43,9 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sage.xml" value="0.15" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sheriff.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_shorty.xml" value="0.24663299663299662" />
-        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin.xml" value="0.22" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin.xml" value="0.16" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skin_byuuid.xml" value="0.17604166666666668" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_skye.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_sova.xml" value="0.12001811594202899" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_spectre.xml" value="0.22748447204968944" />
@@ -54,11 +56,14 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_weapon.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_yoru.xml" value="0.2" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/adapter_skin.xml" value="0.22" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/adapter_skinonly.xml" value="0.18931159420289856" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_bar_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_main_bar.xml" value="0.1" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/content_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_agent.xml" value="0.15260416666666668" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_blank.xml" value="0.1838768115942029" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_skins.xml" value="0.16927083333333334" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_skins_by_uuid.xml" value="0.17604166666666668" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/fragment_thread.xml" value="0.15260416666666668" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/nav_header_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/menu/main_activity_with_nav.xml" value="0.17314814814814813" />
