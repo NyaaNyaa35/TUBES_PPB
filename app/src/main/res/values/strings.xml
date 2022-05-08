@@ -818,4 +818,5 @@
     <string name="save_bookmark">Bookmark</string>
     <string name="title">Title Skin</string>
     <string name="Skins">SKINS</string>
+    <string name="search_hint">Search..</string>
 </resources>
