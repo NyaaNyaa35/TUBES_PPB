@@ -7,7 +7,6 @@
     android:background="#C4C4C4"
     tools:context=".AgentView.Skye">
 
-    <include layout="@layout/app_main_bar" />
 
     <ScrollView
         android:layout_width="match_parent"

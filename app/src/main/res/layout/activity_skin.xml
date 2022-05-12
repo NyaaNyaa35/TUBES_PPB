@@ -9,11 +9,6 @@
     android:orientation="vertical"
     tools:context=".ui.skins.allskins.SkinActivity">
 
-    <include
-        layout="@layout/app_main_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"
