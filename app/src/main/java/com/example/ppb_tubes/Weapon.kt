@@ -3,9 +3,22 @@ package com.example.ppb_tubes
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.ImageView
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import androidx.transition.TransitionManager
+import com.bumptech.glide.Glide
 import com.example.ppb_tubes.WeaponView.*
+import com.google.android.material.navigation.NavigationView
+import de.hdodenhof.circleimageview.CircleImageView
 
 class Weapon : AppCompatActivity(), View.OnClickListener {
 
@@ -13,7 +26,8 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_weapon)
 
-        setSupportActionBar(findViewById(R.id.my_toolbar))
+        val sideNav: ImageView = findViewById(R.id.side_nav)
+        sideNav.setOnClickListener(this)
 
         val btnKnife: ImageButton = findViewById(R.id.button_knife)
         btnKnife.setOnClickListener(this)
@@ -75,6 +89,22 @@ class Weapon : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
+            R.id.side_nav -> {
+                val mFragmentManager = supportFragmentManager
+                val mSideNavFragment = SideNavFragment()
+
+                val rootView: ViewGroup = findViewById(R.id.weapon_layout)
+                val mFade: androidx.transition.Fade =
+                    androidx.transition.Fade(androidx.transition.Fade.IN)
+                TransitionManager.beginDelayedTransition(rootView, mFade)
+
+                mFragmentManager
+                    .beginTransaction()
+                    .add(R.id.weapon_layout, mSideNavFragment,
+                        SideNavFragment::class.java.simpleName)
+                    .addToBackStack(null)
+                    .commit()
+            }
             R.id.button_knife -> {
                 val knifeIntent = Intent(this@Weapon, TacticalKnife::class.java)
                 startActivity(knifeIntent)

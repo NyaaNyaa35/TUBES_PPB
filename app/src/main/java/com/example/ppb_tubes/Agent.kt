@@ -3,16 +3,32 @@ package com.example.ppb_tubes
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.ImageView
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import androidx.transition.TransitionManager
+import com.bumptech.glide.Glide
 import com.example.ppb_tubes.AgentView.*
+import com.google.android.material.navigation.NavigationView
+import de.hdodenhof.circleimageview.CircleImageView
 
 class Agent : AppCompatActivity(), View.OnClickListener {
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agent)
 
-        setSupportActionBar(findViewById(R.id.my_toolbar))
+        val sideNav: ImageView = findViewById(R.id.side_nav)
+        sideNav.setOnClickListener(this)
 
         val btnAstra: ImageButton = findViewById(R.id.button_astra)
         btnAstra.setOnClickListener(this)
@@ -74,6 +90,22 @@ class Agent : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
+            R.id.side_nav -> {
+                val mFragmentManager = supportFragmentManager
+                val mSideNavFragment = SideNavFragment()
+
+                val rootView: ViewGroup = findViewById(R.id.agent_layout)
+                val mFade: androidx.transition.Fade =
+                    androidx.transition.Fade(androidx.transition.Fade.IN)
+                TransitionManager.beginDelayedTransition(rootView, mFade)
+
+                mFragmentManager
+                    .beginTransaction()
+                    .add(R.id.agent_layout, mSideNavFragment,
+                        SideNavFragment::class.java.simpleName)
+                    .addToBackStack(null)
+                    .commit()
+            }
             R.id.button_astra -> {
                 val knifeIntent = Intent(this@Agent, Astra::class.java)
                 startActivity(knifeIntent)

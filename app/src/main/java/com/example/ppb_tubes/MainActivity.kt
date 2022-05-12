@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         //btnRegister.setOnClickListener(this)
     }
 
+
     override fun onClick(v: View) {
         when (v.id) {
 //            R.id.button_login_main -> {

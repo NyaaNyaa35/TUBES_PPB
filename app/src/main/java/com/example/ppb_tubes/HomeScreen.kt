@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
@@ -15,13 +16,27 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInApi
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.bumptech.glide.Glide
 import com.example.ppb_tubes.ui.skins.allskins.SkinActivity
+import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
+import de.hdodenhof.circleimageview.CircleImageView
 
 class HomeScreen : AppCompatActivity(), View.OnClickListener {
+
+
+    private lateinit var appBarConfiguration: AppBarConfiguration
+    internal lateinit var profileCircleImageView: CircleImageView
+    internal var profileImageUrl = ""
 
     companion object {
         const val EXTRA_UID = "extra_uid"
@@ -37,6 +52,7 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_screen)
+
 //        val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
 //        val tvObject: TextView = findViewById(R.id.tv_object_received)
 //        val text = "Name : ${person.username.toString()}\n" + "Riottag : ${person.tag.toString()} \nEmail : ${person.email.toString()}"
@@ -50,9 +66,6 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
         googleSignInClient = GoogleSignIn.getClient(this, gso)
         val btnProfile: Button = findViewById(R.id.profile_button)
         btnProfile.setOnClickListener(this)
-
-        val btnThread: Button = findViewById(R.id.thread_ui_button)
-        btnThread.setOnClickListener(this)
 
         val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
         btnWeapon.setOnClickListener(this)
@@ -76,10 +89,6 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
             R.id.agent_ui_button -> {
                 val agentIntent = Intent(this@HomeScreen, Agent::class.java)
                 startActivity(agentIntent)
-            }
-            R.id.thread_ui_button -> {
-                val threadIntent = Intent(this,CreateThreadActivity::class.java)
-                startActivity(threadIntent)
             }
             R.id.profile_button -> {
                 //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
