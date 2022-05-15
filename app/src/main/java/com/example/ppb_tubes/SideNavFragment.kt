@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
+import com.example.ppb_tubes.ui.skins.allskins.SkinActivity
 
 class SideNavFragment : Fragment(), View.OnClickListener {
 
@@ -33,6 +34,9 @@ class SideNavFragment : Fragment(), View.OnClickListener {
 
         val goToWeapon: LinearLayout = view.findViewById(R.id.weapon)
         goToWeapon.setOnClickListener(this)
+
+        val goToSkin: LinearLayout = view.findViewById(R.id.skin)
+        goToSkin.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -50,6 +54,10 @@ class SideNavFragment : Fragment(), View.OnClickListener {
             }
             R.id.weapon -> {
                 val intentAgent = Intent (activity, Weapon::class.java)
+                activity?.startActivity(intentAgent)
+            }
+            R.id.skin -> {
+                val intentAgent = Intent (activity, SkinActivity::class.java)
                 activity?.startActivity(intentAgent)
             }
         }

@@ -3,11 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/skin_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4C4C4"
     android:orientation="vertical"
     tools:context=".ui.skins.allskins.SkinActivity">
+
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
