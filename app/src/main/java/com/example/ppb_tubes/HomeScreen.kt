@@ -29,6 +29,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageReference
+import com.squareup.picasso.Picasso
 import de.hdodenhof.circleimageview.CircleImageView
 
 class HomeScreen : AppCompatActivity(), View.OnClickListener {
@@ -45,9 +48,8 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
     }
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
-
-// ...
-// Initialize Firebase Auth
+    private lateinit var storageref: StorageReference
+    private lateinit var userId: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,14 +59,20 @@ class HomeScreen : AppCompatActivity(), View.OnClickListener {
 //        val tvObject: TextView = findViewById(R.id.tv_object_received)
 //        val text = "Name : ${person.username.toString()}\n" + "Riottag : ${person.tag.toString()} \nEmail : ${person.email.toString()}"
 //        tvObject.text = text
+        storageref = FirebaseStorage.getInstance().getReference()
         auth = Firebase.auth
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
 
+        userId = auth.currentUser!!.uid
         googleSignInClient = GoogleSignIn.getClient(this, gso)
-        val btnProfile: Button = findViewById(R.id.profile_button)
+        val fileref: StorageReference = storageref.child("users/"+userId+"/profile.jpg")
+        val btnProfile: CircleImageView = findViewById(R.id.profile_button)
+        fileref.downloadUrl.addOnSuccessListener { Uri ->
+            Picasso.get().load(Uri).into(btnProfile)
+        }
         btnProfile.setOnClickListener(this)
 
         val btnWeapon: Button = findViewById(R.id.weapon_ui_button)
