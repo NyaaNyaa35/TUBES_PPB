@@ -37,6 +37,9 @@ class SideNavFragment : Fragment(), View.OnClickListener {
 
         val goToSkin: LinearLayout = view.findViewById(R.id.skin)
         goToSkin.setOnClickListener(this)
+
+        val goToProfile: LinearLayout = view.findViewById(R.id.profile)
+        goToProfile.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -59,6 +62,10 @@ class SideNavFragment : Fragment(), View.OnClickListener {
             R.id.skin -> {
                 val intentAgent = Intent (activity, SkinActivity::class.java)
                 activity?.startActivity(intentAgent)
+            }
+            R.id.profile -> {
+                val intentProfile = Intent (activity, ProfileActivity::class.java)
+                activity?.startActivity(intentProfile)
             }
         }
     }

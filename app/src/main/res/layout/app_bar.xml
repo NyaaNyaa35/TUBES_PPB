@@ -6,6 +6,7 @@
     android:layout_height="wrap_content">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -14,10 +15,10 @@
             android:id="@+id/app_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:paddingBottom="10dp"
-            android:paddingTop="7dp"
             android:background="@color/colorBackground"
-            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            android:paddingTop="7dp"
+            android:paddingBottom="10dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
 
             <ImageView
                 android:id="@+id/side_nav"
@@ -25,6 +26,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_baseline_menu_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/valopedia_logo_256" />
 
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
