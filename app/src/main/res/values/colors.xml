@@ -11,5 +11,16 @@
     <color name="button_getstarted">#C4C4C4</color>
     <color name="placeholder">#6FB6B6B6</color>
     <color name="colorBackground">#000000</color>
+    <color name="color1">#FD4556</color>
+    <color name="color2">#BD3944</color>
+    <color name="color3">#950101</color>
+    <color name="color4">#FFFBF5</color>
+    <color name="color5">#FF4655</color>
+
+
+<!--    #FD4556-->
+<!--    #BD3944-->
+<!--    #53212B-->
+<!--    #FFFBF5-->
 
 </resources>
