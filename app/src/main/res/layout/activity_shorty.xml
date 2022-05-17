@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:background="@color/white"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -52,6 +53,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Row_Description"
                     android:textSize="22sp" />
 
@@ -61,6 +64,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_desc"
                     android:textSize="22sp" />
 
@@ -80,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/WallPenetration"
                     android:textSize="22sp" />
 
@@ -89,6 +96,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_wallpenetration"
                     android:textSize="22sp" />
 
@@ -108,6 +117,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Length"
                     android:textSize="22sp" />
 
@@ -117,6 +128,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_length"
                     android:textSize="22sp" />
 
@@ -132,7 +145,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/Damage"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -152,6 +165,8 @@
                     android:layout_marginEnd="10dp"
                     android:gravity="center"
                     android:padding="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_damage_1"
                     android:textSize="20sp" />
 
@@ -171,6 +186,8 @@
                     android:layout_marginEnd="10dp"
                     android:gravity="center"
                     android:padding="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_damage_2"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -183,6 +200,8 @@
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
                 android:padding="10dp"
+                android:textColor="@color/color3"
+                android:textStyle="bold"
                 android:text="@string/shorty_damage_3"
                 android:textSize="20sp" />
 
@@ -196,8 +215,8 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/primary_fire"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -213,6 +232,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FireMode"
                     android:textSize="20sp" />
 
@@ -222,6 +243,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_FireMode"
                     android:textSize="20sp" />
 
@@ -241,6 +264,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/PelletCount"
                     android:textSize="20sp" />
 
@@ -250,6 +275,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_PelletCount"
                     android:textSize="20sp" />
 
@@ -269,6 +296,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FireRate"
                     android:textSize="20sp" />
 
@@ -278,6 +307,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_FireRate"
                     android:textSize="20sp" />
 
@@ -297,6 +328,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/RunSpeed"
                     android:textSize="20sp" />
 
@@ -306,6 +339,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_RunSpeed"
                     android:textSize="20sp" />
 
@@ -325,6 +360,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/EquipSpeed"
                     android:textSize="20sp" />
 
@@ -334,6 +371,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_EquipSpeed"
                     android:textSize="20sp" />
 
@@ -353,6 +392,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FirstShotSpread"
                     android:textSize="20sp" />
 
@@ -362,6 +403,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_ShotSpread"
                     android:textSize="20sp" />
 
@@ -381,6 +424,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/ReloadSpeed"
                     android:textSize="20sp" />
 
@@ -390,6 +435,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_ReloadSpeed"
                     android:textSize="20sp" />
 
@@ -409,6 +456,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Magazine"
                     android:textSize="20sp" />
 
@@ -418,6 +467,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_Magazine"
                     android:textSize="20sp" />
 
@@ -437,6 +488,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Reserve"
                     android:textSize="20sp" />
 
@@ -446,6 +499,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/shorty_Reserve"
                     android:textSize="20sp" />
 

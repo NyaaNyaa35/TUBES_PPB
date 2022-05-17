@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:background="@color/white"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -52,6 +53,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Row_Description"
                     android:textSize="22sp" />
 
@@ -61,6 +64,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_desc"
                     android:textSize="22sp" />
 
@@ -81,6 +86,8 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/WallPenetration"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="22sp" />
 
                 <TextView
@@ -89,6 +96,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_wallpenetration"
                     android:textSize="22sp" />
 
@@ -109,6 +118,8 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Length"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="22sp" />
 
                 <TextView
@@ -118,6 +129,8 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/vandal_length"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="22sp" />
 
             </LinearLayout>
@@ -132,7 +145,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/Damage"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -152,6 +165,8 @@
                     android:layout_marginEnd="10dp"
                     android:gravity="center"
                     android:padding="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_damage_1"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -166,7 +181,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/primary_fire"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -184,6 +199,8 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/FireMode"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="20sp" />
 
                 <TextView
@@ -192,6 +209,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_FireMode"
                     android:textSize="20sp" />
 
@@ -211,6 +230,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FireRate"
                     android:textSize="20sp" />
 
@@ -220,6 +241,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_FireRate"
                     android:textSize="20sp" />
 
@@ -239,6 +262,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/RunSpeed"
                     android:textSize="20sp" />
 
@@ -248,6 +273,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_RunSpeed"
                     android:textSize="20sp" />
 
@@ -267,6 +294,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/EquipSpeed"
                     android:textSize="20sp" />
 
@@ -276,6 +305,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_EquipSpeed"
                     android:textSize="20sp" />
 
@@ -295,6 +326,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FirstShotSpread"
                     android:textSize="20sp" />
 
@@ -304,6 +337,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_ShotSpread"
                     android:textSize="20sp" />
 
@@ -323,6 +358,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/ReloadSpeed"
                     android:textSize="20sp" />
 
@@ -332,6 +369,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_ReloadSpeed"
                     android:textSize="20sp" />
 
@@ -351,6 +390,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Magazine"
                     android:textSize="20sp" />
 
@@ -360,6 +401,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_Magazine"
                     android:textSize="20sp" />
 
@@ -379,6 +422,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Reserve"
                     android:textSize="20sp" />
 
@@ -388,6 +433,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_Reserve"
                     android:textSize="20sp" />
 
@@ -403,7 +450,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/alt_fire"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -421,6 +468,8 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Function"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="20sp" />
 
                 <TextView
@@ -430,6 +479,8 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/vandal_Function"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="19sp" />
 
             </LinearLayout>
@@ -449,6 +500,8 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Zoom"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:textSize="20sp" />
 
                 <TextView
@@ -457,6 +510,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_Zoom"
                     android:textSize="19sp" />
 
@@ -476,6 +531,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FireRate"
                     android:textSize="20sp" />
 
@@ -485,6 +542,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_AltFireRate"
                     android:textSize="19sp" />
 
@@ -504,6 +563,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/MoveSpeed"
                     android:textSize="20sp" />
 
@@ -513,6 +574,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_MoveSpeed"
                     android:textSize="19sp" />
 
@@ -532,6 +595,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/FirstShotSpread"
                     android:textSize="20sp" />
 
@@ -541,6 +606,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_1stShotSpread"
                     android:textSize="19sp" />
 
@@ -560,6 +627,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/Notes"
                     android:textSize="20sp" />
 
@@ -569,25 +638,12 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"
                     android:text="@string/vandal_Notes"
                     android:textSize="19sp" />
 
             </LinearLayout>
-
-<!--            <androidx.appcompat.widget.AppCompatButton-->
-<!--                android:id="@+id/see_skin"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginStart="25dp"-->
-<!--                android:layout_marginTop="20dp"-->
-<!--                android:layout_marginEnd="25dp"-->
-<!--                android:layout_marginBottom="50dp"-->
-<!--                android:background="@drawable/rounded_rectangle_button_ui"-->
-<!--                android:gravity="center"-->
-<!--                android:padding="5dp"-->
-<!--                android:text="@string/skin"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="25sp" />-->
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

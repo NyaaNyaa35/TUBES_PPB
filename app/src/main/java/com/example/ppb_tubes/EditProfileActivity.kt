@@ -17,15 +17,11 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
         var EXTRA_PERSON="extra_person"
         var EXTRA_UID="extra_uid"
-        //var EXTRA_PASS="extra_pass"
         private const val TAG = "EditProfileActivity"
-//        const val EXTRA_PASSWORD= "extra_password"
-//        const val EXTRA_EMAIL="extra_email"
     }
     private lateinit var usernameEdt: EditText
     private lateinit var tagEdt: EditText
     private lateinit var conPass: EditText
-    private lateinit var auth: FirebaseAuth
     private lateinit var fstore: FirebaseFirestore
     private lateinit var userId: String
 
@@ -42,7 +38,6 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
         when(v.id) {
             R.id.change_btn -> {
                 val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
-                //val pass = intent.getStringExtra(EXTRA_PASS)
                 usernameEdt = findViewById(R.id.edt_username)
                 tagEdt = findViewById(R.id.edt_tag)
                 conPass = findViewById(R.id.confirm_pass)
@@ -57,8 +52,6 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 var documentReference: DocumentReference = fstore.collection("users").document(userId)
                 if (conPasstext == person.password) {
-                    //val personEdt = Person(usernameText,tagTeks,person.email,person.password)
-
                     documentReference.update(
                         "username",usernameText,
                         "tag",tagTeks
@@ -69,7 +62,6 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
                         Log.w(TAG, "Failed to update user data.")
                     }
                     val moveIntent = Intent(this@EditProfileActivity, ProfileActivity::class.java)
-                    //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, personEdt)
                     startActivity(moveIntent)
                     finish()
                 } else {
@@ -85,9 +77,7 @@ class EditProfileActivity : AppCompatActivity(), View.OnClickListener {
             .setMessage("Are you sure you want to close this activity? \nData will not be saved")
             .setPositiveButton("Yes") {
                     dialog, which -> finish()
-                //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@EditProfileActivity, ProfileActivity::class.java)
-                //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                 startActivity(moveIntent)
             }
             .setNegativeButton("No", null)
