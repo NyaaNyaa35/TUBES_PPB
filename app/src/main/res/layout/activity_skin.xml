@@ -6,7 +6,7 @@
     android:id="@+id/skin_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C4C4C4"
+    android:background="@color/black"
     tools:context=".ui.skins.allskins.SkinActivity">
 
     <LinearLayout
@@ -23,9 +23,9 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#D3D3D3"
+            android:background="@color/black"
             app:tabIndicatorColor="@android:color/white"
-            app:tabTextColor="@android:color/black" />
+            app:tabTextColor="@android:color/white" />
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/view_pager"

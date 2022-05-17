@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:background="@color/black"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -43,7 +44,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/knife"
-                android:textSize="30sp" />
+                android:textColor="@color/color5"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Classic"
@@ -61,7 +65,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Classic"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Frenzy"
@@ -79,7 +85,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/frenzy"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Ghost"
@@ -97,7 +105,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Ghost"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_GoldenGun"
@@ -114,7 +124,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/GoldenGun"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Sheriff"
@@ -131,7 +143,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Sheriff"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Shorty"
@@ -148,7 +162,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Shorty"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Stinger"
@@ -165,7 +181,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Stinger"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Spectre"
@@ -182,7 +200,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Spectre"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Bucky"
@@ -199,7 +219,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Bucky"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold"/>
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Judge"
@@ -216,7 +238,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Judge"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold"/>
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Bulldog"
@@ -233,7 +257,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Bulldog"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Guardian"
@@ -250,7 +276,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Guardian"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold"/>
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Phantom"
@@ -267,7 +295,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Phantom"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Vandal"
@@ -284,7 +314,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Vandal"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Marshal"
@@ -301,7 +333,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Marshal"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold"/>
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Operator"
@@ -318,7 +352,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Operator"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Ares"
@@ -335,7 +371,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Ares"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/button_Odin"
@@ -352,7 +390,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Odin"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/color5"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
