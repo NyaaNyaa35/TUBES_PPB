@@ -5,7 +5,7 @@
     android:id="@+id/reyna_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C4C4C4"
+    android:background="@color/white"
     tools:context=".AgentView.Reyna">
 
     <include
@@ -90,7 +90,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/biography"
-                android:textColor="@color/black"
+                android:textColor="@color/color5"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -273,7 +273,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/game_details"
-                android:textColor="@color/black"
+                android:textColor="@color/color5"
                 android:textSize="25sp" />
 
             <LinearLayout

@@ -21,7 +21,6 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var newPass: EditText
     private lateinit var oldPass: EditText
     private lateinit var conPass: EditText
-    private lateinit var auth: FirebaseAuth
     private lateinit var fstore: FirebaseFirestore
     private lateinit var userId: String
 
@@ -53,7 +52,6 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
                     alertDialogBuilder.setMessage("Please Complete The Form").show()
                 } else {
                     if (oldPassText == person.password && conPassText == person.password) {
-                        //val person = Person(person.username,person.tag,person.email,newPassText)
                         var documentReference: DocumentReference = fstore.collection("users").document(userId)
                         documentReference.update(
                             "password",newPassText
@@ -64,7 +62,6 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
                             Log.w(TAG, "Failed to update user password.")
                         }
                         val moveIntent = Intent(this@ChangePassActivity, ProfileActivity::class.java)
-                        //moveIntent.putExtra(ProfileActivity.EXTRA_PERSON, person)
                         startActivity(moveIntent)
                         finish()
                     } else {

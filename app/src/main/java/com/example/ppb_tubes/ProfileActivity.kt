@@ -37,7 +37,6 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var userId: String
     private lateinit var storageref: StorageReference
     private lateinit var profileImg: CircleImageView
-    //private lateinit var passExtra: String
     private val personExtra: Person = Person()
 
     private val getResult =
@@ -45,14 +44,11 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
             ActivityResultContracts.StartActivityForResult()
         ) {
             if (it.resultCode == Activity.RESULT_OK) {
-                //val value = it.data?.getStringExtra("input")
                 val imageUri: Uri = it.data!!.data as Uri
-                //profileImg.setImageURI(imageUri)
                 uploadImageToFirebase(imageUri)
             }
         }
     override fun onCreate(savedInstanceState: Bundle?) {
-        //val person = intent.getParcelableExtra<Person>(EditProfileActivity.EXTRA_PERSON) as Person
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
 
@@ -62,9 +58,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         userId = auth.currentUser!!.uid
 
         username = findViewById(R.id.username)
-//        username.text = person.username + "#" +person.tag
         email = findViewById(R.id.email)
-//        email.text = person.email
 
         var documentReference: DocumentReference = fstore.collection("users").document(userId)
         documentReference.get()
@@ -73,7 +67,6 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                     Log.d("Data Exist", "DocumentSnapshot data: ${document.data}")
                     username.text = document.getString("username") + "#" + document.getString("tag")
                     email.text = auth.currentUser!!.email.toString()
-                    //passExtra = document.getString("password").toString()
                     personExtra.username = document.getString("username")
                     personExtra.tag = document.getString("tag")
                     personExtra.email = auth.currentUser!!.email.toString()
@@ -106,9 +99,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.edit_btn -> {
-                //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@ProfileActivity, EditProfileActivity::class.java)
-                //moveIntent.putExtra(EditProfileActivity.EXTRA_PASS, passExtra)
                 moveIntent.putExtra(EditProfileActivity.EXTRA_PERSON, personExtra)
                 moveIntent.putExtra(EditProfileActivity.EXTRA_UID,userId)
                 startActivity(moveIntent)
@@ -119,7 +110,6 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                 getResult.launch(galleryIntent)
             }
             R.id.change_pass -> {
-                //val person = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
                 val moveIntent = Intent(this@ProfileActivity, ChangePassActivity::class.java)
                 moveIntent.putExtra(ChangePassActivity.EXTRA_PERSON, personExtra)
                 moveIntent.putExtra(ChangePassActivity.EXTRA_UID,userId)

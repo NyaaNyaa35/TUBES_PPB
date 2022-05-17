@@ -22,10 +22,7 @@ import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var username: EditText
-    private lateinit var tag: EditText
-    private lateinit var password: EditText
+class MainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
     private lateinit var binding: ActivityMainBinding
@@ -51,26 +48,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             Log.d(TAG,"onCreate: Begin Google Sign In")
             val signInIntent = googleSignInClient.signInIntent
             googleSignInActivityResultLauncher.launch(signInIntent)
-        }
-
-//        val btnLogin: Button = findViewById(R.id.button_login_main)
-//        btnLogin.setOnClickListener(this)
-
-        //val btnRegister: Button = findViewById(R.id.button_register_main)
-        //btnRegister.setOnClickListener(this)
-    }
-
-
-    override fun onClick(v: View) {
-        when (v.id) {
-//            R.id.button_login_main -> {
-//                val loginIntent = Intent(this@MainActivity, LoginActivity::class.java)
-//                startActivity(loginIntent)
-//            }
-//            R.id.button_register_main -> {
-//                val registerIntent = Intent(this@MainActivity, RegisterActivity::class.java)
-//                startActivity(registerIntent)
-//            }
         }
     }
 
@@ -121,7 +98,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val moveIntent = Intent(this, LoginActivity::class.java)
             moveIntent.putExtra(LoginActivity.EXTRA_UID, user.uid)
             startActivity(moveIntent)
-            //startActivity(Intent(this, LoginActivity::class.java))
             finish()
         } else {
             Log.d(TAG, "firebaseAuthWithGoogleAccount : Existing account ${user.email}")
@@ -129,7 +105,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val moveIntent = Intent(this, HomeScreen::class.java)
             moveIntent.putExtra(HomeScreen.EXTRA_UID, user.uid)
             startActivity(moveIntent)
-            //startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
     }

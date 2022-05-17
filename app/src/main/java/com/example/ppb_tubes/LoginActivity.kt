@@ -34,8 +34,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var tag: EditText
     private lateinit var password: EditText
     private lateinit var auth: FirebaseAuth
-    private lateinit var googleSignInClient: GoogleSignInClient
-    private lateinit var binding: ActivityLoginBinding
     private lateinit var fstore: FirebaseFirestore
 
     companion object {
@@ -44,26 +42,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_login)
 
         fstore = FirebaseFirestore.getInstance()
-
         auth = Firebase.auth
-//
-//        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-//            .requestIdToken(getString(R.string.default_web_client_id))
-//            .requestEmail()
-//            .build()
-//
-//        googleSignInClient = GoogleSignIn.getClient(this, gso)
-//
-//        binding.googleSignInButton.setOnClickListener {
-//            Log.d(TAG,"onCreate: Begin Google Sign In")
-//            val signInIntent = googleSignInClient.signInIntent
-//            googleSignInActivityResultLauncher.launch(signInIntent)
-//        }
-
 
         val btnLogin: Button = findViewById(R.id.button_login)
         btnLogin.setOnClickListener(this)
@@ -73,8 +55,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.button_login -> {
-                //val hardcoded_person = Person("Test","AJG","test@email.com","123")
-
                 username = findViewById(R.id.et_name)
                 tag = findViewById(R.id.et_riottag)
                 password = findViewById(R.id.et_password)
@@ -86,16 +66,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
                 val userID = auth.currentUser!!.uid
 
-//                fstore.document(EXTRA_UID).collection("users")
-//                    .add(user)
-//                    .addOnCompleteListener(this){
-//                        if (it.isSuccessful){
-//                            Log.d(TAG, "User added to database.")
-//                        }
-//                        Log.w(TAG, "Failed to add user to database")
-//                    }
                 var documentReference: DocumentReference = fstore.collection("users").document(userID)
-                //fstore.collection("users").document(userID)
                 var user : HashMap<String, String> = HashMap<String, String> ()
                 user.put("username", username_text)
                 user.put("tag",tag_text)
@@ -106,82 +77,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                         }
                         Log.w(TAG, "Failed to add user to database")
                     }
-//                documentReference.collection("users").document(userID).collection("thread")
-//                var thread : HashMap<String,String> = HashMap<String,String> ()
-//                thread.put("text","")
-//                thread.put("likes","0")
-//                thread.put("dislikes","0")
-                //val person_data = Person(username_text,tag_text,auth.currentUser!!.email,password_text)
+
                 val moveIntent = Intent(this@LoginActivity, HomeScreen::class.java)
-                //moveIntent.putExtra(HomeScreen.EXTRA_PERSON, person_data)
                 startActivity(moveIntent)
                 finish()
-//
-//                if (username_text == hardcoded_person.username &&
-//                    tag_text == hardcoded_person.tag &&
-//                    password_text == hardcoded_person.password
-//                ) {
-//                    val moveIntent = Intent(this@LoginActivity, HomeScreen::class.java)
-//                    moveIntent.putExtra(HomeScreen.EXTRA_PERSON, hardcoded_person)
-//                    startActivity(moveIntent)
-//                } else {
-//                    val alertDialogBuilder = AlertDialog.Builder(this)
-//                    alertDialogBuilder.setMessage("Wrong Account entry.\nPlease Try Again").show()
-//                }
             }
         }
     }
-//    private val googleSignInActivityResultLauncher =
-//        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-//            if (result.resultCode == RESULT_OK) {
-//                Log.d(TAG, "onActivityResult : ${result.data!!.extras}")
-//                val task: Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(result.data)
-//                if (task.isSuccessful) {
-//                    try {
-//                        val account = task.getResult(ApiException::class.java)
-//                        Log.d(TAG,"firebaseAuthWithGoogle" + account.id)
-//                        firebaseAuthWithGoogleAccount(account.idToken!!)
-//                        //handleSignInResult(task)
-//                    } catch (e: ApiException) {
-//                        Log.w(TAG,"Google Sign In Failed", e)
-//                    }
-//                }
-//            } else {
-//                Log.w(TAG, "onActivityResult : ${result.data}")
-//            }
-//        }
-//        private fun firebaseAuthWithGoogleAccount(idToken: String) {
-//        val credential = GoogleAuthProvider.getCredential(idToken, null)
-//        auth.signInWithCredential(credential)
-//            .addOnSuccessListener(this) { task ->
-//                if (task.additionalUserInfo!!.isNewUser) {
-//                    /** Akun Baru */
-//                    updateUI(true)
-//                } else {
-//                    /** Akun Lama */
-//                    updateUI(false)
-//                }
-//            }
-//            .addOnFailureListener { err ->
-//                Log.d(TAG, "firebaseAuthWithGoogleAccount : ${err.message}")
-//                Toast.makeText(this, "${err.message}", Toast.LENGTH_SHORT).show()
-//            }
-//        }
-//
-//    private fun updateUI(isCreated: Boolean) {
-//        val user = auth.currentUser!!
-//
-//        if (isCreated) {
-//            Log.d(TAG, "firebaseAuthWithGoogleAccount : Account created ${user.email}")
-//            Toast.makeText(this, "Account created ${user.email}", Toast.LENGTH_SHORT).show()
-//            startActivity(Intent(this, HomeScreen::class.java))
-//            finish()
-//        } else {
-//            Log.d(TAG, "firebaseAuthWithGoogleAccount : Existing account ${user.email}")
-//            Toast.makeText(this, "Existing account ${user.email}", Toast.LENGTH_SHORT).show()
-//            startActivity(Intent(this, HomeScreen::class.java))
-//            finish()
-//        }
-//    }
-
 }
