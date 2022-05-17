@@ -5,7 +5,7 @@
     android:id="@+id/marshall_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C4C4C4"
+    android:background="@color/white"
     tools:context=".WeaponView.Marshall">
 
     <include
@@ -53,7 +53,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Row_Description"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -62,7 +64,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_desc"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -81,7 +85,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/WallPenetration"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,7 +96,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_wallpenetration"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -109,7 +117,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Length"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -118,7 +128,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_length"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -132,7 +144,8 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/Damage"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -153,7 +166,9 @@
                     android:gravity="center"
                     android:padding="10dp"
                     android:text="@string/marshall_damage_1"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <TextView
@@ -166,7 +181,8 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/primary_fire"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -184,7 +200,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/FireMode"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -193,7 +211,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_FireMode"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -212,7 +232,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/FireRate"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -221,7 +243,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_FireRate"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -240,7 +264,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/RunSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -249,7 +275,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_RunSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -268,7 +296,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/EquipSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -277,7 +307,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_EquipSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -296,7 +328,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/FirstShotSpread"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -305,7 +339,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_ShotSpread"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -324,7 +360,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/ReloadSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -333,7 +371,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_ReloadSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -352,7 +392,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Magazine"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -361,7 +403,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_Magazine"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -380,7 +424,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Reserve"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -389,7 +435,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="10dp"
                     android:text="@string/marshall_Reserve"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -403,7 +451,8 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/alt_fire"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -421,7 +470,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Function"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -430,7 +481,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/marshall_Function"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -449,7 +502,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Zoom"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -458,7 +513,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/marshall_Zoom"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -477,7 +534,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/FireRate"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -486,7 +545,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/marshall_AltFireRate"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -505,7 +566,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/MoveSpeed"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -514,7 +577,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/marshall_MoveSpeed"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -533,7 +598,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/FirstShotSpread"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -542,7 +609,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/marshall_1stShotSpread"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -561,7 +630,9 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="25dp"
                     android:text="@string/Notes"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -570,7 +641,9 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="30dp"
                     android:text="@string/marshall_Notes"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/color3"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
