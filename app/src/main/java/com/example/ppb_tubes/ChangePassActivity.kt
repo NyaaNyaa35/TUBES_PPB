@@ -75,9 +75,14 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onBackPressed() {
         AlertDialog.Builder(this)
-            .setTitle("Warning")
-            .setMessage("Please Confirm Changes to Go Back")
-            .setPositiveButton("Yes", null)
+            .setTitle("Closing Activity")
+            .setMessage("Are you sure you want to close this activity? \nData will not be saved")
+            .setPositiveButton("Yes") {
+                    dialog, which -> finish()
+                val moveIntent = Intent(this, ProfileActivity::class.java)
+                startActivity(moveIntent)
+            }
+            .setNegativeButton("No", null)
             .show()
     }
 }
