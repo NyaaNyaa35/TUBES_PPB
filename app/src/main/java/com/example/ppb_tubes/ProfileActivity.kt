@@ -8,8 +8,10 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
 import android.view.View
+import android.view.ViewGroup
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.transition.TransitionManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.DocumentReference
@@ -51,6 +53,9 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
+
+        val sideNav: ImageView = findViewById(R.id.side_nav)
+        sideNav.setOnClickListener(this)
 
         auth = Firebase.auth
         fstore = FirebaseFirestore.getInstance()
@@ -98,6 +103,22 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
+            R.id.side_nav -> {
+                val mFragmentManager = supportFragmentManager
+                val mSideNavFragment = SideNavFragment()
+
+                val rootView: ViewGroup = findViewById(R.id.activity_profile)
+                val mFade: androidx.transition.Fade =
+                    androidx.transition.Fade(androidx.transition.Fade.IN)
+                TransitionManager.beginDelayedTransition(rootView, mFade)
+
+                mFragmentManager
+                    .beginTransaction()
+                    .add(R.id.activity_profile, mSideNavFragment,
+                        SideNavFragment::class.java.simpleName)
+                    .addToBackStack(null)
+                    .commit()
+            }
             R.id.edit_btn -> {
                 val moveIntent = Intent(this@ProfileActivity, EditProfileActivity::class.java)
                 moveIntent.putExtra(EditProfileActivity.EXTRA_PERSON, personExtra)
