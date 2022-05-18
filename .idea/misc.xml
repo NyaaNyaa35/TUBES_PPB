@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/drawable/ic_bookmark_white.xml" value="0.138" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/drawable/ic_bookmarked_white.xml" value="0.138" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_agent.xml" value="0.21" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ares.xml" value="0.25" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_astra.xml" value="0.10416666666666667" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_bucky.xml" value="0.22" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_bulldog.xml" value="0.1838768115942029" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_chamber.xml" value="0.10416666666666667" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_classic.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_frenzy.xml" value="0.18" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_ghost.xml" value="0.22" />
@@ -30,6 +34,7 @@
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_tactical_knife.xml" value="0.2" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_vandal.xml" value="0.1838768115942029" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/activity_weapon.xml" value="0.16168478260869565" />
+        <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/adapter_skin.xml" value="0.25" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_bar_main_activity_with_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/app_main_bar.xml" value="0.1" />
         <entry key="..\:/Android_Save/TUBES_PPB/app/src/main/res/layout/content_main_activity_with_nav.xml" value="0.16168478260869565" />

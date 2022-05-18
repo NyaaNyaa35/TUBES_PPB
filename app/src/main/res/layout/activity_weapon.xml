@@ -5,7 +5,7 @@
     android:id="@+id/weapon_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C4C4C4"
+    android:background="@color/black"
     tools:context=".Weapon">
 
     <include
