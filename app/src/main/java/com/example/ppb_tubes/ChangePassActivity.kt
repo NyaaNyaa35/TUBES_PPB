@@ -11,6 +11,10 @@ import androidx.appcompat.app.AlertDialog
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageReference
+import com.squareup.picasso.Picasso
+import de.hdodenhof.circleimageview.CircleImageView
 
 class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
@@ -22,6 +26,8 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var oldPass: EditText
     private lateinit var conPass: EditText
     private lateinit var fstore: FirebaseFirestore
+    private lateinit var storageref: StorageReference
+    private lateinit var profileImg: CircleImageView
     private lateinit var userId: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +36,14 @@ class ChangePassActivity : AppCompatActivity(), View.OnClickListener {
         val btnEditChange : Button = findViewById(R.id.change_pass_btn)
         userId = intent.getStringExtra(EXTRA_UID).toString()
         fstore = FirebaseFirestore.getInstance()
+        storageref = FirebaseStorage.getInstance().getReference()
+        profileImg = findViewById(R.id.profile_pict)
+
+        var fileref: StorageReference = storageref.child("users/"+userId+"/profile.jpg")
+
+        fileref.downloadUrl.addOnSuccessListener { Uri ->
+            Picasso.get().load(Uri).into(profileImg)
+        }
         btnEditChange.setOnClickListener(this)
     }
 
